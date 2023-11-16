@@ -1,0 +1,76 @@
+{
+  "uuid": "453ef1ac-98a8-4ff2-afbf-5d49300d6390-tr-0-1033",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=110.0.5481.105)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 45\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1521"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0003 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=110.0.5481.105)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 45\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1521"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "822ec6b32a8b42fca071be7cfd11b83f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677233077520,
+      "stop": 1677233116202
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677233077519,
+  "stop": 1677233116209
+}

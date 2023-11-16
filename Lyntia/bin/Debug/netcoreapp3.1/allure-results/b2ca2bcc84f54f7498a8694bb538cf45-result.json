@@ -1,0 +1,81 @@
+{
+  "uuid": "5051a58b-23f1-4cf3-9964-33ba268421ea-tr-0-1013",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverArgumentException : invalid argument: uniqueContextId not found\n  (Session info: chrome=112.0.5615.87)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.CerrarOfertaActual(Dictionary`2 datosCierreOferta) in C:\\Users\\joel.amores\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 667\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\joel.amores\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 707"
+  },
+  "stage": "finished",
+  "description": "\nCierre TearDown method failed\nCRM-COF00010 Cerrar Oferta Presentada con producto añadido, Revisada\n",
+  "steps": [
+    {
+      "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverArgumentException : invalid argument: uniqueContextId not found\n  (Session info: chrome=112.0.5615.87)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.CerrarOfertaActual(Dictionary`2 datosCierreOferta) in C:\\Users\\joel.amores\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 667\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\joel.amores\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 707"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada-CierreOferta.png",
+          "source": "f03dbce2f23948f9be79b6d8900717d5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "1ad17df1edfb40a483fa13abc7279fdd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681719090298,
+      "stop": 1681719309304
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681719090298,
+  "stop": 1681719309307
+}

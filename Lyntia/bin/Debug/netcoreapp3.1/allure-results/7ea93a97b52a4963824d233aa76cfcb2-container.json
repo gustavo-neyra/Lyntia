@@ -1,0 +1,59 @@
+{
+  "uuid": "f5966e72-1f7d-49a4-b28b-8ed7aa746890-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "children": [
+    "b494bad3-0617-4c6c-9b2f-0a74cf9c7f6b-tr-0-1040"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1695375145708,
+      "stop": 1695375145708
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1695375145708,
+      "stop": 1695375145708
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1695375145708,
+      "stop": 1695375145708
+    }
+  ],
+  "links": [],
+  "start": 1695374347876,
+  "stop": 1695375145724
+}

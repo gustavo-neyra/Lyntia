@@ -1,0 +1,76 @@
+{
+  "uuid": "89c139f2-ec4b-4fdb-b19d-d0f2008a3e25-tr-0-1056",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0015_Producto_heredar_FO_CambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=111.0.5563.65)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 89\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-APR0015 Heredar producto Fibra Oscura en Oferta Cambio de Dirección\n",
+  "steps": [
+    {
+      "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion skipped because of Instanciador failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=111.0.5563.65)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 89\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d4c8fc5ce5774d8b9579cfd06155e53a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1678354565792,
+      "stop": 1678354623390
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1678354565792,
+  "stop": 1678354623394
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "cf386860-31c9-4ccc-b4fa-90c92185632f-tr-0-1017",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0012_Oferta_Cerrar_Adjudicada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=111.0.5563.111)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 89\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 53"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-COF0012 Cerrar Oferta Adjudicada\n",
+  "steps": [
+    {
+      "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=111.0.5563.111)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 89\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 53"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0f47edb0590f4622bb932d4b119b904f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679688869459,
+      "stop": 1679689014111
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679688869458,
+  "stop": 1679689014126
+}

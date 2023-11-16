@@ -1,0 +1,76 @@
+{
+  "uuid": "375be545-0df2-476c-a4e5-4afd7141b2c1-tr-0-1039",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@aria-label='Aceptar']\"}\n  (Session info: chrome=118.0.5993.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Lyntia.TestSet.Actions.OfertaActions.Enviar_A_Jira() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1663\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1877"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0004 - Oferta/Servicio/CANCELACIÓN RACK\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@aria-label='Aceptar']\"}\n  (Session info: chrome=118.0.5993.89); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Lyntia.TestSet.Actions.OfertaActions.Enviar_A_Jira() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1663\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1877"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "50d99003cca448548da5938aad25a78c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1698393183052,
+      "stop": 1698393687533
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1698393183051,
+  "stop": 1698393687535
+}

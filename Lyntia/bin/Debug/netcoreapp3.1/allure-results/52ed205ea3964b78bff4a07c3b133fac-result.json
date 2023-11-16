@@ -1,0 +1,81 @@
+{
+  "uuid": "0ed30880-de8a-432d-8a04-83b7c138cc94-tr-0-1044",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0003_Producto_Añadir_CC"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0003_Producto_Añadir_CC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|HomePageGrid|Mscrm.NewRecordFromGrid11-button\" aria-label=\"Nuevo\" aria-describedby=\"id-1318\" role=\"menuitem\" title=\"Nuevo\n\nCree un nuevo registro de Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" data-lp-id=\"HomePageGrid:quote-quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" type=\"button\" class=\"pa-aw pa-me pa-go pa-eq pa-av pa-mj pa-p pa-mk pa-ml flexbox\">...</button> is not clickable at point (427, 69). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-at pa-a pa-p pa-be flexbox\">...</div>\n  (Session info: chrome=105.0.5195.127)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_NuevaOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 86\r\n   at Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 113"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0003 Añadir producto Circuito de Capacidad correctamente\n",
+  "steps": [
+    {
+      "name": "CRM_APR0003_Producto_Añadir_CC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|HomePageGrid|Mscrm.NewRecordFromGrid11-button\" aria-label=\"Nuevo\" aria-describedby=\"id-1318\" role=\"menuitem\" title=\"Nuevo\n\nCree un nuevo registro de Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" data-lp-id=\"HomePageGrid:quote-quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" type=\"button\" class=\"pa-aw pa-me pa-go pa-eq pa-av pa-mj pa-p pa-mk pa-ml flexbox\">...</button> is not clickable at point (427, 69). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-at pa-a pa-p pa-be flexbox\">...</div>\n  (Session info: chrome=105.0.5195.127)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_NuevaOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 86\r\n   at Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 113"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0003_Producto_Añadir_CC-AccesoNuevaOferta.png",
+          "source": "9fd91264c89a46d4836d4e7dde2017dc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "82c20f60e1ec4039af2b78af3b0eb7ba-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1665470252381,
+      "stop": 1665470354477
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1665470252381,
+  "stop": 1665470354477
+}

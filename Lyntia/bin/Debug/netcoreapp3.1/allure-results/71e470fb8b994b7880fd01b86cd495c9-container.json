@@ -1,0 +1,46 @@
+{
+  "uuid": "d8c8c4e9-5b89-4147-8bb3-7e347e51e03d-tc-0-1041",
+  "name": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "children": [
+    "89c139f2-ec4b-4fdb-b19d-d0f2008a3e25-tr-0-1056"
+  ],
+  "befores": [
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=111.0.5563.65)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 89\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678354623387,
+      "stop": 1678354623387
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678354623387,
+      "stop": 1678354623387
+    }
+  ],
+  "links": [],
+  "start": 1678354565792,
+  "stop": 1678354623398
+}

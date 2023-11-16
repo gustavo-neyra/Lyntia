@@ -1,0 +1,81 @@
+{
+  "uuid": "345f7a0d-53a3-4621-9f73-747d1b7565fa-tr-0-1016",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0011_eliminarOferta_Adjudicada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0011_eliminarOferta_Adjudicada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 827"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0011 Eliminar una Oferta Adjudicada\n",
+  "steps": [
+    {
+      "name": "CRM_COF0011_eliminarOferta_Adjudicada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 827"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0011_eliminarOferta_Adjudicada-AddDatosOferta.png",
+          "source": "e0d775c9e26442c7a46489b0b66014b8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d6d692a502fd429584f8e2f35c411d41-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1672908900604,
+      "stop": 1672909026229
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1672908900603,
+  "stop": 1672909026240
+}

@@ -1,0 +1,46 @@
+{
+  "uuid": "838f4fb2-1ad0-4ca1-adb5-dff3325c58d7-tc-0-1041",
+  "name": "Lyntia.TestSet.Producto.CRM_APR0014_Producto_heredar_FO_CambioSolucion",
+  "children": [
+    "781b714e-0bcb-4e14-906a-f5f27e42a98a-tr-0-1055"
+  ],
+  "befores": [
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666683603469,
+      "stop": 1666683603469
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666683603470,
+      "stop": 1666683603470
+    }
+  ],
+  "links": [],
+  "start": 1666683541081,
+  "stop": 1666683603537
+}

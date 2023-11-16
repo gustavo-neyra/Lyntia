@@ -1,0 +1,61 @@
+{
+  "uuid": "f95d5fb3-039a-4220-b70e-3fbcbe9a8e0d-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "children": [
+    "0457522e-fdac-446c-9d5c-2b6bdb8cae46-tr-0-1034"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674030915877,
+      "stop": 1674030915877
+    },
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 89\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 53"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674030915877,
+      "stop": 1674030915877
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674030915877,
+      "stop": 1674030915877
+    }
+  ],
+  "links": [],
+  "start": 1674030788873,
+  "stop": 1674030915885
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "0ba20678-62fe-496f-b662-67f2ae016f12-tr-0-1037",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIfVisible(IWebElement element)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Lyntia.TestSet.Conditions.CommonConditions.validar_AccesoOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\CommonConditions.cs:line 31\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1716"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0002 - Oferta/Servicio/CANCELACIÓN FO\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIfVisible(IWebElement element)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Lyntia.TestSet.Conditions.CommonConditions.validar_AccesoOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\CommonConditions.cs:line 31\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1716"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8fcee1e77b9b4d1ba52a32104576099f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683190056119,
+      "stop": 1683190121407
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683190056118,
+  "stop": 1683190121411
+}

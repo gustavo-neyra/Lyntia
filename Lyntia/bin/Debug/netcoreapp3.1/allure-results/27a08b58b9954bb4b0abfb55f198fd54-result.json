@@ -1,0 +1,76 @@
+{
+  "uuid": "22a89ba2-3893-4ada-bf7a-e0185e05fa50-tr-0-1040",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_BILLING001_Generar_Facturas"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "GENERAR FACTURAS"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_BILLING001_Generar_Facturas",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@aria-rowindex='2']/div[@aria-colindex='2']\"}\n  (Session info: chrome=111.0.5563.149)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Lyntia.TestSet.Actions.OfertaActions.esperar_A_CargarConfiguracionFacturacion() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1823\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1906"
+  },
+  "stage": "finished",
+  "description": "CRM-BILLING001 - Generar/Facturas\n",
+  "steps": [
+    {
+      "name": "CRM_BILLING001_Generar_Facturas",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@aria-rowindex='2']/div[@aria-colindex='2']\"}\n  (Session info: chrome=111.0.5563.149)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Lyntia.TestSet.Actions.OfertaActions.esperar_A_CargarConfiguracionFacturacion() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1823\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1906"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "101ce8f7ccdd45ab99d80baca00d7894-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681720957565,
+      "stop": 1681721464636
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681720957564,
+  "stop": 1681721464643
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "1a18854d-996a-4dd3-a88e-d73425c25a89-tr-0-1016",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0011_eliminarOferta_Adjudicada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0011_eliminarOferta_Adjudicada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 25 but was 21. Strings differ at index 12.\r\n  Expected: \"Nuevo Oferta: Sin guardar\"\r\n  But was:  \"Nuevo Oferta- Unsaved\"\r\n  -----------------------^\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 47\r\n   at Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 824\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0011 Eliminar una Oferta Adjudicada\n",
+  "steps": [
+    {
+      "name": "CRM_COF0011_eliminarOferta_Adjudicada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 25 but was 21. Strings differ at index 12.\r\n  Expected: \"Nuevo Oferta: Sin guardar\"\r\n  But was:  \"Nuevo Oferta- Unsaved\"\r\n  -----------------------^\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 47\r\n   at Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 824\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0011_eliminarOferta_Adjudicada-CreaOferta.png",
+          "source": "f7f200bb813f403f8d18d07eec816727-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3577e1002e8841bb91c68302c1e8f04b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671440357318,
+      "stop": 1671440425151
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671440357318,
+  "stop": 1671440425152
+}

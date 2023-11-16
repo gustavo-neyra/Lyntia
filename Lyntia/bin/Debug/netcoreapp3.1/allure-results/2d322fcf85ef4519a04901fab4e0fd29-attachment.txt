@@ -1,0 +1,25 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se han introducido correctamente los campos de la Oferta: CRM_POAF0005, CLIENTE INTEGRACION, Nuevo servicio, .
+La Oferta se guarda correctamente.
+Producto guardado correctamente: Co-Location genérico, , , , 4, 
+Producto guardado correctamente: Co-Location genérico, , , , 6, 
+Se accede a la ventana de Adjudicar Oferta.
+***Se cumple la condicion de oferta adjudicada correctamente
+No se continua con el pedido correctamente.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <iframe id="FullPageWebResource" aria-label="DIALOG_Adjudicar.html" data-id="MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource" src="/%7b638121383280000194%7d/webresources/lyn_DIALOG_Adjudicar.html" name="lyn_DIALOG_Adjudicar.html" class="pa-ay pa-f pa-gn " cd_frame_id_="a71bb130528e3d5863a1ee6e9d7b4bc8"></iframe> is not clickable at point (1049, 597). Other element would receive the click: <span id="confirmButtonText_8" class="pa-ff pa-fa pa-bb pa-ao pa-e pa-dn ">...</span>
+  (Session info: chrome=110.0.5481.100)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 960

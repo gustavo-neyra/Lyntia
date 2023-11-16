@@ -1,0 +1,81 @@
+{
+  "uuid": "7d8a65bd-be22-4c49-86aa-907ded63e243-tr-0-1019",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POF0002_PresentarOferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO PRESENTAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POF0002_PresentarOferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 946"
+  },
+  "stage": "finished",
+  "description": "CRM-POF0002 Presentar Oferta Fibra Oscura\n",
+  "steps": [
+    {
+      "name": "CRM_POF0002_PresentarOferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 946"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POF0002_PresentarOferta-AccesoGestionCliente.png",
+          "source": "d304c4b41f3540f69928f38a0823e911-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "fee8f0510fc849beb60e430a1f0b420c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675851400878,
+      "stop": 1675851518630
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675851400878,
+  "stop": 1675851518631
+}

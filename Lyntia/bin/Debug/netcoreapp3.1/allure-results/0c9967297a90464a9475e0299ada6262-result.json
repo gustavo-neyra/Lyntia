@@ -1,0 +1,86 @@
+{
+  "uuid": "82b42f75-1f6c-4c68-89e8-f12850ed224c-tr-0-1015",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0004_Editar_campo_tipo_de_Oferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=111.0.5563.111)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.Tipo_de_oferta_Cambiodecapacidad(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 404\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 788"
+  },
+  "stage": "finished",
+  "description": "CRM_EOF0004 Editar campo 'Tipo de oferta' de una Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=111.0.5563.111)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.Tipo_de_oferta_Cambiodecapacidad(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 404\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 788"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta-AbrirOferta.png",
+          "source": "dfbd3f28cab240b687195d42e81eb38a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta-TipoOfertaCambioCapacidadEOF0004.png",
+          "source": "77ecd1ac1d4a455db9ff8d61b7210894-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "467225ba33424d95aa8c13110cd8cc2d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679908254619,
+      "stop": 1679908359083
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679908254617,
+  "stop": 1679908359091
+}

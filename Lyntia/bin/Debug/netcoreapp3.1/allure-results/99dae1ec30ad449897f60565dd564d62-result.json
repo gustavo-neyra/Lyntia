@@ -1,0 +1,86 @@
+{
+  "uuid": "7a478f8f-9cc7-4132-8f92-27f72d2f9158-tr-0-1016",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0011_eliminarOferta_Adjudicada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0011_eliminarOferta_Adjudicada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.InvalidSelectorException : invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=111.0.5563.110)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AccederOfertaestado_Adjudicada(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 688\r\n   at Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 849\r\n--InvalidSelectorException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0011 Eliminar una Oferta Adjudicada\n",
+  "steps": [
+    {
+      "name": "CRM_COF0011_eliminarOferta_Adjudicada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.InvalidSelectorException : invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=111.0.5563.110)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AccederOfertaestado_Adjudicada(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 688\r\n   at Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 849\r\n--InvalidSelectorException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0011_eliminarOferta_Adjudicada-AgregarFiltroAvanzado.png",
+          "source": "c1c6aa445ebd4765a801922309653d32-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "CRM_COF0011_eliminarOferta_Adjudicada-AccesoOfertaAdjudicada.png",
+          "source": "c0bbdb2b211a43ca83801aac61f0f0a2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "90f18c6d48a74e67a02aef50bb5eed98-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679560112618,
+      "stop": 1679560518461
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679560112614,
+  "stop": 1679560518480
+}

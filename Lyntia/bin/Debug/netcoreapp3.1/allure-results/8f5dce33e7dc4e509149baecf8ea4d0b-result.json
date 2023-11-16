@@ -1,0 +1,81 @@
+{
+  "uuid": "1a12173a-3374-42f7-b3be-bcb121f1c199-tr-0-1028",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|HomePageGrid|Mscrm.NewRecordFromGrid11-button\" aria-label=\"Nuevo\" aria-describedby=\"id-947\" role=\"menuitem\" title=\"Nuevo\n\nCree un nuevo registro de Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" data-lp-id=\"HomePageGrid:quote-quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" type=\"button\" class=\"pa-ax pa-kc pa-gz pa-cp pa-bp pa-kj pa-p pa-kk pa-kl pa-ki flexbox\">...</button> is not clickable at point (427, 69). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_NuevaOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 87\r\n   at Lyntia.TestSet.Oferta.CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1280"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0002 - Vista Ofertas_En_borrador_Enelaboración_Sin_Producto\n",
+  "steps": [
+    {
+      "name": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|HomePageGrid|Mscrm.NewRecordFromGrid11-button\" aria-label=\"Nuevo\" aria-describedby=\"id-947\" role=\"menuitem\" title=\"Nuevo\n\nCree un nuevo registro de Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" data-lp-id=\"HomePageGrid:quote-quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" type=\"button\" class=\"pa-ax pa-kc pa-gz pa-cp pa-bp pa-kj pa-p pa-kk pa-kl pa-ki flexbox\">...</button> is not clickable at point (427, 69). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_NuevaOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 87\r\n   at Lyntia.TestSet.Oferta.CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1280"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto-AccesoNuevaOferta.png",
+          "source": "b892017142364022bf2b680d51938f44-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3a2aa3e9eb4d4ad89c530bb286942ce4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679298869270,
+      "stop": 1679298934392
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679298869269,
+  "stop": 1679298934397
+}

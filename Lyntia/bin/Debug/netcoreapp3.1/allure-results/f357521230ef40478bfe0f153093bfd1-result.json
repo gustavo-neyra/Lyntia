@@ -1,0 +1,81 @@
+{
+  "uuid": "fb3a4d35-f045-426e-866e-0c6006996c4c-tr-0-1018",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POF0001_PresentarOferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POF0001_PresentarOferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POF0001_PresentarOferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO PRESENTAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POF0001_PresentarOferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: \"Presentada\"\r\n  But was:  <Element (id = d958235a-779f-4333-97aa-a21978f7fa09)>\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaPresentadaCorrectamente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 497\r\n   at Lyntia.TestSet.Oferta.CRM_POF0001_PresentarOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 932\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-POF0001 Presentar Oferta Circuito de Capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_POF0001_PresentarOferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: \"Presentada\"\r\n  But was:  <Element (id = d958235a-779f-4333-97aa-a21978f7fa09)>\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaPresentadaCorrectamente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 497\r\n   at Lyntia.TestSet.Oferta.CRM_POF0001_PresentarOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 932\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POF0001_PresentarOferta-Oferta presentada correctamente.png",
+          "source": "a4d77de57b1f4198b37d411b0fe85ddb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "1b526d9e72b5422086782b44ec72ea66-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679649706813,
+      "stop": 1679649903342
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679649706813,
+  "stop": 1679649903348
+}

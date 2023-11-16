@@ -1,0 +1,59 @@
+{
+  "uuid": "28b047c8-fab4-41fc-9cbe-8364c0ee3fb2-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_POF0001_PresentarOferta",
+  "children": [
+    "f9b43040-7174-4746-8482-f6c18b7bda42-tr-0-1018"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666687628096,
+      "stop": 1666687628096
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666687628097,
+      "stop": 1666687628097
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1666687628097,
+      "stop": 1666687628097
+    }
+  ],
+  "links": [],
+  "start": 1666687412957,
+  "stop": 1666687628108
+}

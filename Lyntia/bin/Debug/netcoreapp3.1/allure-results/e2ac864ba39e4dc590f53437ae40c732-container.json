@@ -1,0 +1,63 @@
+{
+  "uuid": "15a09774-cd92-4a0e-bc41-55a2645f5637-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "children": [
+    "f6385dc4-fa5d-4fb0-b23e-336bbfb83389-tr-0-1040"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1692167299545,
+      "stop": 1692167299545
+    },
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 116\nCurrent browser version is 115.0.5790.110 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 41\r\n--TearDown\r\n   at Lyntia.TestSet.Oferta.Cierre() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 65"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1692167299545,
+      "stop": 1692167299545
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 116\nCurrent browser version is 115.0.5790.110 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 41\r\n--TearDown\r\n   at Lyntia.TestSet.Oferta.Cierre() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 65"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1692167299545,
+      "stop": 1692167299545
+    }
+  ],
+  "links": [],
+  "start": 1692167295813,
+  "stop": 1692167299565
+}

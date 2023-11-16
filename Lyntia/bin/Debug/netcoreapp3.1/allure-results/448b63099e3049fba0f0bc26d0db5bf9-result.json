@@ -1,0 +1,76 @@
+{
+  "uuid": "0b3c71be-d046-4c34-b462-fe07067210fc-tr-0-1039",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 9 but was 5. Strings differ at index 0.\r\n  Expected: \"Cancelado\"\r\n  But was:  \"1,000\"\r\n  -----------^\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.Resultado_Enviar_A_Jira_cancelar() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 619\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1859\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0004 - Oferta/Servicio/CANCELACIÓN RACK\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 9 but was 5. Strings differ at index 0.\r\n  Expected: \"Cancelado\"\r\n  But was:  \"1,000\"\r\n  -----------^\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.Resultado_Enviar_A_Jira_cancelar() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 619\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1859\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "02ef6bb6a0c642cd8845de219045b85a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681977887033,
+      "stop": 1681978417612
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681977887032,
+  "stop": 1681978417615
+}

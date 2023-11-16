@@ -1,0 +1,81 @@
+{
+  "uuid": "4444ed98-4647-4987-86a2-09186fd5ef6c-tr-0-1028",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=109.0.5414.121)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 53"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-COF0002 - Vista Ofertas_En_borrador_Enelaboración_Sin_Producto\n",
+  "steps": [
+    {
+      "name": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=109.0.5414.121)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 53"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto-Login.png",
+          "source": "303f90bd2b804eef8a6866ae3e1db9f6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ddf77469f06d4e47a1310e4057bb70db-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1676013451090,
+      "stop": 1676013466233
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676013451090,
+  "stop": 1676013466237
+}

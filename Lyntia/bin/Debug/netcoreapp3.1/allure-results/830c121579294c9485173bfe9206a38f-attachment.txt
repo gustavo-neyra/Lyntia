@@ -1,0 +1,31 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_COF0008, CLIENTE INTEGRACION, Cambio de configuración, # BizQA.
+La Oferta se guarda correctamente.
+***Se cumplen las condiciones de guardado de oferta correctamente
+Se accede correctamente a la pestaña Fechas de la Oferta.
+***Las condiciones de fechas informadas correctamente han sido OK
+Se elimina la Oferta correctamente.
+Se pulsa correctamente Eliminar.
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_COF0008, CLIENTE INTEGRACION, Cambio de configuración, # BizQA.
+La Oferta se guarda y cierra correctamente.
+Se busca la Oferta por parámetro: CRM_COF00083011220858.
+***Se cumple la condición de Oferta guardada Correctamente.
+No se abre la Oferta CRM_COF00083011220858.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <div tabindex="0" role="gridcell" aria-selected="false" aria-readonly="true" aria-required="false" class="wj-cell" data-id="cell-0-2" id="Grid2156a4b8-df77-eb69-9daf-75a23410a024-id-cell-0-2" data-lp-id="d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-2" aria-colindex="2" title="---" style="left: 45px; top: 0px; width: 24px; height: 40px; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);">...</div> is not clickable at point (257, 207). Other element would receive the click: <div id="modalDialogRoot_6_6" tabindex="-1" class="pa-f pa-at pa-a pa-p pa-be flexbox">...</div>
+  (Session info: chrome=107.0.5304.122)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.OfertaActions.AbrirOfertaEnVista(Dictionary`2 datosRepositorio) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\OfertaActions.cs:line 309

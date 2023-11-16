@@ -1,0 +1,76 @@
+{
+  "uuid": "c4c23918-125a-4764-aa41-45f4337bde86-tr-0-1057",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : invalid session id",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.OfertaActions.eliminarOfertaActual(String opcion) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 276\r\n   at Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 595"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0016 Heredar producto UbiRed Pro en Oferta Cambio de Precio\n",
+  "steps": [
+    {
+      "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : invalid session id",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.OfertaActions.eliminarOfertaActual(String opcion) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 276\r\n   at Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 595"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ba38376854504d2fa398b4d91ce61e51-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671783861418,
+      "stop": 1671784089894
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671783861418,
+  "stop": 1671784089894
+}

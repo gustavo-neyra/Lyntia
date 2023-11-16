@@ -1,0 +1,81 @@
+{
+  "uuid": "e70d7cf5-a724-4436-9af3-7365c6924297-tr-0-1013",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li[aria-label*='CLIENTE INTEGRACION']\"}\n  (Session info: chrome=110.0.5481.104)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 246\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 685\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "description": "CRM-COF00010 Cerrar Oferta Presentada con producto añadido, Revisada\n",
+  "steps": [
+    {
+      "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li[aria-label*='CLIENTE INTEGRACION']\"}\n  (Session info: chrome=110.0.5481.104)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 246\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 685\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada-AddDatosOferta.png",
+          "source": "07693fdd96864aaa805455b8633a6045-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "6223fbe16c1e4bbc97de4db39434c389-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1676623619785,
+      "stop": 1676623716964
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676623619785,
+  "stop": 1676623716964
+}

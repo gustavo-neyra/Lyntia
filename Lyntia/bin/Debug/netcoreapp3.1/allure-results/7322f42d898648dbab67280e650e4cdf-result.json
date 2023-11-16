@@ -1,0 +1,81 @@
+{
+  "uuid": "d3d26fa5-dcd5-4786-9ff3-a863319be5c3-tr-0-1012",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label class=\"ms-Label viewName root-196\">...</label> is not clickable at point (134, 100). Other element would receive the click: <div role=\"presentation\" class=\"pa-bt pa-e pa-p pa-du flexbox\">...</div>\n  (Session info: chrome=109.0.5414.121)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 627"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0009 Cerrar Oferta en borrador con producto añadido, Perdida\n",
+  "steps": [
+    {
+      "name": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label class=\"ms-Label viewName root-196\">...</label> is not clickable at point (134, 100). Other element would receive the click: <div role=\"presentation\" class=\"pa-bt pa-e pa-p pa-du flexbox\">...</div>\n  (Session info: chrome=109.0.5414.121)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 627"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida-AccesoSeccionOfertas.png",
+          "source": "705ecbab8eaf41c8b6dfe7ffecb25494-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "60030d093e874fdcb924fbc9c7b08963-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675842685310,
+      "stop": 1675842735150
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675842685310,
+  "stop": 1675842735150
+}

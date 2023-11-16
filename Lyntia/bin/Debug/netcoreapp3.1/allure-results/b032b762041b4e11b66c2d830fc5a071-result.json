@@ -1,0 +1,81 @@
+{
+  "uuid": "ab9e883c-fedc-4b92-9604-18df42566b4b-tr-0-1006",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0006_creacionOfertaCambioCapacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0006_creacionOfertaCambioCapacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ag-cell ag-cell-not-inline-editing ag-cell-normal-height ag-cell-value non-editable-cell\" aria-colindex=\"2\" aria-readonly=\"true\" tabindex=\"-1\" role=\"gridcell\" col-id=\"lyn_semaforo\" style=\"left: 50px; width: 25px; display: flex; align-items: center;\">...</div> is not clickable at point (262, 210). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-yv pa-yw pa-p pa-bp pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=116.0.5845.111)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AbrirOfertaEnVista(Dictionary`2 datosRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 324\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 256"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0006 Creación de Oferta de tipo Cambio de capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_COF0006_creacionOfertaCambioCapacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ag-cell ag-cell-not-inline-editing ag-cell-normal-height ag-cell-value non-editable-cell\" aria-colindex=\"2\" aria-readonly=\"true\" tabindex=\"-1\" role=\"gridcell\" col-id=\"lyn_semaforo\" style=\"left: 50px; width: 25px; display: flex; align-items: center;\">...</div> is not clickable at point (262, 210). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-yv pa-yw pa-p pa-bp pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=116.0.5845.111)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AbrirOfertaEnVista(Dictionary`2 datosRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 324\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 256"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0006_creacionOfertaCambioCapacidad-AbrirOferta.png",
+          "source": "4e782fef4a64499e87ce81e36daea85f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "29fca08a4eb84ac0aaa74d7cdcf520b6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1692945016208,
+      "stop": 1692945192772
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1692945016208,
+  "stop": 1692945192772
+}

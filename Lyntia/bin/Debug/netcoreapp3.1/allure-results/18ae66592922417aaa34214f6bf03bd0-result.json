@@ -1,0 +1,76 @@
+{
+  "uuid": "3929fb12-0f5e-4f37-964b-452969a9cd9b-tr-0-1037",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-f24f7370-f6bb-4edb-b9c9-940b8fff6472-167-lyn_capex_equipos533b9e00-756b-4312-95a0-dc888637ac78-lyn_capex_equipos.fieldControl-currency-text-input\" aria-label=\"CAPEX total equipos\" aria-required=\"true\" data-id=\"lyn_capex_equipos.fieldControl-currency-text-input\" title=\"\" autocomplete=\"off\" type=\"text\" class=\"pa-z pa-dy pa-ih pa-ay pa-bb pa-fh pa-fg pa-l pa-qr pa-qs pa-ix pa-nl pa-ar pa-as pa-he pa-il pa-qt pa-qx pa-qy pa-qz pa-ra pa-rb pa-rc pa-rd pa-kt pa-re pa-rf pa-rg pa-rh pa-ri pa-rj pa-rk pa-rl pa-ec pa-rm pa-ip \" value=\"---\"> is not clickable at point (585, 449). Other element would receive the click: <div id=\"modalDialogRoot_10_10\" tabindex=\"-1\" class=\"pa-f pa-ay pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=111.0.5563.66)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 249\r\n   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoInput(String elementoKey, String text) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 158\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposObligatoriosProducto(String tipoProducto, Dictionary`2 datosTestCase) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1157\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1741"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0002 - Oferta/Servicio/CANCELACIÓN FO\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-f24f7370-f6bb-4edb-b9c9-940b8fff6472-167-lyn_capex_equipos533b9e00-756b-4312-95a0-dc888637ac78-lyn_capex_equipos.fieldControl-currency-text-input\" aria-label=\"CAPEX total equipos\" aria-required=\"true\" data-id=\"lyn_capex_equipos.fieldControl-currency-text-input\" title=\"\" autocomplete=\"off\" type=\"text\" class=\"pa-z pa-dy pa-ih pa-ay pa-bb pa-fh pa-fg pa-l pa-qr pa-qs pa-ix pa-nl pa-ar pa-as pa-he pa-il pa-qt pa-qx pa-qy pa-qz pa-ra pa-rb pa-rc pa-rd pa-kt pa-re pa-rf pa-rg pa-rh pa-ri pa-rj pa-rk pa-rl pa-ec pa-rm pa-ip \" value=\"---\"> is not clickable at point (585, 449). Other element would receive the click: <div id=\"modalDialogRoot_10_10\" tabindex=\"-1\" class=\"pa-f pa-ay pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=111.0.5563.66)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 249\r\n   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoInput(String elementoKey, String text) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 158\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposObligatoriosProducto(String tipoProducto, Dictionary`2 datosTestCase) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1157\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1741"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e52ce31fa85149f3ac6fa7e5c82b081d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679474902470,
+      "stop": 1679475238213
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679474902470,
+  "stop": 1679475238213
+}

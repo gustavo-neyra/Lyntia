@@ -1,0 +1,59 @@
+{
+  "uuid": "96747a8d-8a9e-4157-a24c-fd7ab6c12ca2-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+  "children": [
+    "dc1140f3-28af-4abf-8c36-787107980e83-tr-0-1012"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1669968008022,
+      "stop": 1669968008022
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1669968008022,
+      "stop": 1669968008022
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1669968008022,
+      "stop": 1669968008022
+    }
+  ],
+  "links": [],
+  "start": 1669967702779,
+  "stop": 1669968008038
+}

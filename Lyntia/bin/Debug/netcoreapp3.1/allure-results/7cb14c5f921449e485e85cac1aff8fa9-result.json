@@ -1,0 +1,81 @@
+{
+  "uuid": "e403652d-7730-46a8-9bb5-380d8541dae2-tr-0-1024",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0002_Ofeta_Adjudicar_FOC"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0002_Ofeta_Adjudicar_FOC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1145"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0002 - PRO ADJUDICAR OFERTA\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0002_Ofeta_Adjudicar_FOC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1145"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0002_Ofeta_Adjudicar_FOC-AddDatosOferta.png",
+          "source": "6c324437621f445ba0faf22f0a5d7a77-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d5ef1ccc802a456daa0d32457c87c89a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1697613011524,
+      "stop": 1697613119792
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697613011524,
+  "stop": 1697613119793
+}

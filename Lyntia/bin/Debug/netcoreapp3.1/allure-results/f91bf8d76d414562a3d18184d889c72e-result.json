@@ -1,0 +1,81 @@
+{
+  "uuid": "bc14b306-2935-4df1-926e-359c16907f8b-tr-0-1058",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03051"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label title=\".... Vista del sistema\" class=\"ms-Label root-185\">OFERTAS LYNTIA</label> is not clickable at point (134, 100). Other element would receive the click: <div role=\"presentation\" class=\"pa-bk pa-e pa-p pa-co flexbox\">...</div>\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 655"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0017 Heredar producto UbiRed Pro en Oferta Cambio de Titular\n",
+  "steps": [
+    {
+      "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label title=\".... Vista del sistema\" class=\"ms-Label root-185\">OFERTAS LYNTIA</label> is not clickable at point (134, 100). Other element would receive the click: <div role=\"presentation\" class=\"pa-bk pa-e pa-p pa-co flexbox\">...</div>\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 655"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular-AccesoSeccionOfertas.png",
+          "source": "08b52b7886f14a9eb5afdfd19133d91b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "59d1ab194fe346809756dbf2858d744b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666168461144,
+      "stop": 1666168659228
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666168461143,
+  "stop": 1666168659232
+}

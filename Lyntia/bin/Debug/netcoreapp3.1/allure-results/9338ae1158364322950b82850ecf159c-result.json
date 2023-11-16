@@ -1,0 +1,81 @@
+{
+  "uuid": "44be6c77-e703-4a99-a745-f3ad9655644b-tr-0-1007",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 53"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-COF0007 Creacion Oferta Cambio Precio Renovacion\n",
+  "steps": [
+    {
+      "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 53"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion-Login.png",
+          "source": "63eb47340c6b43cd9426bceaa912bd6b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "dea9419cb78a4637ab3895f2b2caac32-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675929350779,
+      "stop": 1675929389447
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675929350779,
+  "stop": 1675929389447
+}

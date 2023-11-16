@@ -1,0 +1,24 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_APR0008, CLIENTE INTEGRACION, Nuevo servicio, # BizQA.
+La Oferta se guarda correctamente.
+Producto guardado correctamente: UbiRed Business, FTTT, 1 Gbps, , 4, 
+Se agrega un producto heredado correctamente y se guarda
+***Se verifica que faltan campos por informar.
+Precio mensual, duracion del contrato y NRC se guardan correctamente
+El reestablecimiento de la prueba no se ha realizado correctamente
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <button title="Seleccionar todos" class="cc-ds-headerbtn cc-ds-header-select-all-btn" tabindex="-1" style="font-size: 12px;"></button> is not clickable at point (668, 347). Other element would receive the click: <div id="progressIndicatorContainer" role="presentation" class="pa-abz pa-acg pa-p pa-av pa-h pa-a flexbox">...</div>
+  (Session info: chrome=111.0.5563.65)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.ProductoActions.Borrado_de_producto() in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\ProductoActions.cs:line 360

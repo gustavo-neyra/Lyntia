@@ -1,0 +1,81 @@
+{
+  "uuid": "60f90ba0-cdf8-46f9-8830-52095a73304b-tr-0-1053",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 252\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 418"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0012 Heredar producto Fibra Oscura en Oferta Cambio de Capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 252\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 418"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad-AddDatosOferta.png",
+          "source": "862ad4e4d5304ab8b162d1db7bc5ff35-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "a48d114ca6e6450aaa3f6c1467ecfb51-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1697728783645,
+      "stop": 1697728892664
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697728783644,
+  "stop": 1697728892667
+}

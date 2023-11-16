@@ -1,0 +1,81 @@
+{
+  "uuid": "39bbf54e-e5c5-4734-97e3-a292e60b6d2a-tr-0-1038",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESMADC05316"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : disconnected: not connected to DevTools\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 958\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1782"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0003 - Oferta/Servicio/CANCELACIÓN Ubired Pro\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : disconnected: not connected to DevTools\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 958\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1782"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro-VentanaCrearPedido.png",
+          "source": "5638175bf327441480e60d961e081b99-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5b880eba3f254cd79fa4148422346079-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666262865552,
+      "stop": 1666263414574
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666262865552,
+  "stop": 1666263414574
+}

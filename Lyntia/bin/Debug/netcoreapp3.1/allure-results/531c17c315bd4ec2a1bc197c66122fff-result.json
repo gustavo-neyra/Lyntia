@@ -1,0 +1,81 @@
+{
+  "uuid": "98933433-dad8-4ba1-97c4-8c1cbb146376-tr-0-1013",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03051"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"0\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-2\" id=\"Grid750b2808-bce3-b228-8fe6-b35077e4eb25-id-cell-0-2\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-2\" style=\"left: 45px; top: 0px; width: 24px; height: 40px; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\" aria-colindex=\"2\" title=\"---\">...</div> is not clickable at point (257, 207). Other element would receive the click: <div id=\"modalDialogRoot_5_5\" tabindex=\"-1\" class=\"pa-f pa-at pa-a pa-p pa-be flexbox\">...</div>\n  (Session info: chrome=107.0.5304.88)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 336\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 699"
+  },
+  "stage": "finished",
+  "description": "CRM-COF00010 Cerrar Oferta Presentada con producto añadido, Revisada\n",
+  "steps": [
+    {
+      "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"0\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-2\" id=\"Grid750b2808-bce3-b228-8fe6-b35077e4eb25-id-cell-0-2\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-2\" style=\"left: 45px; top: 0px; width: 24px; height: 40px; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\" aria-colindex=\"2\" title=\"---\">...</div> is not clickable at point (257, 207). Other element would receive the click: <div id=\"modalDialogRoot_5_5\" tabindex=\"-1\" class=\"pa-f pa-at pa-a pa-p pa-be flexbox\">...</div>\n  (Session info: chrome=107.0.5304.88)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 336\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 699"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada-SeleccionOferta.png",
+          "source": "7d5c2c50f3e84353a564d3bb8d60f1ba-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "a01668a6a2d44476acac7ec3f5119d4b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667893414252,
+      "stop": 1667893598230
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667893414252,
+  "stop": 1667893598230
+}

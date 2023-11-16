@@ -1,0 +1,86 @@
+{
+  "uuid": "9d2d66cd-a3f9-44e5-a611-0fcca787beef-tr-0-1014",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0003_Editar_campos_de_una_oferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0003_Editar_campos_de_una_oferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@data-id,'transactioncurrencyid_selected_tag_text')]\"}\n  (Session info: chrome=113.0.5672.93)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.crearOfertaBorrador(Dictionary`2 datosTestCase) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 207\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 748"
+  },
+  "stage": "finished",
+  "description": "CRM_EOF0003 Editar campos de una Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0003_Editar_campos_de_una_oferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@data-id,'transactioncurrencyid_selected_tag_text')]\"}\n  (Session info: chrome=113.0.5672.93)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.crearOfertaBorrador(Dictionary`2 datosTestCase) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 207\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 748"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_EOF0003_Editar_campos_de_una_oferta-CreaOferta.png",
+          "source": "ca96685c2db84c57a74fd1e7971744a5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "CRM_EOF0003_Editar_campos_de_una_oferta-AddDatosOferta.png",
+          "source": "0e750defe6a34bf9877baaf53f828c9b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "505ce24361204b8d9c60cce7a7d00e2d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684225039513,
+      "stop": 1684225120677
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684225039513,
+  "stop": 1684225120678
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "447b0262-6915-4ffa-8a29-d7b4de98050e-tr-0-1027",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESMADC05316"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(@id,'DeleteMenu.Menu$button')]\"}\n  (Session info: chrome=107.0.5304.88)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.eliminarOfertaActual(String opcion) in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 277\r\n   at Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1257\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0001 - Oferta_Eliminar_En_borrador_Sin_Producto\n",
+  "steps": [
+    {
+      "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(@id,'DeleteMenu.Menu$button')]\"}\n  (Session info: chrome=107.0.5304.88)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.eliminarOfertaActual(String opcion) in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 277\r\n   at Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1257\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto-EliminarOferta.png",
+          "source": "dbcab38f0ab94f84952e24c08a4da6eb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "05a798d6def5492b8ab93f72ada6386a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667905582937,
+      "stop": 1667905738637
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667905582936,
+  "stop": 1667905738654
+}

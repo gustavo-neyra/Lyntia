@@ -1,0 +1,81 @@
+{
+  "uuid": "650846f9-7b63-405c-894e-3205699fd2fb-tr-0-1031",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 25 but was 21. Strings differ at index 12.\r\n  Expected: \"Nuevo Oferta: Sin guardar\"\r\n  But was:  \"Nuevo Oferta- Unsaved\"\r\n  -----------------------^\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 47\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1436\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0001 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 25 but was 21. Strings differ at index 12.\r\n  Expected: \"Nuevo Oferta: Sin guardar\"\r\n  But was:  \"Nuevo Oferta- Unsaved\"\r\n  -----------------------^\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 47\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1436\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad-CreaOferta.png",
+          "source": "0faa53253af14e3ebdfb68037244c5bd-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5bbab404ae2b47589d03db190a6cd0f4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671441399802,
+      "stop": 1671441458555
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671441399802,
+  "stop": 1671441458555
+}

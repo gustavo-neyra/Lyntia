@@ -1,0 +1,81 @@
+{
+  "uuid": "f0d990af-2c64-4502-b311-c8caa73466c7-tr-0-1050",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0009_Producto_heredar_CC_CambioPrecio",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0009_Producto_heredar_CC_CambioPrecio",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03051"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0009_Producto_heredar_CC_CambioPrecio"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0009_Producto_heredar_CC_CambioPrecio",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : Frame element cannot be null (Parameter 'frameElement')",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Producto.CRM_APR0009_Producto_heredar_CC_CambioPrecio() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 309"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0009 Heredar producto Circuito de Capacidad en Oferta Cambio de Precio\n",
+  "steps": [
+    {
+      "name": "CRM_APR0009_Producto_heredar_CC_CambioPrecio",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentNullException : Frame element cannot be null (Parameter 'frameElement')",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Producto.CRM_APR0009_Producto_heredar_CC_CambioPrecio() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 309"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0009_Producto_heredar_CC_CambioPrecio-AccesoGestionCliente.png",
+          "source": "68468cc9f92a40dcad940694f591b570-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "dfaf7f390c9b4082b28b167ee9488065-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1668154132609,
+      "stop": 1668154202435
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1668154132609,
+  "stop": 1668154202436
+}

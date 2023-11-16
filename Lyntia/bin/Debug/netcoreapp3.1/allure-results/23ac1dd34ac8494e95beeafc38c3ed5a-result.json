@@ -1,0 +1,76 @@
+{
+  "uuid": "0bf5fad5-3ee4-45aa-9ea5-0dce92a05362-tr-0-1001",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0001_accesoOfertas",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0001_accesoOfertas",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0001_accesoOfertas"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0001_accesoOfertas",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=114.0.5735.201)",
+    "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 41"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-COF0001 Acceso a Ofertas\n",
+  "steps": [
+    {
+      "name": "CRM_COF0001_accesoOfertas skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=114.0.5735.201)",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 41"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2d3425283ca6417aad69972ed9f3af25-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1689746646579,
+      "stop": 1689746650436
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1689746646579,
+  "stop": 1689746650436
+}

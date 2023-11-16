@@ -1,0 +1,81 @@
+{
+  "uuid": "f001fc7b-2b28-4ec4-a85e-ba16ff6601fc-tr-0-1010",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0005_eliminarOfertaProductoAnadido",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0005_eliminarOfertaProductoAnadido",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0005_eliminarOfertaProductoAnadido"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0005_eliminarOfertaProductoAnadido",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 137\r\n   at Lyntia.TestSet.Oferta.CRM_COF0005_eliminarOfertaProductoAnadido() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 438"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0005 Eliminar Oferta en borrador con producto añadido\n",
+  "steps": [
+    {
+      "name": "CRM_COF0005_eliminarOfertaProductoAnadido",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 137\r\n   at Lyntia.TestSet.Oferta.CRM_COF0005_eliminarOfertaProductoAnadido() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 438"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0005_eliminarOfertaProductoAnadido-GuardarProducto.png",
+          "source": "7eb1a590d8564449a0715e2b3ce17143-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "9a4ead26cf81420ba574df573383ef32-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683877730727,
+      "stop": 1683877927236
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683877730727,
+  "stop": 1683877927243
+}

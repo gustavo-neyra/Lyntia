@@ -1,0 +1,81 @@
+{
+  "uuid": "61d46ab0-5015-41ba-b7cf-6b25bbb21596-tr-0-1045",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0004_Producto_Añadir_FibraOscura"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0004_Producto_Añadir_FibraOscura",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 155"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0004 Añadir producto de Fibra Oscura\n",
+  "steps": [
+    {
+      "name": "CRM_APR0004_Producto_Añadir_FibraOscura",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 155"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0004_Producto_Añadir_FibraOscura-AddDatosOferta.png",
+          "source": "77de5999fd8243e38cca891400d13c01-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2b7e605ebfdf4d19b3a2048ce0f021d3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1697616703640,
+      "stop": 1697616809322
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697616703640,
+  "stop": 1697616809322
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "bb52912c-67e8-408b-8eb8-f61aeab868f0-tr-0-1030",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.178)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 53"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-COFNR0001 Cerrar Oferta En Elaboracion No Realizable\n",
+  "steps": [
+    {
+      "name": "CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.178)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 53"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable-Login.png",
+          "source": "1a94568aaa1845a69175bafe63a17e45-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "43fad2109f1947a587ef7eac98d2985a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677829671681,
+      "stop": 1677829677313
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677829671681,
+  "stop": 1677829677315
+}

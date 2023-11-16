@@ -1,0 +1,81 @@
+{
+  "uuid": "6fc26a8d-7fce-4bf8-9ab7-d2685c9d1263-tr-0-1050",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0009_Producto_heredar_CC_CambioPrecio",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0009_Producto_heredar_CC_CambioPrecio",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0009_Producto_heredar_CC_CambioPrecio"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0009_Producto_heredar_CC_CambioPrecio",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"0\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-2\" id=\"Grideff828d4-25af-e1f6-94ea-b7dbf4755811-id-cell-0-2\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-2\" aria-colindex=\"2\" title=\"---\" style=\"left: 45px; top: 0px; width: 24px; height: 40px; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\">...</div> is not clickable at point (257, 207). Other element would receive the click: <div id=\"modalDialogRoot_5_5\" tabindex=\"-1\" class=\"pa-f pa-bh pa-a pa-p pa-aq flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 336\r\n   at Lyntia.TestSet.Producto.CRM_APR0009_Producto_heredar_CC_CambioPrecio() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 329"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0009 Heredar producto Circuito de Capacidad en Oferta Cambio de Precio\n",
+  "steps": [
+    {
+      "name": "CRM_APR0009_Producto_heredar_CC_CambioPrecio",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"0\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-2\" id=\"Grideff828d4-25af-e1f6-94ea-b7dbf4755811-id-cell-0-2\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-2\" aria-colindex=\"2\" title=\"---\" style=\"left: 45px; top: 0px; width: 24px; height: 40px; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\">...</div> is not clickable at point (257, 207). Other element would receive the click: <div id=\"modalDialogRoot_5_5\" tabindex=\"-1\" class=\"pa-f pa-bh pa-a pa-p pa-aq flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 336\r\n   at Lyntia.TestSet.Producto.CRM_APR0009_Producto_heredar_CC_CambioPrecio() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 329"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0009_Producto_heredar_CC_CambioPrecio-SeleccionOferta.png",
+          "source": "56594400b903496cb305558b48017bd8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "38f717d0264a450a803d4c071115afe6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1672299201497,
+      "stop": 1672299421746
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1672299201497,
+  "stop": 1672299421747
+}

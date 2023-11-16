@@ -1,0 +1,81 @@
+{
+  "uuid": "298a1b3f-bbef-44e8-ad79-1f076d20f6f0-tr-0-1045",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0004_Producto_Añadir_FibraOscura"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0004_Producto_Añadir_FibraOscura",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.104)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-APR0004 Añadir producto de Fibra Oscura\n",
+  "steps": [
+    {
+      "name": "CRM_APR0004_Producto_Añadir_FibraOscura skipped because of Instanciador failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.104)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0004_Producto_Añadir_FibraOscura-Login.png",
+          "source": "2f2c217203d448ee92ee99a9eab813b6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "681c5173c33b41999f250c609da24ad9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1676963553045,
+      "stop": 1676963566215
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676963553045,
+  "stop": 1676963566219
+}

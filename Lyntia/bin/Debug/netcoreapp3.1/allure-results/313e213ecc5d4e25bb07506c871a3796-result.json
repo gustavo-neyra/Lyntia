@@ -1,0 +1,76 @@
+{
+  "uuid": "b1684c6c-1d2b-4660-92ff-4358e67afb85-tr-0-1038",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <a href=\"https://ufinetprep2.crm4.dynamics.com/main.aspx?appid=a925122d-c2fb-461a-92fa-ae2080db4340&amp;pagetype=entityrecord&amp;etn=new_servicioscontratados&amp;id=470d0c74-a3c4-ed11-83ff-6045bd8c5d8b\" class=\"ms-Link linkStyles-579\" role=\"link\" aria-label=\"CRM_SECAN00031703231005\">...</a> is not clickable at point (1181, 380). Other element would receive the click: <div id=\"modalDialogRoot_9_9\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 249\r\n   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_linea1() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1084\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1792"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0003 - Oferta/Servicio/CANCELACIÓN Ubired Pro\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <a href=\"https://ufinetprep2.crm4.dynamics.com/main.aspx?appid=a925122d-c2fb-461a-92fa-ae2080db4340&amp;pagetype=entityrecord&amp;etn=new_servicioscontratados&amp;id=470d0c74-a3c4-ed11-83ff-6045bd8c5d8b\" class=\"ms-Link linkStyles-579\" role=\"link\" aria-label=\"CRM_SECAN00031703231005\">...</a> is not clickable at point (1181, 380). Other element would receive the click: <div id=\"modalDialogRoot_9_9\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 249\r\n   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_linea1() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1084\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1792"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7c5e0342b7b64ddca96292e8e71a667d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679043945018,
+      "stop": 1679044206554
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679043945018,
+  "stop": 1679044206554
+}

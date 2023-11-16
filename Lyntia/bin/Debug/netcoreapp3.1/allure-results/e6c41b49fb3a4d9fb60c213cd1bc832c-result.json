@@ -1,0 +1,81 @@
+{
+  "uuid": "12cb1417-ed83-4415-976c-8480e80593eb-tr-0-1006",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0006_creacionOfertaCambioCapacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0006_creacionOfertaCambioCapacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 221"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0006 Creación de Oferta de tipo Cambio de capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_COF0006_creacionOfertaCambioCapacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 221"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0006_creacionOfertaCambioCapacidad-AccesoGestionCliente.png",
+          "source": "d9c0b86bb4e24360a7d848738e740e1b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "52f9601cf1b041e6b38982777f57d0ad-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1694759944220,
+      "stop": 1694760027506
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1694759944220,
+  "stop": 1694760027506
+}

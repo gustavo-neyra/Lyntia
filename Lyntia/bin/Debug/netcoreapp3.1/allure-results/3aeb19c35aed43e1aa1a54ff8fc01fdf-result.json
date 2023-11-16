@@ -1,0 +1,76 @@
+{
+  "uuid": "f5bf2ecb-beae-4bb8-9197-cd0411028786-tr-0-1039",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "17"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.IO.IOException : The process cannot access the file 'C:\\Testing\\Lyntia\\Lyntia\\bin\\Debug\\netcoreapp3.1\\ObjectRepository.csv' because it is being used by another process.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 41\r\n--TearDown\r\n   at Lyntia.TestSet.Oferta.Cierre() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 65"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\n\nCierre TearDown method failed\nCRM-SECAN0004 - Oferta/Servicio/CANCELACIÓN RACK\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.IOException : The process cannot access the file 'C:\\Testing\\Lyntia\\Lyntia\\bin\\Debug\\netcoreapp3.1\\ObjectRepository.csv' because it is being used by another process.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 41\r\n--TearDown\r\n   at Lyntia.TestSet.Oferta.Cierre() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 65"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fc65ee99c727441387045391199196f4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1676023593614,
+      "stop": 1676023638570
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676023593608,
+  "stop": 1676023638585
+}

@@ -1,0 +1,63 @@
+{
+  "uuid": "abccbd88-57d2-4961-bdf7-a6b338d29357-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+  "children": [
+    "1fd25df5-a017-496d-8b9d-9c5ff16cdd56-tr-0-1035"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673507747676,
+      "stop": 1673507747676
+    },
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 109\nCurrent browser version is 108.0.5359.125 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Desarrollo\\Lyntia\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 41\r\n--TearDown\r\n   at Lyntia.TestSet.Oferta.Cierre() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 65"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673507747676,
+      "stop": 1673507747676
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 109\nCurrent browser version is 108.0.5359.125 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Desarrollo\\Lyntia\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 41\r\n--TearDown\r\n   at Lyntia.TestSet.Oferta.Cierre() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 65"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673507747676,
+      "stop": 1673507747676
+    }
+  ],
+  "links": [],
+  "start": 1673507743642,
+  "stop": 1673507747684
+}

@@ -1,0 +1,73 @@
+{
+  "uuid": "57250da8-65fc-4b76-89e8-a5f5c5d6a7e3-tr-0-1022",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POF0005_PresentarOferta_Rack_Colocation",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POF0005_PresentarOferta_Rack_Colocation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POF0005_PresentarOferta_Rack_Colocation"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO PRESENTAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POF0005_PresentarOferta_Rack_Colocation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CRM_POF0005_PresentarOferta_Rack_Colocation"
+  },
+  "stage": "finished",
+  "description": "CRM-POF0005 Presentar Oferta Rack\n",
+  "steps": [
+    {
+      "name": "CRM_POF0005_PresentarOferta_Rack_Colocation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5ec0d04164634e7ca842683c1921cf5c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675418852816,
+      "stop": 1675419040355
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675418852816,
+  "stop": 1675419040356
+}

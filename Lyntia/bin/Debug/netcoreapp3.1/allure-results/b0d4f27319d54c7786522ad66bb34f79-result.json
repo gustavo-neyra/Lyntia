@@ -1,0 +1,81 @@
+{
+  "uuid": "0dc14292-5c1d-4112-9a9f-bc174bf0939f-tr-0-1057",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.eliminarOfertaActual(String opcion) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 277\r\n   at Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 595"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0016 Heredar producto UbiRed Pro en Oferta Cambio de Precio\n",
+  "steps": [
+    {
+      "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.eliminarOfertaActual(String opcion) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 277\r\n   at Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 595"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio-EliminarOferta.png",
+          "source": "26a4c45ce0ed4b628ca9da7fe7310268-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e1a2133e17ae43c6ada54a66db2fc89a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675159307747,
+      "stop": 1675159515429
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675159307747,
+  "stop": 1675159515429
+}

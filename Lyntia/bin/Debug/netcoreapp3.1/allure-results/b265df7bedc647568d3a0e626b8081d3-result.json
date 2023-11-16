@@ -1,0 +1,86 @@
+{
+  "uuid": "6ad3e400-b6e7-4b17-8f9e-4e714078a5c0-tr-0-1003",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0003_creacionOferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0003_creacionOferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0003_creacionOferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0003_creacionOferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 25 but was 21. Strings differ at index 12.\r\n  Expected: \"Nuevo Oferta: Sin guardar\"\r\n  But was:  \"Nuevo Oferta- Unsaved\"\r\n  -----------------------^\r\n",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.crearOfertaBorrador(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 203\r\n   at Lyntia.TestSet.Oferta.CRM_COF0003_creacionOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 113\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0003 Creación de Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_COF0003_creacionOferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 25 but was 21. Strings differ at index 12.\r\n  Expected: \"Nuevo Oferta: Sin guardar\"\r\n  But was:  \"Nuevo Oferta- Unsaved\"\r\n  -----------------------^\r\n",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.crearOfertaBorrador(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 203\r\n   at Lyntia.TestSet.Oferta.CRM_COF0003_creacionOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 113\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0003_creacionOferta-CreaOferta.png",
+          "source": "6194954cf8e94c18af52ccb2a23642b7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "CRM_COF0003_creacionOferta-AddDatosOferta.png",
+          "source": "c003a16bfbfc4a7b8c26ff5cb93c24d0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "4e1366b8840a43b5840a70bb2120875b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671436146604,
+      "stop": 1671436216005
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671436146604,
+  "stop": 1671436216006
+}

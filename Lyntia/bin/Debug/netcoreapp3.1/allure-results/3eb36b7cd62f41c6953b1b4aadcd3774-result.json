@@ -1,0 +1,81 @@
+{
+  "uuid": "7530e3f6-b99d-415f-9cbb-8a147ab744dc-tr-0-1056",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0015_Producto_heredar_FO_CambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|HomePageGrid|Mscrm.NewRecordFromGrid11-button\" aria-label=\"Nuevo\" aria-describedby=\"id-965\" role=\"menuitem\" title=\"Nuevo\n\nCree un nuevo registro de Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" data-lp-id=\"HomePageGrid:quote-quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" type=\"button\" class=\"pa-as pa-jm pa-gs pa-cj pa-bk pa-jt pa-p pa-ju pa-jv pa-js flexbox\">...</button> is not clickable at point (427, 69). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-ki pa-kj pa-p pa-aq pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_NuevaOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 86\r\n   at Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 514"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0015 Heredar producto Fibra Oscura en Oferta Cambio de Dirección\n",
+  "steps": [
+    {
+      "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|HomePageGrid|Mscrm.NewRecordFromGrid11-button\" aria-label=\"Nuevo\" aria-describedby=\"id-965\" role=\"menuitem\" title=\"Nuevo\n\nCree un nuevo registro de Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" data-lp-id=\"HomePageGrid:quote-quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord\" type=\"button\" class=\"pa-as pa-jm pa-gs pa-cj pa-bk pa-jt pa-p pa-ju pa-jv pa-js flexbox\">...</button> is not clickable at point (427, 69). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-ki pa-kj pa-p pa-aq pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_NuevaOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 86\r\n   at Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 514"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion-AccesoNuevaOferta.png",
+          "source": "9f1b6f4ad66940c99ca1a09c3958ba89-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "53a11d41be5c4a12beac613478d08b69-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1672733643043,
+      "stop": 1672733746350
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1672733643043,
+  "stop": 1672733746350
+}

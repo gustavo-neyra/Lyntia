@@ -1,0 +1,76 @@
+{
+  "uuid": "a5d4846e-3a6d-4509-b394-35a0809a983a-tr-0-1022",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POF0005_PresentarOferta_Rack_Colocation",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POF0005_PresentarOferta_Rack_Colocation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POF0005_PresentarOferta_Rack_Colocation"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO PRESENTAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POF0005_PresentarOferta_Rack_Colocation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.UnhandledAlertException : unexpected alert open: {Alert text : SecLib::CrmCheckPrivilege failed. Returned hr = -2147220839 on UserId: 3dafb087-cfb9-e511-80f3-3863bb357fa0 and Privilege: prvReadQuote}\n  (Session info: chrome=114.0.5735.134)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Lyntia.Utilities.Utils.EncontrarElemento(By by) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 129\r\n   at Lyntia.TestSet.Actions.OfertaActions.presentarOferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 867\r\n   at Lyntia.TestSet.Oferta.CRM_POF0005_PresentarOferta_Rack_Colocation() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1076"
+  },
+  "stage": "finished",
+  "description": "CRM-POF0005 Presentar Oferta Rack\n",
+  "steps": [
+    {
+      "name": "CRM_POF0005_PresentarOferta_Rack_Colocation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.UnhandledAlertException : unexpected alert open: {Alert text : SecLib::CrmCheckPrivilege failed. Returned hr = -2147220839 on UserId: 3dafb087-cfb9-e511-80f3-3863bb357fa0 and Privilege: prvReadQuote}\n  (Session info: chrome=114.0.5735.134)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Lyntia.Utilities.Utils.EncontrarElemento(By by) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 129\r\n   at Lyntia.TestSet.Actions.OfertaActions.presentarOferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 867\r\n   at Lyntia.TestSet.Oferta.CRM_POF0005_PresentarOferta_Rack_Colocation() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1076"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8c2dc8ee86b44492881fc3a7b12c6589-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687506042982,
+      "stop": 1687506192791
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687506042982,
+  "stop": 1687506192791
+}

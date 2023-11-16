@@ -1,0 +1,81 @@
+{
+  "uuid": "52e12aee-3404-48ec-ac0f-f88c3e1488b3-tr-0-1037",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=111.0.5563.149)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 53"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-SECAN0002 - Oferta/Servicio/CANCELACIÓN FO\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=111.0.5563.149)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 53"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO-Login.png",
+          "source": "0e707fb16c9a4f1bad54d99fa6d34dcc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "029b3086bbab45de81cca37b6903affa-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681385493621,
+      "stop": 1681385508366
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681385493621,
+  "stop": 1681385508378
+}

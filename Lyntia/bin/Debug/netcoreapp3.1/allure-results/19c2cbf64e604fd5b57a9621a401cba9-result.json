@@ -1,0 +1,81 @@
+{
+  "uuid": "ba69e4d8-212d-4516-8766-0fb3e3da3382-tr-0-1054",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0013_Producto_heredar_FO_CambioPrecio",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0013_Producto_heredar_FO_CambioPrecio",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0013_Producto_heredar_FO_CambioPrecio"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0013_Producto_heredar_FO_CambioPrecio",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"sitemap-entity-oferta\" aria-label=\"Ofertas\" role=\"treeitem\" title=\"Ofertas\" tabindex=\"0\" data-id=\"sitemap-entity-oferta\" data-lp-id=\"sitemap-entity-oferta\" data-text=\"Ofertas\" class=\"pa-bh pa-a pa-p pa-bk pa-dm pa-as pa-b pa-dn pa-do pa-dp pa-dq \" data-pa-landmark-active-element=\"true\" aria-selected=\"true\">...</li> is not clickable at point (99, 522). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bh pa-bg pa-fa pa-dm pa-xs \">...</span>\n  (Session info: chrome=109.0.5414.75)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Producto.CRM_APR0013_Producto_heredar_FO_CambioPrecio() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 457"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0013 Heredar producto Fibra Oscura en Oferta Cambio de Precio\n",
+  "steps": [
+    {
+      "name": "CRM_APR0013_Producto_heredar_FO_CambioPrecio",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"sitemap-entity-oferta\" aria-label=\"Ofertas\" role=\"treeitem\" title=\"Ofertas\" tabindex=\"0\" data-id=\"sitemap-entity-oferta\" data-lp-id=\"sitemap-entity-oferta\" data-text=\"Ofertas\" class=\"pa-bh pa-a pa-p pa-bk pa-dm pa-as pa-b pa-dn pa-do pa-dp pa-dq \" data-pa-landmark-active-element=\"true\" aria-selected=\"true\">...</li> is not clickable at point (99, 522). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bh pa-bg pa-fa pa-dm pa-xs \">...</span>\n  (Session info: chrome=109.0.5414.75)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Producto.CRM_APR0013_Producto_heredar_FO_CambioPrecio() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 457"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0013_Producto_heredar_FO_CambioPrecio-AccesoSeccionOfertas.png",
+          "source": "013558d384344f22bea7f42548389db1-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "46979c10747042c7a0088e30a81b7e28-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674030913507,
+      "stop": 1674031102345
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674030913506,
+  "stop": 1674031102351
+}

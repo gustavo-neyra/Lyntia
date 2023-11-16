@@ -1,0 +1,81 @@
+{
+  "uuid": "41bb0f45-3918-42d0-9b66-c2426f80e4bd-tr-0-1035",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: stale element not found\n  (Session info: chrome=113.0.5672.129)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 53"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-POAF0005 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: stale element not found\n  (Session info: chrome=113.0.5672.129)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 53"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack-Login.png",
+          "source": "1956c4f5182346d58427fc2d437eea03-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "632f2e8d1a3843679e9975884c81cdd9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685961143071,
+      "stop": 1685961162232
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685961143070,
+  "stop": 1685961162239
+}

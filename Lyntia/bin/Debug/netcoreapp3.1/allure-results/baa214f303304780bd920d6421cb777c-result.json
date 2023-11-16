@@ -1,0 +1,81 @@
+{
+  "uuid": "02d02190-30c9-41d1-be80-96534cbb255c-tr-0-1011",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_6\" aria-label=\"Oferta Filter by keyword\" data-id=\"quickFind_text_6\" title=\"\" placeholder=\"Filter by keyword\" autocomplete=\"off\" type=\"text\" class=\"pa-av pa-as pa-bh pa-ig pa-ih pa-ii \" value=\"\"> is not clickable at point (1799, 118). Other element would receive the click: <div id=\"modalDialogRoot_7_7\" tabindex=\"-1\" class=\"pa-f pa-bh pa-a pa-p pa-aq flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 297\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 494"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0006 Eliminar Oferta en borrador con producto añadido desde el grid\n",
+  "steps": [
+    {
+      "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_6\" aria-label=\"Oferta Filter by keyword\" data-id=\"quickFind_text_6\" title=\"\" placeholder=\"Filter by keyword\" autocomplete=\"off\" type=\"text\" class=\"pa-av pa-as pa-bh pa-ig pa-ih pa-ii \" value=\"\"> is not clickable at point (1799, 118). Other element would receive the click: <div id=\"modalDialogRoot_7_7\" tabindex=\"-1\" class=\"pa-f pa-bh pa-a pa-p pa-aq flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 297\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 494"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid-BuscaOferta.png",
+          "source": "8a1500c300a7412ea49931648d9f0365-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b06aeab0450c400f845b81de8a8ea063-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1672904325685,
+      "stop": 1672904561313
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1672904325685,
+  "stop": 1672904561313
+}

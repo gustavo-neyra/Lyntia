@@ -1,0 +1,81 @@
+{
+  "uuid": "443adeaa-b7d8-4b5e-8f60-789b3e6f296f-tr-0-1034",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"ms-ContextualMenu-itemText label-152\">...</span> is not clickable at point (376, 216). Other element would receive the click: <a title=\"...\" href=\"https://ufinetprep2.crm4.dynamics.com/main.aspx?appid=a925122d-c2fb-461a-92fa-ae2080db4340&amp;pagetype=entityrecord&amp;etn=account&amp;id=3bdefad3-3bcf-e511-8100-1458d043a570\" tabindex=\"-1\" style=\"font-size: 1rem; font-family: &quot;Segoe UI Regular&quot;, SegoeUI, &quot;Segoe UI&quot;; color: rgb(4, 89, 153); display: inline-block;\">CLIENTE INTEGRACION</a>\n  (Session info: chrome=105.0.5195.127)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1568"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0004 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"ms-ContextualMenu-itemText label-152\">...</span> is not clickable at point (376, 216). Other element would receive the click: <a title=\"...\" href=\"https://ufinetprep2.crm4.dynamics.com/main.aspx?appid=a925122d-c2fb-461a-92fa-ae2080db4340&amp;pagetype=entityrecord&amp;etn=account&amp;id=3bdefad3-3bcf-e511-8100-1458d043a570\" tabindex=\"-1\" style=\"font-size: 1rem; font-family: &quot;Segoe UI Regular&quot;, SegoeUI, &quot;Segoe UI&quot;; color: rgb(4, 89, 153); display: inline-block;\">CLIENTE INTEGRACION</a>\n  (Session info: chrome=105.0.5195.127)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1568"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness-AccesoGestionCliente.png",
+          "source": "77f0762852494b7585f80ac6a74d67b4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b7be7b66dade45dab924456ea397c1d8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1665652714120,
+      "stop": 1665652767347
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1665652714120,
+  "stop": 1665652767348
+}

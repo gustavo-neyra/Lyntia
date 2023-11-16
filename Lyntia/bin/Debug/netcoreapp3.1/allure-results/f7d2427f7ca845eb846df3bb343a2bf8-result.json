@@ -1,0 +1,81 @@
+{
+  "uuid": "dd774c2c-4794-4e7b-933f-43e354856d78-tr-0-1011",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ag-cell ag-cell-not-inline-editing ag-cell-normal-height ag-cell-value non-editable-cell\" aria-colindex=\"2\" aria-readonly=\"true\" tabindex=\"-1\" role=\"gridcell\" col-id=\"lyn_semaforo\" style=\"left: 50px; width: 25px; display: flex; align-items: center;\">...</div> is not clickable at point (262, 210). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-lg pa-lh pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=114.0.5735.201)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 342\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 498"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0006 Eliminar Oferta en borrador con producto añadido desde el grid\n",
+  "steps": [
+    {
+      "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ag-cell ag-cell-not-inline-editing ag-cell-normal-height ag-cell-value non-editable-cell\" aria-colindex=\"2\" aria-readonly=\"true\" tabindex=\"-1\" role=\"gridcell\" col-id=\"lyn_semaforo\" style=\"left: 50px; width: 25px; display: flex; align-items: center;\">...</div> is not clickable at point (262, 210). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-lg pa-lh pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=114.0.5735.201)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 342\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 498"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid-SeleccionOferta.png",
+          "source": "8a90bcd844d1495dbf5a4487ea5bd781-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "8d66fa32061743929077453d0dba49de-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1689835452773,
+      "stop": 1689835657175
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1689835452773,
+  "stop": 1689835657175
+}

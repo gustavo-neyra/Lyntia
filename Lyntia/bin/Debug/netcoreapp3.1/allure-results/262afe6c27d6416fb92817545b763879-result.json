@@ -1,0 +1,81 @@
+{
+  "uuid": "b759c514-c025-4819-a9e2-761b2e7b542d-tr-0-1057",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-3-new_servicioorigenafectadoid270bd3db-d9af-4782-9025-509e298dec0a-new_servicioorigenafectadoid.fieldControl-LookupResultsDropdown_new_servicioorigenafectadoid_10_textInputBox_with_filter_new\" aria-label=\"Servicio heredado, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"new_servicioorigenafectadoid.fieldControl-LookupResultsDropdown_new_servicioorigenafectadoid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cj pa-rb pa-rf pa-rg pa-qf pa-qg pa-gg pa-ey pa-ex pa-rh pa-ri pa-rj pa-ih \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (2400, 202). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-at pa-as pa-ey pa-dk pa-xs \">...</span>\n  (Session info: chrome=108.0.5359.125)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 244\r\n   at Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 587"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0016 Heredar producto UbiRed Pro en Oferta Cambio de Precio\n",
+  "steps": [
+    {
+      "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-3-new_servicioorigenafectadoid270bd3db-d9af-4782-9025-509e298dec0a-new_servicioorigenafectadoid.fieldControl-LookupResultsDropdown_new_servicioorigenafectadoid_10_textInputBox_with_filter_new\" aria-label=\"Servicio heredado, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"new_servicioorigenafectadoid.fieldControl-LookupResultsDropdown_new_servicioorigenafectadoid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cj pa-rb pa-rf pa-rg pa-qf pa-qg pa-gg pa-ey pa-ex pa-rh pa-ri pa-rj pa-ih \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (2400, 202). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-at pa-as pa-ey pa-dk pa-xs \">...</span>\n  (Session info: chrome=108.0.5359.125)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 244\r\n   at Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 587"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio-Producto heredado.png",
+          "source": "ebb119671800402299e931cfd8583afc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "31c7a25d51d14e80962434ae88b33fd5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671178123679,
+      "stop": 1671178244686
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671178123679,
+  "stop": 1671178244686
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "f8d0ab75-d8aa-4b4d-adaa-e0fb312a1815-tr-0-1012",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quotedetail|NoRelationship|Form|Mscrm.SavePrimary06-button\" aria-label=\"Guardar (CTRL+S)\" aria-describedby=\"id-6096\" role=\"menuitem\" title=\"Guardar (CTRL+S)\n\nGuarde Producto de oferta.\" tabindex=\"-1\" data-id=\"quotedetail|NoRelationship|Form|Mscrm.Form.quotedetail.Save\" data-lp-id=\"Form:quotedetail-quotedetail|NoRelationship|Form|Mscrm.Form.quotedetail.Save\" type=\"button\" class=\"pa-ax pa-jy pa-ha pa-cp pa-bp pa-kf pa-p pa-kg pa-kh pa-ke flexbox\">...</button> is not clickable at point (333, 68). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xk \">...</span>\n  (Session info: chrome=118.0.5993.71)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 251\r\n   at Lyntia.TestSet.Actions.OfertaActions.presentarOferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 865\r\n   at Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 651"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0009 Cerrar Oferta en borrador con producto añadido, Perdida\n",
+  "steps": [
+    {
+      "name": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quotedetail|NoRelationship|Form|Mscrm.SavePrimary06-button\" aria-label=\"Guardar (CTRL+S)\" aria-describedby=\"id-6096\" role=\"menuitem\" title=\"Guardar (CTRL+S)\n\nGuarde Producto de oferta.\" tabindex=\"-1\" data-id=\"quotedetail|NoRelationship|Form|Mscrm.Form.quotedetail.Save\" data-lp-id=\"Form:quotedetail-quotedetail|NoRelationship|Form|Mscrm.Form.quotedetail.Save\" type=\"button\" class=\"pa-ax pa-jy pa-ha pa-cp pa-bp pa-kf pa-p pa-kg pa-kh pa-ke flexbox\">...</button> is not clickable at point (333, 68). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xk \">...</span>\n  (Session info: chrome=118.0.5993.71)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 251\r\n   at Lyntia.TestSet.Actions.OfertaActions.presentarOferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 865\r\n   at Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 651"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d1c58aa2399c44bf8acc68ed09855940-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1697788939261,
+      "stop": 1697789200986
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697788939261,
+  "stop": 1697789200986
+}

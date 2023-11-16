@@ -1,0 +1,46 @@
+{
+  "uuid": "644e0639-b3cc-4298-aa48-34762d3e9654-tc-0-1041",
+  "name": "Lyntia.TestSet.Producto.CRM_APR0013_Producto_heredar_FO_CambioPrecio",
+  "children": [
+    "8b284bd0-4dd7-41ee-bf79-403128042aab-tr-0-1054"
+  ],
+  "befores": [
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=109.0.5414.121)",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 33"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676274320360,
+      "stop": 1676274320360
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676274320360,
+      "stop": 1676274320360
+    }
+  ],
+  "links": [],
+  "start": 1676274317375,
+  "stop": 1676274320394
+}

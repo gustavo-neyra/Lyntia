@@ -1,0 +1,81 @@
+{
+  "uuid": "288ac235-cc06-4226-84d0-6f6e83fa556c-tr-0-1014",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0003_Editar_campos_de_una_oferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0003_Editar_campos_de_una_oferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 744"
+  },
+  "stage": "finished",
+  "description": "CRM_EOF0003 Editar campos de una Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0003_Editar_campos_de_una_oferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 744"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_EOF0003_Editar_campos_de_una_oferta-AccesoGestionCliente.png",
+          "source": "10405db2911a4cdcb8eca424cd5e4676-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "738e976f571d402f9c5775e855968393-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675414436680,
+      "stop": 1675414504799
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675414436680,
+  "stop": 1675414504799
+}

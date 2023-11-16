@@ -1,0 +1,81 @@
+{
+  "uuid": "a6eb721b-a42d-47bc-9dcc-515c16732529-tr-0-1006",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0006_creacionOfertaCambioCapacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0006_creacionOfertaCambioCapacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li[aria-label ^='CLIENTE INTEGRACION']\"}\n  (Session info: chrome=110.0.5481.105)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 246\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 231"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0006 Creación de Oferta de tipo Cambio de capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_COF0006_creacionOfertaCambioCapacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"li[aria-label ^='CLIENTE INTEGRACION']\"}\n  (Session info: chrome=110.0.5481.105)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 246\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 231"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0006_creacionOfertaCambioCapacidad-AddDatosOferta.png",
+          "source": "cdf49683a5204ceeb190bb08ee120bde-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "0eb8f6d8915c40639be066f9bb6ec5d6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677138140326,
+      "stop": 1677138241681
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677138140325,
+  "stop": 1677138241681
+}

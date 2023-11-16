@@ -1,0 +1,81 @@
+{
+  "uuid": "106d1d4f-a2af-43f0-b647-57d45bf4d3be-tr-0-1033",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 136\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1538"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0003 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 136\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1538"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO-GuardarProducto.png",
+          "source": "ccf7b5705e6c4d08bad87ccdcfeff929-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "994f0af02e3b436b9318ba83e8ca0b65-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674032940748,
+      "stop": 1674033277491
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674032940748,
+  "stop": 1674033277491
+}

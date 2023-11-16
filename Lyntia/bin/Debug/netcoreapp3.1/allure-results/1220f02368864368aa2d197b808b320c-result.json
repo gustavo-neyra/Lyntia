@@ -1,0 +1,81 @@
+{
+  "uuid": "5198eab6-a8c4-4147-9a8a-3ad7c983deec-tr-0-1055",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0014_Producto_heredar_FO_CambioSolucion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0014_Producto_heredar_FO_CambioSolucion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06582"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0014_Producto_heredar_FO_CambioSolucion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0014_Producto_heredar_FO_CambioSolucion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ag-cell ag-cell-not-inline-editing ag-cell-normal-height ag-cell-value non-editable-cell\" aria-colindex=\"2\" aria-readonly=\"true\" tabindex=\"-1\" role=\"gridcell\" col-id=\"lyn_semaforo\" style=\"left: 50px; width: 25px; display: flex; align-items: center;\">...</div> is not clickable at point (262, 210). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-me pa-mf pa-p pa-bp pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=113.0.5672.129)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 342\r\n   at Lyntia.TestSet.Producto.CRM_APR0014_Producto_heredar_FO_CambioSolucion() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 494"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0014 Heredar producto Fibra Oscura en Oferta Cambio de Solución técnica\n",
+  "steps": [
+    {
+      "name": "CRM_APR0014_Producto_heredar_FO_CambioSolucion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ag-cell ag-cell-not-inline-editing ag-cell-normal-height ag-cell-value non-editable-cell\" aria-colindex=\"2\" aria-readonly=\"true\" tabindex=\"-1\" role=\"gridcell\" col-id=\"lyn_semaforo\" style=\"left: 50px; width: 25px; display: flex; align-items: center;\">...</div> is not clickable at point (262, 210). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-me pa-mf pa-p pa-bp pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=113.0.5672.129)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 342\r\n   at Lyntia.TestSet.Producto.CRM_APR0014_Producto_heredar_FO_CambioSolucion() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 494"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0014_Producto_heredar_FO_CambioSolucion-SeleccionOferta.png",
+          "source": "0b0beca93b5c4d9bb62a9c25372045c9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "8dc78a9ddae6435d83a5539013a46f61-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1686034296312,
+      "stop": 1686034524916
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686034296312,
+  "stop": 1686034524916
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "b1edeef0-9db0-4a78-82f0-a18477b7d729-tr-0-1011",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 473"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0006 Eliminar Oferta en borrador con producto añadido desde el grid\n",
+  "steps": [
+    {
+      "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 473"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid-AddDatosOferta.png",
+          "source": "925ebfe62a8d4816801fe5c5073f7627-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "91d80f1c32154117b532e604f9662d28-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1697702355186,
+      "stop": 1697702480874
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697702355186,
+  "stop": 1697702480874
+}

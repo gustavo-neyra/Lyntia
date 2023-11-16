@@ -1,0 +1,81 @@
+{
+  "uuid": "675b61f9-cc46-4207-acf8-fecd0dc4dc93-tr-0-1019",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POF0002_PresentarOferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO PRESENTAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POF0002_PresentarOferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-8-productid270bd3db-d9af-4782-9025-509e298dec0a-productid.fieldControl-LookupResultsDropdown_productid_11_textInputBox_with_filter_new\" aria-label=\"Producto existente, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"productid.fieldControl-LookupResultsDropdown_productid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cp pa-rj pa-rn pa-ro pa-qn pa-qo pa-gn pa-ff pa-fe pa-rp pa-rq pa-rr pa-ip \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (2400, 432). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xg \">...</span>\n  (Session info: chrome=110.0.5481.178)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 54\r\n   at Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 961"
+  },
+  "stage": "finished",
+  "description": "CRM-POF0002 Presentar Oferta Fibra Oscura\n",
+  "steps": [
+    {
+      "name": "CRM_POF0002_PresentarOferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-8-productid270bd3db-d9af-4782-9025-509e298dec0a-productid.fieldControl-LookupResultsDropdown_productid_11_textInputBox_with_filter_new\" aria-label=\"Producto existente, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"productid.fieldControl-LookupResultsDropdown_productid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cp pa-rj pa-rn pa-ro pa-qn pa-qo pa-gn pa-ff pa-fe pa-rp pa-rq pa-rr pa-ip \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (2400, 432). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xg \">...</span>\n  (Session info: chrome=110.0.5481.178)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 54\r\n   at Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 961"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POF0002_PresentarOferta-AddProducto.png",
+          "source": "973be4f438204338bd727dd38214c2a6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d82cb22d292449e8b893e92d1776fa6b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1678264053829,
+      "stop": 1678264231329
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1678264053829,
+  "stop": 1678264231330
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "ded60f99-5cab-4c85-a4da-eeac3250220b-tr-0-1024",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0002_Ofeta_Adjudicar_FOC"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0002_Ofeta_Adjudicar_FOC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : invalid session id",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 65\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1132"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0002 - PRO ADJUDICAR OFERTA\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0002_Ofeta_Adjudicar_FOC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : invalid session id",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 65\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1132"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "07256ef84f5043369ecb0a2cdc968dbe-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675931871855,
+      "stop": 1675931935879
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675931871855,
+  "stop": 1675931935879
+}

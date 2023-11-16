@@ -1,0 +1,46 @@
+{
+  "uuid": "2dbbf56b-cce8-4b56-bead-db078763e440-tc-0-1041",
+  "name": "Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness",
+  "children": [
+    "0b3c293c-ea81-4e75-b6f9-48ac4f0c7692-tr-0-1047"
+  ],
+  "befores": [
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:50853/session/1a4ffd2570ef29a22d850d50fd7cd887/url timed out after 60 seconds.\r\n  ----> System.Threading.Tasks.TaskCanceledException : The operation was canceled.\r\n  ----> System.IO.IOException : Unable to read data from the transport connection: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación..\r\n  ----> System.Net.Sockets.SocketException : La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 33\r\n--TaskCanceledException\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n--IOException\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)\r\n   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)\r\n--SocketException\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676273902104,
+      "stop": 1676273902104
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676273902105,
+      "stop": 1676273902105
+    }
+  ],
+  "links": [],
+  "start": 1676273838623,
+  "stop": 1676273902113
+}

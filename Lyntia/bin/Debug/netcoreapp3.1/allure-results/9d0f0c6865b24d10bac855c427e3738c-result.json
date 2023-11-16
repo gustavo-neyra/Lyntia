@@ -1,0 +1,81 @@
+{
+  "uuid": "30993219-db87-4251-ab23-e9bbba00c947-tr-0-1044",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0003_Producto_Añadir_CC"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0003_Producto_Añadir_CC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@aria-label='Alternar la selección de todas las filas']\"}\n  (Session info: chrome=111.0.5563.66)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.Borrado_de_producto() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 366\r\n   at Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 134\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0003 Añadir producto Circuito de Capacidad correctamente\n",
+  "steps": [
+    {
+      "name": "CRM_APR0003_Producto_Añadir_CC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@aria-label='Alternar la selección de todas las filas']\"}\n  (Session info: chrome=111.0.5563.66)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.Borrado_de_producto() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 366\r\n   at Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 134\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0003_Producto_Añadir_CC-ReestablecimientoPrueba.png",
+          "source": "1190f4cb44b24ef2be3497f59299115d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "0ba2f0a7c18d45b384e58f1c625a8027-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679641779827,
+      "stop": 1679641966779
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679641779827,
+  "stop": 1679641966779
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "bd2b3bc7-413d-475d-a0f9-3a361374973f-tr-0-1056",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0015_Producto_heredar_FO_CambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.104)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-APR0015 Heredar producto Fibra Oscura en Oferta Cambio de Dirección\n",
+  "steps": [
+    {
+      "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion skipped because of Instanciador failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.104)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion-Login.png",
+          "source": "e05da1fcbe1642aaa42feddb36dfcb02-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3ce7274857c54cdebefb3688a6f9c25d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1676622633324,
+      "stop": 1676622643261
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676622633324,
+  "stop": 1676622643262
+}

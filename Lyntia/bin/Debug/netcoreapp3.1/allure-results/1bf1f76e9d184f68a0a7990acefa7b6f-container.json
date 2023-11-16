@@ -1,0 +1,61 @@
+{
+  "uuid": "aeaedda5-69fd-45dc-9e20-fa26bdf56ed9-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "children": [
+    "23825f92-8868-42bb-a4a8-9ef8656d3120-tr-0-1013"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681981151872,
+      "stop": 1681981151872
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681981151872,
+      "stop": 1681981151872
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverArgumentException : invalid argument: uniqueContextId not found\n  (Session info: chrome=112.0.5615.121)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.CerrarOfertaActual(Dictionary`2 datosCierreOferta) in C:\\Users\\arnau.suiles.ext\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 670\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\arnau.suiles.ext\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 707"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681981151872,
+      "stop": 1681981151872
+    }
+  ],
+  "links": [],
+  "start": 1681980828661,
+  "stop": 1681981158208
+}

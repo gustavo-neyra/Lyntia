@@ -1,0 +1,86 @@
+{
+  "uuid": "298cb72e-43bc-49db-93a1-33032ebfd954-tr-0-1014",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03051"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0003_Editar_campos_de_una_oferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0003_Editar_campos_de_una_oferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_IntroduccionDatos(String nombreOferta) in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 196\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 764\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM_EOF0003 Editar campos de una Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0003_Editar_campos_de_una_oferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_IntroduccionDatos(String nombreOferta) in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 196\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 764\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_EOF0003_Editar_campos_de_una_oferta-AgregarFiltroAvanzado.png",
+          "source": "a42c122c85674036b72cd5a8a6d4cf06-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "CRM_EOF0003_Editar_campos_de_una_oferta-Introducir datos.png",
+          "source": "246c72f97e4d4ade9ebf586770c0a09f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b54673e47fef4cb89c96d669b98006c2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1665742246633,
+      "stop": 1665742472237
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1665742246632,
+  "stop": 1665742472242
+}

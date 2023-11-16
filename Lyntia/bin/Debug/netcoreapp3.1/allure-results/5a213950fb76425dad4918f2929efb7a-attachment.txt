@@ -1,0 +1,19 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+No se introducen los datos de la Oferta: CRM_APR0012, CLIENTE INTEGRACION, Cambio Upgrade/Downgrade, # BizQA.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <input type="text" id="DatePicker47-label" role="combobox" aria-expanded="false" aria-haspopup="dialog" placeholder="---" aria-describedby="TextFieldDescription50" data-id="new_fechaenvoofertacliente.fieldControl-date-time-input" data-is-focusable="true" class="ms-TextField-field field-261" aria-label="Fecha de Fecha de presentación" aria-invalid="false" value=""> is not clickable at point (591, 850). Other element would receive the click: <div id="modalDialogRoot_3_3" tabindex="-1" class="pa-f pa-bm pa-a pa-p pa-av flexbox">...</div>
+  (Session info: chrome=109.0.5414.75)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoInput(String elementoKey, String text) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 158
+   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\OfertaActions.cs:line 235

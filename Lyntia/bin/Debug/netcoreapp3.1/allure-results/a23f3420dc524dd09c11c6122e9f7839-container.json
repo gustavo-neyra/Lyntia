@@ -1,0 +1,46 @@
+{
+  "uuid": "171403cb-58dd-4d6f-9b6f-7d1a201ecd20-tc-0-1041",
+  "name": "Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura",
+  "children": [
+    "0b64b852-cdfe-42ec-bbf7-c377bdff6e73-tr-0-1045"
+  ],
+  "befores": [
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.178)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677742870654,
+      "stop": 1677742870654
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677742870654,
+      "stop": 1677742870654
+    }
+  ],
+  "links": [],
+  "start": 1677742864165,
+  "stop": 1677742870659
+}

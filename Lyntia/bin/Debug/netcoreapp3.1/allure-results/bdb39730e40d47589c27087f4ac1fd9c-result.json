@@ -1,0 +1,76 @@
+{
+  "uuid": "32d5b174-ea5f-4292-b9ab-4c985a7e134a-tr-0-1010",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0005_eliminarOfertaProductoAnadido",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0005_eliminarOfertaProductoAnadido",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0005_eliminarOfertaProductoAnadido"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0005_eliminarOfertaProductoAnadido",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 109\nCurrent browser version is 108.0.5359.125 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Desarrollo\\Lyntia\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 41\r\n--TearDown\r\n   at Lyntia.TestSet.Oferta.Cierre() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 65"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\n\nCierre TearDown method failed\nCRM-COF0005 Eliminar Oferta en borrador con producto añadido\n",
+  "steps": [
+    {
+      "name": "CRM_COF0005_eliminarOfertaProductoAnadido skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : session not created: This version of ChromeDriver only supports Chrome version 109\nCurrent browser version is 108.0.5359.125 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Desarrollo\\Lyntia\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 41\r\n--TearDown\r\n   at Lyntia.TestSet.Oferta.Cierre() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 65"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e2f76d4bfbf648a6968ffdbf9cbf4a8e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673507995501,
+      "stop": 1673508004270
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673507995501,
+  "stop": 1673508004271
+}

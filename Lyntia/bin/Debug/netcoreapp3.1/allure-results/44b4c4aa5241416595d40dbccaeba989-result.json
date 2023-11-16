@@ -1,0 +1,81 @@
+{
+  "uuid": "2377b01d-58d2-4798-87fc-a7ad7b3f204e-tr-0-1007",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[contains(@data-id,'createdon')]\"}\n  (Session info: chrome=110.0.5481.178)",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_FechasInformadasCorrectamente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 107\r\n   at Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 311"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0007 Creacion Oferta Cambio Precio Renovacion\n",
+  "steps": [
+    {
+      "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[contains(@data-id,'createdon')]\"}\n  (Session info: chrome=110.0.5481.178)",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_FechasInformadasCorrectamente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 107\r\n   at Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 311"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion-FechasInformadascorrectamente.png",
+          "source": "82700dce2d0d4a44b987e3f8f045814d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ceed402ae8f4432593fd84278fc514f7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677570255824,
+      "stop": 1677570541962
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677570255824,
+  "stop": 1677570541962
+}

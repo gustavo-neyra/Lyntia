@@ -1,0 +1,81 @@
+{
+  "uuid": "747dcc36-acce-4775-b417-8c80612c7c44-tr-0-1055",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0014_Producto_heredar_FO_CambioSolucion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0014_Producto_heredar_FO_CambioSolucion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06582"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0014_Producto_heredar_FO_CambioSolucion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0014_Producto_heredar_FO_CambioSolucion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_4\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_4\" title=\"\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-fc pa-bg pa-bd pa-fd pa-fe pa-ff \" value=\"\"> is not clickable at point (1415, 118). Other element would receive the click: <div id=\"modalDialogRoot_5_5\" tabindex=\"-1\" class=\"pa-f pa-bd pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=113.0.5672.127)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 303\r\n   at Lyntia.TestSet.Producto.CRM_APR0014_Producto_heredar_FO_CambioSolucion() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 492"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0014 Heredar producto Fibra Oscura en Oferta Cambio de Solución técnica\n",
+  "steps": [
+    {
+      "name": "CRM_APR0014_Producto_heredar_FO_CambioSolucion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_4\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_4\" title=\"\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-fc pa-bg pa-bd pa-fd pa-fe pa-ff \" value=\"\"> is not clickable at point (1415, 118). Other element would receive the click: <div id=\"modalDialogRoot_5_5\" tabindex=\"-1\" class=\"pa-f pa-bd pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=113.0.5672.127)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 303\r\n   at Lyntia.TestSet.Producto.CRM_APR0014_Producto_heredar_FO_CambioSolucion() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 492"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0014_Producto_heredar_FO_CambioSolucion-BuscaOferta.png",
+          "source": "b9cdb447b821408e9114079fccd57168-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "86adff1ba09f4766a2b09287bc03ffe0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684738145158,
+      "stop": 1684738365367
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684738145158,
+  "stop": 1684738365367
+}

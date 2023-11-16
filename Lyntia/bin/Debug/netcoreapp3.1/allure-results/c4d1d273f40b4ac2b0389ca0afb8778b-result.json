@@ -1,0 +1,81 @@
+{
+  "uuid": "f930ae7e-ed0c-4145-af9b-a31923f2ac4e-tr-0-1056",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0015_Producto_heredar_FO_CambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"sitemap-entity-oferta\" aria-label=\"Ofertas\" role=\"treeitem\" title=\"Ofertas\" tabindex=\"0\" data-id=\"sitemap-entity-oferta\" data-lp-id=\"sitemap-entity-oferta\" data-text=\"Ofertas\" class=\"pa-bm pa-a pa-p pa-bp pa-dr pa-ax pa-b pa-ds pa-dt pa-du pa-dv \" data-pa-landmark-active-element=\"true\" aria-selected=\"true\">...</li> is not clickable at point (99, 522). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xy \">...</span>\n  (Session info: chrome=111.0.5563.65)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 523"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0015 Heredar producto Fibra Oscura en Oferta Cambio de Dirección\n",
+  "steps": [
+    {
+      "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"sitemap-entity-oferta\" aria-label=\"Ofertas\" role=\"treeitem\" title=\"Ofertas\" tabindex=\"0\" data-id=\"sitemap-entity-oferta\" data-lp-id=\"sitemap-entity-oferta\" data-text=\"Ofertas\" class=\"pa-bm pa-a pa-p pa-bp pa-dr pa-ax pa-b pa-ds pa-dt pa-du pa-dv \" data-pa-landmark-active-element=\"true\" aria-selected=\"true\">...</li> is not clickable at point (99, 522). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xy \">...</span>\n  (Session info: chrome=111.0.5563.65)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 523"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion-AccesoSeccionOfertas.png",
+          "source": "c067599d13ad4f40aede38353d8a0e95-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "41dd8e17c7544b76aff2a0cd26018c34-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1678959078950,
+      "stop": 1678959226609
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1678959078950,
+  "stop": 1678959226610
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "5fb84120-93e1-4b75-a17e-c141cce39ac5-tr-0-1053",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : invalid session id",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 243\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 418"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0012 Heredar producto Fibra Oscura en Oferta Cambio de Capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : invalid session id",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lyntia.TestSet.Actions.CommonActions.CapturadorExcepcion(Exception e, String fileName, String message) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 106\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 243\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 418"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7419b22b59904b7b8cf3a7a7507ca50e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1670918598606,
+      "stop": 1670918693619
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1670918598605,
+  "stop": 1670918693619
+}

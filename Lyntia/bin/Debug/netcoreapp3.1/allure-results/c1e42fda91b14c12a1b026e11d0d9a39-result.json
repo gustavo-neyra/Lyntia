@@ -1,0 +1,81 @@
+{
+  "uuid": "df66f56a-af3b-47f5-b0d2-629f5dd21121-tr-0-1019",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POF0002_PresentarOferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO PRESENTAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POF0002_PresentarOferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"ms-ContextualMenu-itemText label-160\">...</span> is not clickable at point (376, 216). Other element would receive the click: <a title=\"...\" href=\"https://ufinetprep2.crm4.dynamics.com/main.aspx?appid=a925122d-c2fb-461a-92fa-ae2080db4340&amp;pagetype=entityrecord&amp;etn=account&amp;id=3bdefad3-3bcf-e511-8100-1458d043a570\" tabindex=\"-1\" style=\"font-size: 1rem; font-family: &quot;Segoe UI Regular&quot;, SegoeUI, &quot;Segoe UI&quot;; color: rgb(4, 89, 153); display: inline-block;\">CLIENTE INTEGRACION</a>\n  (Session info: chrome=105.0.5195.127)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 946"
+  },
+  "stage": "finished",
+  "description": "CRM-POF0002 Presentar Oferta Fibra Oscura\n",
+  "steps": [
+    {
+      "name": "CRM_POF0002_PresentarOferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"ms-ContextualMenu-itemText label-160\">...</span> is not clickable at point (376, 216). Other element would receive the click: <a title=\"...\" href=\"https://ufinetprep2.crm4.dynamics.com/main.aspx?appid=a925122d-c2fb-461a-92fa-ae2080db4340&amp;pagetype=entityrecord&amp;etn=account&amp;id=3bdefad3-3bcf-e511-8100-1458d043a570\" tabindex=\"-1\" style=\"font-size: 1rem; font-family: &quot;Segoe UI Regular&quot;, SegoeUI, &quot;Segoe UI&quot;; color: rgb(4, 89, 153); display: inline-block;\">CLIENTE INTEGRACION</a>\n  (Session info: chrome=105.0.5195.127)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 946"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POF0002_PresentarOferta-AccesoGestionCliente.png",
+          "source": "88d3643064014017af5a5ba657debd21-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5a0c888eed71406289173bebec3f1adb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1665653187904,
+      "stop": 1665653261535
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1665653187904,
+  "stop": 1665653261535
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "fe1bd56c-2d89-4a3d-a90c-e3728364fc44-tr-0-1025",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0001_Edición_borrador_Sin_datos_obligatorios",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0001_Edición_borrador_Sin_datos_obligatorios",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0001_Edición_borrador_Sin_datos_obligatorios"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0001_Edición_borrador_Sin_datos_obligatorios",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : unknown error: cannot determine loading status\nfrom no such window\n  (Session info: chrome=113.0.5672.93)",
+    "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 41"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-EOF0001 - Edición_borrador_Sin_datos_obligatorios\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0001_Edición_borrador_Sin_datos_obligatorios skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : unknown error: cannot determine loading status\nfrom no such window\n  (Session info: chrome=113.0.5672.93)",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 41"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5da26c5183d3414aaee8a71240eeff12-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684136143433,
+      "stop": 1684136146964
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684136143433,
+  "stop": 1684136146964
+}

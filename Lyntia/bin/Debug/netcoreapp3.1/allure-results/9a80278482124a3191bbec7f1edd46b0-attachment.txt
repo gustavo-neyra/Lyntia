@@ -1,0 +1,47 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se han introducido correctamente los campos de la Oferta: CRM_COF0011, CLIENTE INTEGRACION, , .
+La Oferta se guarda correctamente.
+Producto guardado correctamente: Circuitos de capacidad, FTTT, 1 Gbps, , 10, 
+Se accede a la ventana de Adjudicar Oferta.
+***Se cumple la condicion de oferta adjudicada correctamente
+se continua con el pedido correctamente.
+Existe en la oferta el producto contratado
+Se accede correctamente a la sección Mis Ofertas lyntia
+No se pudo agregar un filtro avanzado
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 45 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[value='']:not([value*='igual'])+button"}
+  (Session info: chrome=108.0.5359.95)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(By byElement) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 255
+   at Lyntia.TestSet.Actions.CommonActions.agregarFiltroAvanzado(String nombreFiltro, String valorFiltro) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 297
+Se busca la Oferta por parámetro: CRM_COF0011.
+No se accede a una Oferta Adjudicada.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <div tabindex="-1" role="gridcell" aria-selected="false" class="wj-cell data-selectable" header-row-number="0" data-id="cell-0-1" id="Gridb479b5a0-0d57-d8dc-810f-9c576bd669fd-id-cell-0-1" data-lp-id="d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-1" style="left: 0px; top: 0px; width: 45px; height: 40px; text-align: left; margin-left: 20px !important; padding-left: 7px !important; font-size: 12px; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);" aria-colindex="1">...</div> is not clickable at point (242, 207). Other element would receive the click: <div id="modalDialogRoot_9_9" tabindex="-1" class="pa-f pa-bh pa-a pa-p pa-aq flexbox">...</div>
+  (Session info: chrome=108.0.5359.95)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.OfertaActions.AccederOfertaestado_Adjudicada(Dictionary`2 datosTestCase) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\OfertaActions.cs:line 678

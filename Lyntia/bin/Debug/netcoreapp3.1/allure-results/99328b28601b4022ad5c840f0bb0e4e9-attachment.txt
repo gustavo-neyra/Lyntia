@@ -1,0 +1,28 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Se busca la Oferta por parámetro: CRM_EOF0004_Editar_campo_tipo_de_Oferta.
+Se abre la Oferta CRM_EOF0004_Editar_campo_tipo_de_Oferta1205230900 se abre correctamente.
+Se modifica el tipo de Oferta de la prueba CRM-EOF0004: Cambio Upgrade/Downgrade.
+***La condicion de aviso cambio de capacidad se cumple
+Se modifica el tipo de Oferta de la prueba CRM-EOF0004: Cambio de precio/Renovación.
+***La condicion aviso cambio de precio se cumple correctamente
+Se modifica el tipo de Oferta de la prueba CRM-EOF0004: Cambio de configuración
+***Se cumple la condicion de aviso cambio de solucion
+Se modifica el tipo de Oferta de la prueba CRM-EOF0004: Cambio de dirección
+***La condicion de aviso cambio de direccion es correcta
+La Oferta se guarda y cierra correctamente.
+No se reestablecen los datos de la prueba EOF0004.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=113.0.5672.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.seleccionarElementoTabla(Int32 row, Int32 col) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 130
+   at Lyntia.TestSet.Actions.OfertaActions.ReestablecerDatosCRM_EOF0004() in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 903

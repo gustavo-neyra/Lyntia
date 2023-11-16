@@ -1,0 +1,81 @@
+{
+  "uuid": "80f27053-6525-4160-a9f8-20880de45245-tr-0-1044",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0003_Producto_Añadir_CC"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0003_Producto_Añadir_CC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button title=\"Seleccionar todos\" class=\"cc-ds-headerbtn cc-ds-header-select-all-btn\" tabindex=\"-1\" style=\"font-size: 12px;\"></button> is not clickable at point (862, 347). Other element would receive the click: <h1 id=\"dialogTitleText_4\" aria-label=\"...\" data-id=\"dialogTitleText\" class=\"pa-aj pa-aec pa-cv pa-aed pa-bd pa-ao pa-e \">El registro no está disponible</h1>\n  (Session info: chrome=109.0.5414.121)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.Borrado_de_producto() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 349\r\n   at Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 134"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0003 Añadir producto Circuito de Capacidad correctamente\n",
+  "steps": [
+    {
+      "name": "CRM_APR0003_Producto_Añadir_CC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button title=\"Seleccionar todos\" class=\"cc-ds-headerbtn cc-ds-header-select-all-btn\" tabindex=\"-1\" style=\"font-size: 12px;\"></button> is not clickable at point (862, 347). Other element would receive the click: <h1 id=\"dialogTitleText_4\" aria-label=\"...\" data-id=\"dialogTitleText\" class=\"pa-aj pa-aec pa-cv pa-aed pa-bd pa-ao pa-e \">El registro no está disponible</h1>\n  (Session info: chrome=109.0.5414.121)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.Borrado_de_producto() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 349\r\n   at Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 134"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0003_Producto_Añadir_CC-ReestablecimientoPrueba.png",
+          "source": "7abdfbf59fe64a4592b2f77f646fb40c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5a943163defb4524b7f709a1476454fb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1676273279217,
+      "stop": 1676273441233
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676273279217,
+  "stop": 1676273441233
+}

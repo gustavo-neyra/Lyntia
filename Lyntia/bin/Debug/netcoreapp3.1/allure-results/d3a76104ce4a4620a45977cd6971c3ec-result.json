@@ -1,0 +1,81 @@
+{
+  "uuid": "8b8027c9-66d7-4ed9-8e19-ac2b8eec1dfd-tr-0-1013",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button title=\"Seleccionar todos\" class=\"cc-ds-headerbtn cc-ds-header-select-all-btn\" tabindex=\"-1\" style=\"font-size: 12px;\"></button> is not clickable at point (236, 167). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-at pa-a pa-p pa-be flexbox\">...</div>\n  (Session info: chrome=107.0.5304.123)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarTodasOfertaGrid() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 745\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 732"
+  },
+  "stage": "finished",
+  "description": "CRM-COF00010 Cerrar Oferta Presentada con producto añadido, Revisada\n",
+  "steps": [
+    {
+      "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button title=\"Seleccionar todos\" class=\"cc-ds-headerbtn cc-ds-header-select-all-btn\" tabindex=\"-1\" style=\"font-size: 12px;\"></button> is not clickable at point (236, 167). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-at pa-a pa-p pa-be flexbox\">...</div>\n  (Session info: chrome=107.0.5304.123)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarTodasOfertaGrid() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 745\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 732"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada-SeleccionTodasOfertas.png",
+          "source": "a7aae336d4c547bab68542ca3ec4024d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "153b7e02af5546d8869f0f2fc3d11a0b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1669878756121,
+      "stop": 1669879089832
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1669878756121,
+  "stop": 1669879089832
+}

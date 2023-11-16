@@ -1,0 +1,81 @@
+{
+  "uuid": "87e0bde3-1910-42a2-94e0-7353f5332838-tr-0-1045",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0004_Producto_Añadir_FibraOscura"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0004_Producto_Añadir_FibraOscura",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ag-cell ag-cell-not-inline-editing ag-cell-normal-height ag-cell-value non-editable-cell\" aria-colindex=\"2\" aria-readonly=\"true\" tabindex=\"-1\" role=\"gridcell\" col-id=\"lyn_semaforo\" style=\"left: 50px; width: 25px; display: flex; align-items: center;\">...</div> is not clickable at point (262, 210). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-kx pa-ky pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=117.0.5938.92)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 342\r\n   at Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 164"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0004 Añadir producto de Fibra Oscura\n",
+  "steps": [
+    {
+      "name": "CRM_APR0004_Producto_Añadir_FibraOscura",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ag-cell ag-cell-not-inline-editing ag-cell-normal-height ag-cell-value non-editable-cell\" aria-colindex=\"2\" aria-readonly=\"true\" tabindex=\"-1\" role=\"gridcell\" col-id=\"lyn_semaforo\" style=\"left: 50px; width: 25px; display: flex; align-items: center;\">...</div> is not clickable at point (262, 210). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-kx pa-ky pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=117.0.5938.92)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 342\r\n   at Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 164"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0004_Producto_Añadir_FibraOscura-SeleccionOferta.png",
+          "source": "bae656b3a98242e5a03e52b55687d445-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "fd809702216542fc90d3798a27629978-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695974335201,
+      "stop": 1695974511194
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695974335201,
+  "stop": 1695974511194
+}

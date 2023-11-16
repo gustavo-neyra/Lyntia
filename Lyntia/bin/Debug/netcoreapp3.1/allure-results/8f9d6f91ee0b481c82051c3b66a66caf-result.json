@@ -1,0 +1,81 @@
+{
+  "uuid": "b1d4f330-3a4f-4a86-815d-0558410d028b-tr-0-1004",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0004_creacionOfertaSinCamposObligatorios",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0004_creacionOfertaSinCamposObligatorios",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03051"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0004_creacionOfertaSinCamposObligatorios"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0004_creacionOfertaSinCamposObligatorios",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0004_creacionOfertaSinCamposObligatorios() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 123"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0004 Creación de Oferta sin informar campos obligatorios\n",
+  "steps": [
+    {
+      "name": "CRM_COF0004_creacionOfertaSinCamposObligatorios",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0004_creacionOfertaSinCamposObligatorios() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 123"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0004_creacionOfertaSinCamposObligatorios-AccesoGestionCliente.png",
+          "source": "e1848c5530f648b3b65dca0f904b308e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e88ff26f3a29405b980afa8a52d3c2ba-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666249254908,
+      "stop": 1666249350484
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666249254907,
+  "stop": 1666249350484
+}

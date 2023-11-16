@@ -1,0 +1,81 @@
+{
+  "uuid": "452c3942-9da5-47aa-a694-62f99f3d2c42-tr-0-1053",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input type=\"text\" id=\"DatePicker47-label\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"dialog\" placeholder=\"---\" aria-describedby=\"TextFieldDescription50\" data-id=\"new_fechaenvoofertacliente.fieldControl-date-time-input\" data-is-focusable=\"true\" class=\"ms-TextField-field field-261\" aria-label=\"Fecha de Fecha de presentación\" aria-invalid=\"false\" value=\"\"> is not clickable at point (591, 850). Other element would receive the click: <div id=\"modalDialogRoot_3_3\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.75)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 418"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0012 Heredar producto Fibra Oscura en Oferta Cambio de Capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input type=\"text\" id=\"DatePicker47-label\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"dialog\" placeholder=\"---\" aria-describedby=\"TextFieldDescription50\" data-id=\"new_fechaenvoofertacliente.fieldControl-date-time-input\" data-is-focusable=\"true\" class=\"ms-TextField-field field-261\" aria-label=\"Fecha de Fecha de presentación\" aria-invalid=\"false\" value=\"\"> is not clickable at point (591, 850). Other element would receive the click: <div id=\"modalDialogRoot_3_3\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.75)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 418"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad-AddDatosOferta.png",
+          "source": "0f5ab06b96dd42f383845aed34cb6e5c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5a213950fb76425dad4918f2929efb7a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674632674829,
+      "stop": 1674632771738
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674632674829,
+  "stop": 1674632771739
+}

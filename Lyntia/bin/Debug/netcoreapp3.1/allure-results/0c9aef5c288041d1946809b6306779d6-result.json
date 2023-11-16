@@ -1,0 +1,81 @@
+{
+  "uuid": "b7815ee5-4b0d-4ea6-becc-f2290cb10215-tr-0-1015",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0004_Editar_campo_tipo_de_Oferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementNotInteractableException : element not interactable\n  (Session info: chrome=113.0.5672.92)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.ReestablecerDatosCRM_EOF0004() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 915\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 804"
+  },
+  "stage": "finished",
+  "description": "CRM_EOF0004 Editar campo 'Tipo de oferta' de una Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementNotInteractableException : element not interactable\n  (Session info: chrome=113.0.5672.92)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.ReestablecerDatosCRM_EOF0004() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 915\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 804"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta-ReestablecimientoEOF0004.png",
+          "source": "b80ad1533d0d4c68a9fdde2280f84032-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "99328b28601b4022ad5c840f0bb0e4e9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683874823858,
+      "stop": 1683874929012
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683874823858,
+  "stop": 1683874929012
+}

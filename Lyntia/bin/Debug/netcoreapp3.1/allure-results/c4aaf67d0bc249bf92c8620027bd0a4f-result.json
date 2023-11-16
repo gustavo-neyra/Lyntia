@@ -1,0 +1,81 @@
+{
+  "uuid": "986f1faf-eaeb-49d6-8239-0bbc6731b395-tr-0-1002",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0002_consultaOferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0002_consultaOferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0002_consultaOferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0002_consultaOferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"-1\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-4\" id=\"Grid200eee80-9038-cd1f-81eb-acefb2465635-id-cell-0-4\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-4\" aria-colindex=\"4\" title=\"1\" style=\"left: 268px; top: 0px; width: 74px; height: 40px; text-align: right; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\">...</div> is not clickable at point (505, 207). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-kx pa-ky pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AbrirOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 105\r\n   at Lyntia.TestSet.Oferta.CRM_COF0002_consultaOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 99"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0002 Consultar Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_COF0002_consultaOferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"-1\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-4\" id=\"Grid200eee80-9038-cd1f-81eb-acefb2465635-id-cell-0-4\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-4\" aria-colindex=\"4\" title=\"1\" style=\"left: 268px; top: 0px; width: 74px; height: 40px; text-align: right; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\">...</div> is not clickable at point (505, 207). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-kx pa-ky pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AbrirOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 105\r\n   at Lyntia.TestSet.Oferta.CRM_COF0002_consultaOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 99"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0002_consultaOferta-PrimeraOfertaGrid.png",
+          "source": "a442c08613984ce49d9fc760e4f4c445-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b24c41a58b5c4a3d844d3a3e60f318f3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675150496787,
+      "stop": 1675150548330
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675150496787,
+  "stop": 1675150548331
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "f286c8a8-dbf6-4dd7-8c8f-4d6008b73e4f-tr-0-1043",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03051"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0002_añadir_producto_creacion_rapida"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0002_añadir_producto_creacion_rapida",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.Añadirproducto_vistarapida() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 155\r\n   at Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 94"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0002 Añadir producto correctamente\n",
+  "steps": [
+    {
+      "name": "CRM_APR0002_añadir_producto_creacion_rapida",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.Añadirproducto_vistarapida() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 155\r\n   at Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 94"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0002_añadir_producto_creacion_rapida-Añadir_producto_vista_rapida.png",
+          "source": "1f549a87b4ec4fa1bc69ea05cefbebca-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e00d82c6d2064c269969f62680d21ce3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666853717641,
+      "stop": 1666853850257
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666853717641,
+  "stop": 1666853850258
+}

@@ -1,0 +1,59 @@
+{
+  "uuid": "b07929ca-cd9a-4b20-8bbc-95ad789b4c97-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad",
+  "children": [
+    "bb99ce5e-35a7-4088-8cc5-95571f5f9f11-tr-0-1031"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1679918054076,
+      "stop": 1679918054076
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1679918054077,
+      "stop": 1679918054077
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1679918054077,
+      "stop": 1679918054077
+    }
+  ],
+  "links": [],
+  "start": 1679917659268,
+  "stop": 1679918054162
+}

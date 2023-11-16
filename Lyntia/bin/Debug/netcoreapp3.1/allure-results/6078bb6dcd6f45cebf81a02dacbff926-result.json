@@ -1,0 +1,81 @@
+{
+  "uuid": "8ab0bb77-f361-4f28-85a2-312a2e59410d-tr-0-1052",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03051"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0011_Producto_heredar_CC_CambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"ms-ContextualMenu-itemText label-152\">...</span> is not clickable at point (152, 88). Other element would receive the click: <div role=\"presentation\" class=\"pa-a pa-at pa-x flexbox\">...</div>\n  (Session info: chrome=105.0.5195.127)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 391"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0011 Heredar producto Circuito de Capacidad en Oferta Cambio de Dirección\n",
+  "steps": [
+    {
+      "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"ms-ContextualMenu-itemText label-152\">...</span> is not clickable at point (152, 88). Other element would receive the click: <div role=\"presentation\" class=\"pa-a pa-at pa-x flexbox\">...</div>\n  (Session info: chrome=105.0.5195.127)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 391"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion-AccesoSeccionOfertas.png",
+          "source": "6daa00be9c8840dba46938c0b98aeb3b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "68a6729218ae4445b5469aa107c9bed0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1665384740756,
+      "stop": 1665384940790
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1665384740756,
+  "stop": 1665384940791
+}

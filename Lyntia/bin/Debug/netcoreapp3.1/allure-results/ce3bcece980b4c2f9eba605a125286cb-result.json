@@ -1,0 +1,81 @@
+{
+  "uuid": "21c54f20-bc6b-4545-823a-9b397bdb73a6-tr-0-1052",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0011_Producto_heredar_CC_CambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"sitemap-entity-oferta\" aria-label=\"Ofertas\" role=\"treeitem\" title=\"Ofertas\" tabindex=\"0\" data-id=\"sitemap-entity-oferta\" data-lp-id=\"sitemap-entity-oferta\" data-text=\"Ofertas\" class=\"pa-bm pa-a pa-p pa-bp pa-dr pa-ax pa-b pa-ds pa-dt pa-du pa-dv \" data-pa-landmark-active-element=\"true\" aria-selected=\"true\" aria-current=\"page\">...</li> is not clickable at point (90, 522). Other element would receive the click: <div role=\"dialog\" data-uci-dialog=\"true\" class=\"pa-v pa-f pa-bm pa-tg pa-c pa-b flexbox\" aria-label=\"Creación rápida: Producto de oferta\">...</div>\n  (Session info: chrome=116.0.5845.97)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 69\r\n   at Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 391"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0011 Heredar producto Circuito de Capacidad en Oferta Cambio de Dirección\n",
+  "steps": [
+    {
+      "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"sitemap-entity-oferta\" aria-label=\"Ofertas\" role=\"treeitem\" title=\"Ofertas\" tabindex=\"0\" data-id=\"sitemap-entity-oferta\" data-lp-id=\"sitemap-entity-oferta\" data-text=\"Ofertas\" class=\"pa-bm pa-a pa-p pa-bp pa-dr pa-ax pa-b pa-ds pa-dt pa-du pa-dv \" data-pa-landmark-active-element=\"true\" aria-selected=\"true\" aria-current=\"page\">...</li> is not clickable at point (90, 522). Other element would receive the click: <div role=\"dialog\" data-uci-dialog=\"true\" class=\"pa-v pa-f pa-bm pa-tg pa-c pa-b flexbox\" aria-label=\"Creación rápida: Producto de oferta\">...</div>\n  (Session info: chrome=116.0.5845.97)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 69\r\n   at Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 391"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion-AccesoSeccionOfertas.png",
+          "source": "ac77d01e817e45f78bc8bbd691c57656-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "65185314975c4661a8d118e35a5b7e4f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1692350418849,
+      "stop": 1692350610675
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1692350418849,
+  "stop": 1692350610675
+}

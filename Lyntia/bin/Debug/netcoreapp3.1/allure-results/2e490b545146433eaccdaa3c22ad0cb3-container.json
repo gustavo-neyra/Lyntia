@@ -1,0 +1,48 @@
+{
+  "uuid": "289f4cd9-b21a-4ded-96ea-b34089690521-tc-0-1041",
+  "name": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "children": [
+    "726e669d-4680-429a-a54a-fb2844fff30f-tr-0-1053"
+  ],
+  "befores": [
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=111.0.5563.112)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 33\r\n--TearDown\r\n   at Lyntia.TestSet.Producto.Cierre() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 50"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680065941114,
+      "stop": 1680065941114
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=111.0.5563.112)\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 33\r\n--TearDown\r\n   at Lyntia.TestSet.Producto.Cierre() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 50"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680065941117,
+      "stop": 1680065941117
+    }
+  ],
+  "links": [],
+  "start": 1680065930799,
+  "stop": 1680065941204
+}

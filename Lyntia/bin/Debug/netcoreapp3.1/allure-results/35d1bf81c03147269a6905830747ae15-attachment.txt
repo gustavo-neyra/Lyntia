@@ -1,0 +1,19 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***No se cumplen las condiciones para crear oferta correctamente
+-------------------- - 
+-------------------- - 
+Excepción: NUnit.Framework.AssertionException:   Expected string length 21 but was 25. Strings differ at index 12.
+  Expected: "Nuevo Oferta- Unsaved"
+  But was:  "Nuevo Oferta: Sin guardar"
+  -----------------------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Conditions\OfertaConditions.cs:line 30

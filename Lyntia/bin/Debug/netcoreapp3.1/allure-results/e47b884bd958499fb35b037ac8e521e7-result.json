@@ -1,0 +1,81 @@
+{
+  "uuid": "1fb07cc9-7afe-49e6-a204-9413c30ca796-tr-0-1022",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POF0005_PresentarOferta_Rack_Colocation",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POF0005_PresentarOferta_Rack_Colocation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POF0005_PresentarOferta_Rack_Colocation"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO PRESENTAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POF0005_PresentarOferta_Rack_Colocation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-8-productid270bd3db-d9af-4782-9025-509e298dec0a-productid.fieldControl-LookupResultsDropdown_productid_7_textInputBox_with_filter_new\" aria-label=\"Producto existente, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"productid.fieldControl-LookupResultsDropdown_productid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cp pa-rm pa-rq pa-rr pa-qq pa-qr pa-gn pa-ff pa-fe pa-rs pa-rt pa-ru pa-ip \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (1197, 432). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xd \">...</span>\n  (Session info: chrome=111.0.5563.147)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 55\r\n   at Lyntia.TestSet.Oferta.CRM_POF0005_PresentarOferta_Rack_Colocation() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1072"
+  },
+  "stage": "finished",
+  "description": "CRM-POF0005 Presentar Oferta Rack\n",
+  "steps": [
+    {
+      "name": "CRM_POF0005_PresentarOferta_Rack_Colocation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-8-productid270bd3db-d9af-4782-9025-509e298dec0a-productid.fieldControl-LookupResultsDropdown_productid_7_textInputBox_with_filter_new\" aria-label=\"Producto existente, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"productid.fieldControl-LookupResultsDropdown_productid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cp pa-rm pa-rq pa-rr pa-qq pa-qr pa-gn pa-ff pa-fe pa-rs pa-rt pa-ru pa-ip \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (1197, 432). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xd \">...</span>\n  (Session info: chrome=111.0.5563.147)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 55\r\n   at Lyntia.TestSet.Oferta.CRM_POF0005_PresentarOferta_Rack_Colocation() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1072"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POF0005_PresentarOferta_Rack_Colocation-AddProducto.png",
+          "source": "b90baa9f2d42461ba85d84c6d032a024-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "c476d64da6ce43589e9ffc356f2c0cde-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681295220598,
+      "stop": 1681295457251
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681295220598,
+  "stop": 1681295457251
+}

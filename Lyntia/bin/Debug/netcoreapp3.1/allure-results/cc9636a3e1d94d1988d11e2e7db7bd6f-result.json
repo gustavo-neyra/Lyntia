@@ -1,0 +1,76 @@
+{
+  "uuid": "60915e08-c8dd-4251-bac9-d558d0c8a799-tr-0-1034",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESMADC05316"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[contains(@aria-label, 'Buscar en esta vista')]\"}\n  (Session info: chrome=106.0.5249.91)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Lyntia.TestSet.Actions.CommonActions.waitElement(By locator) in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 262\r\n   at Lyntia.TestSet.Actions.ProductoActions.BuscarCodigo_administrativo2() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 418\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1599\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0004 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[contains(@aria-label, 'Buscar en esta vista')]\"}\n  (Session info: chrome=106.0.5249.91)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Lyntia.TestSet.Actions.CommonActions.waitElement(By locator) in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 262\r\n   at Lyntia.TestSet.Actions.ProductoActions.BuscarCodigo_administrativo2() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 418\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1599\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8720fdbe3f404a5ebc6963da1780c0ec-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666006576557,
+      "stop": 1666006894166
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666006576557,
+  "stop": 1666006894167
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "bc1234e6-137c-4ae5-9c5c-93b118998ded-tr-0-1053",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchFrameException : No frame element found with name or id FullPageWebResource",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 247\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 422"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0012 Heredar producto Fibra Oscura en Oferta Cambio de Capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchFrameException : No frame element found with name or id FullPageWebResource",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 247\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 422"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad-Producto heredado.png",
+          "source": "77245690d8774c99b716fe12b0015c6d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "69be4a9af3db4dc39cb82317b24524b4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677655304757,
+      "stop": 1677655567976
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677655304757,
+  "stop": 1677655567976
+}

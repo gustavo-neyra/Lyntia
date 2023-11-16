@@ -1,0 +1,81 @@
+{
+  "uuid": "525f8082-9d0b-4d3e-ad98-28639e5603f1-tr-0-1024",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0002_Ofeta_Adjudicar_FOC"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0002_Ofeta_Adjudicar_FOC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label class=\"ms-Label root-287\">...</label> is not clickable at point (134, 100). Other element would receive the click: <div role=\"presentation\" class=\"pa-cp pa-e pa-p pa-du flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1132"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0002 - PRO ADJUDICAR OFERTA\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0002_Ofeta_Adjudicar_FOC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label class=\"ms-Label root-287\">...</label> is not clickable at point (134, 100). Other element would receive the click: <div role=\"presentation\" class=\"pa-cp pa-e pa-p pa-du flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1132"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0002_Ofeta_Adjudicar_FOC-AccesoSeccionOfertas.png",
+          "source": "d8541e3f304843f7a4fda45e846411b8-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3ece9af9cb604f1d9d666f7a0369dcbe-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1672146278612,
+      "stop": 1672146325438
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1672146278612,
+  "stop": 1672146325439
+}

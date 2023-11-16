@@ -1,0 +1,59 @@
+{
+  "uuid": "02a87e6a-7136-4e6b-81d0-1c6fc18a1e81-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto",
+  "children": [
+    "732e1728-178d-41c9-a482-7307bfa681de-tr-0-1029"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1668165470759,
+      "stop": 1668165470759
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1668165470760,
+      "stop": 1668165470760
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1668165470760,
+      "stop": 1668165470760
+    }
+  ],
+  "links": [],
+  "start": 1668165213281,
+  "stop": 1668165470823
+}

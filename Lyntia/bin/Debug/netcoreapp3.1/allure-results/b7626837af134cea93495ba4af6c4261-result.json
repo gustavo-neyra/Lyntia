@@ -1,0 +1,86 @@
+{
+  "uuid": "e2c799f7-84b0-459c-9ca7-5022cc05a0d9-tr-0-1017",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0012_Oferta_Cerrar_Adjudicada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_1\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_1\" title=\"\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-ba pa-ax pa-bm pa-in pa-io pa-ip \" value=\"\"> is not clickable at point (1799, 118). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-ky pa-kz pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=111.0.5563.111)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.Seleccionofertarazonadjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 817\r\n   at Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 896"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0012 Cerrar Oferta Adjudicada\n",
+  "steps": [
+    {
+      "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_1\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_1\" title=\"\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-ba pa-ax pa-bm pa-in pa-io pa-ip \" value=\"\"> is not clickable at point (1799, 118). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-ky pa-kz pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=111.0.5563.111)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.Seleccionofertarazonadjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 817\r\n   at Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 896"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada-BuscaOferta.png",
+          "source": "702e4d075d904dfd9dc512c4962a66c5-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada-EditarOfertaAdjudicada.png",
+          "source": "2a39efa7e4734594b49bda60bab5dc2c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2ebcb73da2064e7a9f3392198e72cf6b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679906068317,
+      "stop": 1679906132252
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679906068316,
+  "stop": 1679906132261
+}

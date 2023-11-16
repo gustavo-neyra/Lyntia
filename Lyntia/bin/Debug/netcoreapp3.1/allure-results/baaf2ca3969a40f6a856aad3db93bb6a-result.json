@@ -1,0 +1,76 @@
+{
+  "uuid": "eac0570d-744d-4e25-844e-73c0e5a910d2-tr-0-1038",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06582"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"tab5_8\" aria-label=\"Fechas\" aria-selected=\"false\" role=\"tab\" title=\"Fechas\" tabindex=\"-1\" data-lp-id=\"form-tab-tab5\" data-id=\"tablist-tab_3\" data-preview-click-through=\"true\" data-preview-dont-show-borders=\"true\" data-preview_orientation=\"column\" class=\"pa-av pa-os pa-pc pa-cw pa-bf pa-pe pa-pf pa-l pa-oz pa-hw pa-e pa-cy pa-gi pa-pg pa-pj \">...</li> is not clickable at point (859, 186). Other element would receive the click: <div id=\"modalDialogRoot_10_10\" tabindex=\"-1\" class=\"pa-f pa-bd pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=113.0.5672.127)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 249\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposObligatoriosProducto(String tipoProducto, Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1228\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1794"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0003 - Oferta/Servicio/CANCELACIÓN Ubired Pro\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"tab5_8\" aria-label=\"Fechas\" aria-selected=\"false\" role=\"tab\" title=\"Fechas\" tabindex=\"-1\" data-lp-id=\"form-tab-tab5\" data-id=\"tablist-tab_3\" data-preview-click-through=\"true\" data-preview-dont-show-borders=\"true\" data-preview_orientation=\"column\" class=\"pa-av pa-os pa-pc pa-cw pa-bf pa-pe pa-pf pa-l pa-oz pa-hw pa-e pa-cy pa-gi pa-pg pa-pj \">...</li> is not clickable at point (859, 186). Other element would receive the click: <div id=\"modalDialogRoot_10_10\" tabindex=\"-1\" class=\"pa-f pa-bd pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=113.0.5672.127)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 249\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposObligatoriosProducto(String tipoProducto, Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1228\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1794"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "68cf8342c0774d6daf91bff9fb2b08ea-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684912136394,
+      "stop": 1684912514349
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684912136394,
+  "stop": 1684912514349
+}

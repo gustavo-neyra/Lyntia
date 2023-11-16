@@ -1,0 +1,81 @@
+{
+  "uuid": "6ca71889-64a9-4181-8fc6-de874be07f1a-tr-0-1027",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label title=\".... Vista del sistema\" class=\"ms-Label root-185\">CLIENTES LYNTIA</label> is not clickable at point (358, 228). Other element would receive the click: <div wj-part=\"root\" style=\"position:absolute;width:100%;height:100%;overflow:auto;max-width:inherit;max-height:inherit;-webkit-overflow-scrolling:touch;\">...</div>\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1235"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0001 - Oferta_Eliminar_En_borrador_Sin_Producto\n",
+  "steps": [
+    {
+      "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label title=\".... Vista del sistema\" class=\"ms-Label root-185\">CLIENTES LYNTIA</label> is not clickable at point (358, 228). Other element would receive the click: <div wj-part=\"root\" style=\"position:absolute;width:100%;height:100%;overflow:auto;max-width:inherit;max-height:inherit;-webkit-overflow-scrolling:touch;\">...</div>\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1235"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto-AccesoGestionCliente.png",
+          "source": "04b2c106c46749f0a95ac28b774f6be6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3579d75be6f44ee79d75b562768ee531-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1665989237833,
+      "stop": 1665989278580
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1665989237832,
+  "stop": 1665989278586
+}

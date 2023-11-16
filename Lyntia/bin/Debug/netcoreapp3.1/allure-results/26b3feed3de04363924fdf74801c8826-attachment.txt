@@ -1,0 +1,7 @@
+Error al iniciar el instaciador : OpenQA.Selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=111.0.5563.112)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.set_Url(String value)
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)
+   at Lyntia.Utilities.Utils.Instanciador() in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\Utilities\Utils.cs:line 56

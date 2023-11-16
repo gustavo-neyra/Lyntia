@@ -1,0 +1,86 @@
+{
+  "uuid": "0fbcada6-e0e4-4aa6-965b-285b24129cbb-tr-0-1016",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0011_eliminarOferta_Adjudicada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0011_eliminarOferta_Adjudicada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"-1\" role=\"gridcell\" aria-selected=\"false\" class=\"wj-cell data-selectable\" header-row-number=\"0\" data-id=\"cell-0-1\" id=\"Gridc1ec05e2-c077-d3ca-bd8e-6f6781040ce2-id-cell-0-1\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-1\" style=\"left: 0px; top: 0px; width: 45px; height: 40px; text-align: left; margin-left: 20px !important; padding-left: 7px !important; font-size: 12px; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\" aria-colindex=\"1\">...</div> is not clickable at point (242, 207). Other element would receive the click: <div id=\"modalDialogRoot_10_10\" tabindex=\"-1\" class=\"pa-f pa-ay pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AccederOfertaestado_Adjudicada(Dictionary`2 datosTestCase) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 688\r\n   at Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 849"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0011 Eliminar una Oferta Adjudicada\n",
+  "steps": [
+    {
+      "name": "CRM_COF0011_eliminarOferta_Adjudicada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"-1\" role=\"gridcell\" aria-selected=\"false\" class=\"wj-cell data-selectable\" header-row-number=\"0\" data-id=\"cell-0-1\" id=\"Gridc1ec05e2-c077-d3ca-bd8e-6f6781040ce2-id-cell-0-1\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-1\" style=\"left: 0px; top: 0px; width: 45px; height: 40px; text-align: left; margin-left: 20px !important; padding-left: 7px !important; font-size: 12px; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\" aria-colindex=\"1\">...</div> is not clickable at point (242, 207). Other element would receive the click: <div id=\"modalDialogRoot_10_10\" tabindex=\"-1\" class=\"pa-f pa-ay pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AccederOfertaestado_Adjudicada(Dictionary`2 datosTestCase) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 688\r\n   at Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 849"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0011_eliminarOferta_Adjudicada-AgregarFiltroAvanzado.png",
+          "source": "5ab366006fa84abd910655fdfcbb7025-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "CRM_COF0011_eliminarOferta_Adjudicada-AccesoOfertaAdjudicada.png",
+          "source": "d09d85be4c494964bbfb0dd8b838526d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "30d2c25e7f834d6e956f979c52ec28da-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1678951801818,
+      "stop": 1678952099235
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1678951801818,
+  "stop": 1678952099235
+}

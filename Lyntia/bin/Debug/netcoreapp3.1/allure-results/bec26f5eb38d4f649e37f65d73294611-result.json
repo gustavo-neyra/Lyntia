@@ -1,0 +1,81 @@
+{
+  "uuid": "83139f44-b907-4079-b588-34e33ca66131-tr-0-1011",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label class=\"ms-Label root-185\">...</label> is not clickable at point (358, 228). Other element would receive the click: <div wj-part=\"root\" style=\"position:absolute;width:100%;height:100%;overflow:auto;max-width:inherit;max-height:inherit;-webkit-overflow-scrolling:touch;\">...</div>\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 464"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0006 Eliminar Oferta en borrador con producto añadido desde el grid\n",
+  "steps": [
+    {
+      "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label class=\"ms-Label root-185\">...</label> is not clickable at point (358, 228). Other element would receive the click: <div wj-part=\"root\" style=\"position:absolute;width:100%;height:100%;overflow:auto;max-width:inherit;max-height:inherit;-webkit-overflow-scrolling:touch;\">...</div>\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 464"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid-AccesoGestionCliente.png",
+          "source": "3ec30c90fa0e44a3abea9b987cfaa9f2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "be96abbeb5f7497d9aec92dfff07b50a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666857182424,
+      "stop": 1666857280622
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666857182423,
+  "stop": 1666857280630
+}

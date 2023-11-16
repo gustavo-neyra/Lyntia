@@ -1,0 +1,81 @@
+{
+  "uuid": "c3c1e834-7a6f-40bf-a338-21d4ece4900c-tr-0-1034",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1568"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0004 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1568"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness-AccesoGestionCliente.png",
+          "source": "d662815735ff4be79502475ef3cebda4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5e4fa8252ca14c408bbe8be22735977e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677747353124,
+      "stop": 1677747487105
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677747353124,
+  "stop": 1677747487105
+}

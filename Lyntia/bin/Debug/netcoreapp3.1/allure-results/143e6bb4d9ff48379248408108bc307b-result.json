@@ -1,0 +1,81 @@
+{
+  "uuid": "153c44e3-5641-430e-920e-3aa253394417-tr-0-1009",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0009_creacionOfertaCambioDireccion",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0009_creacionOfertaCambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0009_creacionOfertaCambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0009_creacionOfertaCambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Oferta.CRM_COF0009_creacionOfertaCambioDireccion() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 384"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0009 Creación de Oferta de tipo Cambio de dirección (Migración)\n",
+  "steps": [
+    {
+      "name": "CRM_COF0009_creacionOfertaCambioDireccion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Oferta.CRM_COF0009_creacionOfertaCambioDireccion() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 384"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0009_creacionOfertaCambioDireccion-AddDatosOferta.png",
+          "source": "d1f7b2f957d14d65a6db21241d3d1dc3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "9fd8124129834630966c7ef9653e13b9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1697702855355,
+      "stop": 1697702980779
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697702855355,
+  "stop": 1697702980779
+}

@@ -1,0 +1,59 @@
+{
+  "uuid": "7e59f4bc-20ef-4357-8c36-d421503a8a99-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura",
+  "children": [
+    "058e2541-7d98-4d66-8d2f-62d17ce52cba-tr-0-1032"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677056448187,
+      "stop": 1677056448187
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677056448187,
+      "stop": 1677056448187
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1677056448188,
+      "stop": 1677056448188
+    }
+  ],
+  "links": [],
+  "start": 1677056081664,
+  "stop": 1677056448193
+}

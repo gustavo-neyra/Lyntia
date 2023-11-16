@@ -1,0 +1,31 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM-COF0010, CLIENTE INTEGRACION, Nuevo servicio, # BizQA.
+La Oferta se guarda correctamente.
+Producto guardado correctamente: Circuitos de capacidad, FTTT, 1 Gbps, , 4, 
+Se accede correctamente a la sección Mis Ofertas lyntia
+Se busca la Oferta por parámetro: CRM-COF00102104231006.
+***Se cumple la condición de Oferta guardada Correctamente.
+Se selecciona la Oferta del grid.
+Se abre la Oferta CRM-COF00102104231006 se abre correctamente.
+***Se cumple la condicion de oferta presentada
+No se completa el proceso de cierre de Oferta (Aceptar).
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.WebDriverArgumentException: invalid argument: uniqueContextId not found
+  (Session info: chrome=112.0.5615.138)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass17_0.<InvisibilityOfElementLocated>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Lyntia.TestSet.Actions.OfertaActions.esperarCierreOferta() in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 1730
+   at Lyntia.TestSet.Actions.OfertaActions.CerrarOfertaActual(Dictionary`2 datosCierreOferta) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 653

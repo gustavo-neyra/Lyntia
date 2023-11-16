@@ -1,0 +1,13 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+No se pudo acceder a Gestión de Cliente
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 45 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 248
+   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 39

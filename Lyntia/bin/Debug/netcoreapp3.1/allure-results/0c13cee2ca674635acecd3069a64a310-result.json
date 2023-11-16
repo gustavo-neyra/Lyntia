@@ -1,0 +1,81 @@
+{
+  "uuid": "e2470ca6-7032-4f3a-8831-5a273c772352-tr-0-1053",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"sitemap-entity-oferta\" aria-label=\"Ofertas\" role=\"treeitem\" title=\"Ofertas\" tabindex=\"0\" data-id=\"sitemap-entity-oferta\" data-lp-id=\"sitemap-entity-oferta\" data-text=\"Ofertas\" class=\"pa-bm pa-a pa-p pa-bp pa-cv pa-ax pa-b pa-cw pa-cx pa-cy pa-cz \" data-pa-landmark-active-element=\"true\" aria-selected=\"true\">...</li> is not clickable at point (99, 522). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-em pa-cv pa-yd \">...</span>\n  (Session info: chrome=110.0.5481.104)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 424"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0012 Heredar producto Fibra Oscura en Oferta Cambio de Capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"sitemap-entity-oferta\" aria-label=\"Ofertas\" role=\"treeitem\" title=\"Ofertas\" tabindex=\"0\" data-id=\"sitemap-entity-oferta\" data-lp-id=\"sitemap-entity-oferta\" data-text=\"Ofertas\" class=\"pa-bm pa-a pa-p pa-bp pa-cv pa-ax pa-b pa-cw pa-cx pa-cy pa-cz \" data-pa-landmark-active-element=\"true\" aria-selected=\"true\">...</li> is not clickable at point (99, 522). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-em pa-cv pa-yd \">...</span>\n  (Session info: chrome=110.0.5481.104)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 424"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad-AccesoSeccionOfertas.png",
+          "source": "b57298c297e94aa18b13a104b7105540-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "91c0129f11944c3495cdfb53ad86200e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677056120619,
+      "stop": 1677056273751
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677056120619,
+  "stop": 1677056273754
+}

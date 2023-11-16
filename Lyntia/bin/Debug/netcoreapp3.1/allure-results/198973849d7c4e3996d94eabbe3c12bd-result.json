@@ -1,0 +1,81 @@
+{
+  "uuid": "6ceb3e8b-25d1-4d20-a89c-385c16d54a75-tr-0-1008",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0008_creacionOfertaCambioSolucionTecnica",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0008_creacionOfertaCambioSolucionTecnica",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0008_creacionOfertaCambioSolucionTecnica"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0008_creacionOfertaCambioSolucionTecnica",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[contains(@data-id,'createdon')]\"}\n  (Session info: chrome=114.0.5735.134)",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_FechasInformadasCorrectamente() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 109\r\n   at Lyntia.TestSet.Oferta.CRM_COF0008_creacionOfertaCambioSolucionTecnica() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 362"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0008 Creación de Oferta de tipo Cambio de Solución Técnica (Tecnología)\n",
+  "steps": [
+    {
+      "name": "CRM_COF0008_creacionOfertaCambioSolucionTecnica",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[contains(@data-id,'createdon')]\"}\n  (Session info: chrome=114.0.5735.134)",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_FechasInformadasCorrectamente() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 109\r\n   at Lyntia.TestSet.Oferta.CRM_COF0008_creacionOfertaCambioSolucionTecnica() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 362"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0008_creacionOfertaCambioSolucionTecnica-FechasInformadascorrectamente.png",
+          "source": "f825fe924a7642909cc7e6f21aee9ef0-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "74ccc3eba8d14d209d9610f964cb7d07-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687332308618,
+      "stop": 1687332545806
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687332308618,
+  "stop": 1687332545806
+}

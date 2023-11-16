@@ -1,0 +1,81 @@
+{
+  "uuid": "0e3bc2b1-a506-4651-849f-8517a91bc781-tr-0-1052",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0011_Producto_heredar_CC_CambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-b1bbaba3-f806-49e9-9d25-70fd5c1e2e8f-7-customerid270bd3db-d9af-4782-9025-509e298dec0a-customerid.fieldControl-LookupResultsDropdown_customerid_2_textInputBox_with_filter_new\" aria-label=\"Cliente, Búsqueda\" aria-required=\"true\" aria-expanded=\"false\" aria-haspopup=\"tree\" role=\"combobox\" data-id=\"customerid.fieldControl-LookupResultsDropdown_customerid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cr pa-rk pa-ro pa-rp pa-qo pa-qp pa-gm pa-fg pa-ff pa-rq pa-rr pa-rs pa-io \" value=\"---\"> is not clickable at point (595, 505). Other element would receive the click: <div id=\"modalDialogRoot_3_3\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.75)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 385"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0011 Heredar producto Circuito de Capacidad en Oferta Cambio de Dirección\n",
+  "steps": [
+    {
+      "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-b1bbaba3-f806-49e9-9d25-70fd5c1e2e8f-7-customerid270bd3db-d9af-4782-9025-509e298dec0a-customerid.fieldControl-LookupResultsDropdown_customerid_2_textInputBox_with_filter_new\" aria-label=\"Cliente, Búsqueda\" aria-required=\"true\" aria-expanded=\"false\" aria-haspopup=\"tree\" role=\"combobox\" data-id=\"customerid.fieldControl-LookupResultsDropdown_customerid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cr pa-rk pa-ro pa-rp pa-qo pa-qp pa-gm pa-fg pa-ff pa-rq pa-rr pa-rs pa-io \" value=\"---\"> is not clickable at point (595, 505). Other element would receive the click: <div id=\"modalDialogRoot_3_3\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.75)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 385"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion-AddDatosOferta.png",
+          "source": "07022120ed044a8091b026964e0d3ae6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "0d1e2ddc929246ffadd548fc63a6333a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674632594716,
+      "stop": 1674632674788
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674632594716,
+  "stop": 1674632674788
+}

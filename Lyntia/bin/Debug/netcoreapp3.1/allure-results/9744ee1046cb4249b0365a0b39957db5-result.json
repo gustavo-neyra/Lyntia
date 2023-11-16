@@ -1,0 +1,81 @@
+{
+  "uuid": "d919ccd6-10ad-45fc-9366-a9e529affc0a-tr-0-1033",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESMADC05316"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@id,'Servicios_contratados-pcf_grid_control_container')]//label[@aria-label='En construcción']//div\"}\n  (Session info: chrome=107.0.5304.88)",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.ResultadResVentanaCrearPedidofechaposterior() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 562\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1549\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0003 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds\r\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@id,'Servicios_contratados-pcf_grid_control_container')]//label[@aria-label='En construcción']//div\"}\n  (Session info: chrome=107.0.5304.88)",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.ResultadResVentanaCrearPedidofechaposterior() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 562\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO() in C:\\Users\\jose.puentenueva\\Documents\\REPOS\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1549\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO-ResultadResVentanaCrearPedidofechaposterior.png",
+          "source": "e33289349e5e412bbb92810af0f03e4f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e9599775d7b64b39b52d1f32bcfd5949-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1667397677463,
+      "stop": 1667398049876
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1667397677463,
+  "stop": 1667398049877
+}

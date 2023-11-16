@@ -1,0 +1,73 @@
+{
+  "uuid": "3c78c528-bc30-44e2-921b-04f96b1ed864-tr-0-1035",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0005 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "09dcb18dd57c41b88b568f903c317614-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675244192695,
+      "stop": 1675244547208
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675244192694,
+  "stop": 1675244547216
+}

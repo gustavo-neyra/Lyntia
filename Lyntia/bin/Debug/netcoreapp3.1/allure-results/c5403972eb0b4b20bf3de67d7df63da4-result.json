@@ -1,0 +1,81 @@
+{
+  "uuid": "67cb08f0-c91c-4520-9b9a-13325a91bc86-tr-0-1045",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0004_Producto_Añadir_FibraOscura"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0004_Producto_Añadir_FibraOscura",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|Form|Mscrm.SavePrimary12-button\" aria-label=\"Guardar (CTRL+S)\" aria-describedby=\"id-1896\" role=\"menuitem\" title=\"Guardar (CTRL+S)\n\nGuarde Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" data-lp-id=\"Form:quote-quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" type=\"button\" class=\"pa-ax pa-js pa-gy pa-ge pa-bp pa-jz pa-p pa-ka pa-kb pa-jy flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (420, 68). Other element would receive the click: <div role=\"dialog\" data-uci-dialog=\"true\" class=\"pa-v pa-f pa-bm pa-sz pa-c pa-b flexbox\" aria-label=\"Creación rápida: Producto de oferta\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 136\r\n   at Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 159"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0004 Añadir producto de Fibra Oscura\n",
+  "steps": [
+    {
+      "name": "CRM_APR0004_Producto_Añadir_FibraOscura",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|Form|Mscrm.SavePrimary12-button\" aria-label=\"Guardar (CTRL+S)\" aria-describedby=\"id-1896\" role=\"menuitem\" title=\"Guardar (CTRL+S)\n\nGuarde Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" data-lp-id=\"Form:quote-quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" type=\"button\" class=\"pa-ax pa-js pa-gy pa-ge pa-bp pa-jz pa-p pa-ka pa-kb pa-jy flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (420, 68). Other element would receive the click: <div role=\"dialog\" data-uci-dialog=\"true\" class=\"pa-v pa-f pa-bm pa-sz pa-c pa-b flexbox\" aria-label=\"Creación rápida: Producto de oferta\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 136\r\n   at Lyntia.TestSet.Producto.CRM_APR0004_Producto_Añadir_FibraOscura() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 159"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0004_Producto_Añadir_FibraOscura-GuardarProducto.png",
+          "source": "c6d11e56f0724d85bff351ef0827401c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "44adac75128c4522b9c27df0c56c9104-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674806855148,
+      "stop": 1674807034164
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674806855147,
+  "stop": 1674807034171
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "afd3ac5a-4494-432a-98a8-0c1eb08e253a-tr-0-1036",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Cannot locate element with text: ",
+    "trace": "   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text, Boolean partialMatch)\r\n   at Lyntia.TestSet.Actions.CommonActions.seleccionarEnCampoDesplegable(String elementoKey, String text) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 178\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposObligatoriosProducto(String tipoProducto, Dictionary`2 datosTestCase) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1200\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1696"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0001 - Oferta/Servicio/CANCELACIÓN CC\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Cannot locate element with text: ",
+        "trace": "   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text, Boolean partialMatch)\r\n   at Lyntia.TestSet.Actions.CommonActions.seleccionarEnCampoDesplegable(String elementoKey, String text) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 178\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposObligatoriosProducto(String tipoProducto, Dictionary`2 datosTestCase) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1200\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1696"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9aa97fbaffc94512bccc54ad0b8d2d6c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683789491169,
+      "stop": 1683789943385
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683789491169,
+  "stop": 1683789943385
+}

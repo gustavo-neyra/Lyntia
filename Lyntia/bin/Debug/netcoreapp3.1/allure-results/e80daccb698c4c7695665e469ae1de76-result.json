@@ -1,0 +1,81 @@
+{
+  "uuid": "88e2b3c8-adf9-4d15-adb8-2b56c0d7c5f6-tr-0-1048",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0007_Producto_Añadir_Rack_Colocation"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-b1bbaba3-f806-49e9-9d25-70fd5c1e2e8f-2-name4273edbd-ac1d-40d3-9fb2-095c621b552d-name.fieldControl-text-box-text\" aria-label=\"Nombre oferta\" aria-required=\"true\" title=\"\" data-id=\"name.fieldControl-text-box-text\" placeholder=\"\" maxlength=\"300\" autocomplete=\"off\" type=\"text\" class=\"pa-y pa-br pa-hx pa-at pa-cz pa-dj pa-di pa-pa pa-ru pa-rv pa-in pa-op pa-al pa-am pa-gv pa-ib pa-ng pa-rz pa-sa pa-sb pa-sc pa-sd pa-se pa-sf pa-jg pa-sg pa-sh pa-si pa-sj pa-sk pa-sl pa-sm pa-sn pa-bv pa-so pa-if \" value=\"---\"> is not clickable at point (708, 404). Other element would receive the click: <div id=\"modalDialogRoot_3_3\" tabindex=\"-1\" class=\"pa-f pa-at pa-a pa-p pa-be flexbox\">...</div>\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 253"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0007 Añadir producto de Rack\n",
+  "steps": [
+    {
+      "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-b1bbaba3-f806-49e9-9d25-70fd5c1e2e8f-2-name4273edbd-ac1d-40d3-9fb2-095c621b552d-name.fieldControl-text-box-text\" aria-label=\"Nombre oferta\" aria-required=\"true\" title=\"\" data-id=\"name.fieldControl-text-box-text\" placeholder=\"\" maxlength=\"300\" autocomplete=\"off\" type=\"text\" class=\"pa-y pa-br pa-hx pa-at pa-cz pa-dj pa-di pa-pa pa-ru pa-rv pa-in pa-op pa-al pa-am pa-gv pa-ib pa-ng pa-rz pa-sa pa-sb pa-sc pa-sd pa-se pa-sf pa-jg pa-sg pa-sh pa-si pa-sj pa-sk pa-sl pa-sm pa-sn pa-bv pa-so pa-if \" value=\"---\"> is not clickable at point (708, 404). Other element would receive the click: <div id=\"modalDialogRoot_3_3\" tabindex=\"-1\" class=\"pa-f pa-at pa-a pa-p pa-be flexbox\">...</div>\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 253"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation-AddDatosOferta.png",
+          "source": "c36cc236b3814fa39be84710d61e869b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "12a2ea15c7d34228951e08bcf8cdd6fc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666768573406,
+      "stop": 1666768639504
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666768573405,
+  "stop": 1666768639511
+}

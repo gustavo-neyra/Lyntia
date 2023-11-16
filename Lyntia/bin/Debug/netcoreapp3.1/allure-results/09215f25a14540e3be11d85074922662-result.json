@@ -1,0 +1,76 @@
+{
+  "uuid": "1b8207e4-9c96-4733-9d8b-5807a52ccf29-tr-0-1038",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Lyntia.TestSet.Actions.CommonActions.esperarGuardado() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 289\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposObligatoriosProducto(String tipoProducto, Dictionary`2 datosTestCase) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1244\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1809"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0003 - Oferta/Servicio/CANCELACIÓN Ubired Pro\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Lyntia.TestSet.Actions.CommonActions.esperarGuardado() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 289\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposObligatoriosProducto(String tipoProducto, Dictionary`2 datosTestCase) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1244\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1809"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b502c43a626c4a1fa22b91eaceaf34f9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1696431603584,
+      "stop": 1696432263767
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1696431603583,
+  "stop": 1696432263770
+}

@@ -1,0 +1,59 @@
+{
+  "uuid": "3c1c0bea-3945-4aaf-865a-1605bb3bb2b0-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "children": [
+    "9b07282e-a614-4fc6-8a76-442a07d4222b-tr-0-1039"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681807964995,
+      "stop": 1681807964995
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681807964996,
+      "stop": 1681807964996
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681807964996,
+      "stop": 1681807964996
+    }
+  ],
+  "links": [],
+  "start": 1681807507252,
+  "stop": 1681807965023
+}

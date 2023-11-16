@@ -1,0 +1,23 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se han introducido correctamente los campos de la Oferta: CRM_SECAN0002, CLIENTE INTEGRACION, Nuevo servicio, .
+La Oferta se guarda correctamente.
+El producto no fue creado: Circuitos de capacidad, FTTE, 4, , 4, Lease
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <button id="quote|NoRelationship|Form|Mscrm.SavePrimary12-button" aria-label="Guardar (CTRL+S)" aria-describedby="id-3136" role="menuitem" title="Guardar (CTRL+S)
+
+Guarde Oferta." tabindex="-1" data-id="quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save" data-lp-id="Form:quote-quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save" type="button" class="pa-ax pa-kc pa-gz pa-cp pa-bp pa-kj pa-p pa-kk pa-kl pa-ki flexbox" style="outline-color: rgb(102, 102, 102);">...</button> is not clickable at point (420, 68). Other element would receive the click: <div role="dialog" data-uci-dialog="true" class="pa-v pa-f pa-bm pa-tg pa-c pa-b flexbox" aria-label="Creación rápida: Producto de oferta">...</div>
+  (Session info: chrome=114.0.5735.199)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\ProductoActions.cs:line 131

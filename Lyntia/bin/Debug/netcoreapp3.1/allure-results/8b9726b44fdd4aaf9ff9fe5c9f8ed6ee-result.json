@@ -1,0 +1,81 @@
+{
+  "uuid": "f973f3fb-65ea-499f-8cc4-4de396f33457-tr-0-1031",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.AddNewRecordFromSubGridStandardUCI0id-2002-button\" aria-label=\"Agregar producto\" aria-describedby=\"id-2159\" role=\"menuitem\" title=\"Agregar producto\n\nAgrega un producto relacionado a esta oferta\" tabindex=\"0\" data-id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" data-lp-id=\"SubGridStandard:quotedetail-quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" type=\"button\" class=\"pa-ax pa-kc pa-gz pa-cp pa-bp pa-qq pa-p pa-am pa-an flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (1623, 305). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-ace pa-acf pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 54\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1444"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0001 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.AddNewRecordFromSubGridStandardUCI0id-2002-button\" aria-label=\"Agregar producto\" aria-describedby=\"id-2159\" role=\"menuitem\" title=\"Agregar producto\n\nAgrega un producto relacionado a esta oferta\" tabindex=\"0\" data-id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" data-lp-id=\"SubGridStandard:quotedetail-quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" type=\"button\" class=\"pa-ax pa-kc pa-gz pa-cp pa-bp pa-qq pa-p pa-am pa-an flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (1623, 305). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-ace pa-acf pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 54\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1444"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad-AddProducto.png",
+          "source": "e3955ee277b64bf8b82871dd3c02b71c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "32f581592d774e0aa696a9902108e2af-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675765142607,
+      "stop": 1675765426527
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675765142607,
+  "stop": 1675765426536
+}

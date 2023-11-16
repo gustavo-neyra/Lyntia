@@ -1,0 +1,81 @@
+{
+  "uuid": "1a7af714-c024-4566-81df-863535f51bc3-tr-0-1053",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-3-new_servicioorigenafectadoid270bd3db-d9af-4782-9025-509e298dec0a-new_servicioorigenafectadoid.fieldControl-LookupResultsDropdown_new_servicioorigenafectadoid_7_textInputBox_with_filter_new\" aria-label=\"Servicio heredado, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"new_servicioorigenafectadoid.fieldControl-LookupResultsDropdown_new_servicioorigenafectadoid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-gc pa-rf pa-rj pa-rk pa-qj pa-qk pa-gn pa-em pa-el pa-rl pa-rm pa-rn pa-ip \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (1197, 203). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-em pa-cv pa-xz \">...</span>\n  (Session info: chrome=112.0.5615.121)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 260\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Users\\arnau.suiles.ext\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 422"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0012 Heredar producto Fibra Oscura en Oferta Cambio de Capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-3-new_servicioorigenafectadoid270bd3db-d9af-4782-9025-509e298dec0a-new_servicioorigenafectadoid.fieldControl-LookupResultsDropdown_new_servicioorigenafectadoid_7_textInputBox_with_filter_new\" aria-label=\"Servicio heredado, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"new_servicioorigenafectadoid.fieldControl-LookupResultsDropdown_new_servicioorigenafectadoid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-gc pa-rf pa-rj pa-rk pa-qj pa-qk pa-gn pa-em pa-el pa-rl pa-rm pa-rn pa-ip \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (1197, 203). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-em pa-cv pa-xz \">...</span>\n  (Session info: chrome=112.0.5615.121)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 260\r\n   at Lyntia.TestSet.Producto.CRM_APR0012_Producto_heredar_FO_CambioCapacidad() in C:\\Users\\arnau.suiles.ext\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 422"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0012_Producto_heredar_FO_CambioCapacidad-Producto heredado.png",
+          "source": "62355f9f2d9f4c8c94f3a218ce795837-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b8c66414d03d4174b14917c184dc0ebe-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681816457413,
+      "stop": 1681816592962
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681816457413,
+  "stop": 1681816592962
+}

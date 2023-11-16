@@ -1,0 +1,81 @@
+{
+  "uuid": "7971ee2b-68ee-43f2-9874-312155512721-tr-0-1058",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchFrameException : No frame element found with name or id FullPageWebResource",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 247\r\n   at Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 653"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0017 Heredar producto UbiRed Pro en Oferta Cambio de Titular\n",
+  "steps": [
+    {
+      "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchFrameException : No frame element found with name or id FullPageWebResource",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 247\r\n   at Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 653"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular-Producto heredado.png",
+          "source": "730327798240481bbce41bcfe40943bc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ae951ba0a9a94dc08fa65f23e3abc230-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677656729773,
+      "stop": 1677656989439
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677656729773,
+  "stop": 1677656989439
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "bca9f117-4ade-4a67-9f80-498e952732f3-tr-0-1051",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0010_Producto_heredar_CC_CambioPrecio",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0010_Producto_heredar_CC_CambioPrecio",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0010_Producto_heredar_CC_CambioPrecio"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0010_Producto_heredar_CC_CambioPrecio",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchFrameException : No frame element found with name or id FullPageWebResource",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 266\r\n   at Lyntia.TestSet.Producto.CRM_APR0010_Producto_heredar_CC_CambioPrecio() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 356"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0010 Heredar producto Circuito de Capacidad en Oferta Cambio de Precio\n",
+  "steps": [
+    {
+      "name": "CRM_APR0010_Producto_heredar_CC_CambioPrecio",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchFrameException : No frame element found with name or id FullPageWebResource",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 266\r\n   at Lyntia.TestSet.Producto.CRM_APR0010_Producto_heredar_CC_CambioPrecio() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 356"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0010_Producto_heredar_CC_CambioPrecio-Producto heredado.png",
+          "source": "7fd7d740beb34b0198ab55ab431017b6-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3287a1e6c67148bcbc816429445add58-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1678955340064,
+      "stop": 1678955611083
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1678955340064,
+  "stop": 1678955611083
+}

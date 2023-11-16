@@ -1,0 +1,76 @@
+{
+  "uuid": "3d4beeaf-bc2f-4444-b6b6-cac77dd56d4c-tr-0-1038",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06582"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"new_servicioscontratados|NoRelationship|Form|Mscrm.Modern.refreshCommand214-button\" aria-label=\"Actualizar\" role=\"menuitem\" title=\"Actualizar\" tabindex=\"-1\" data-id=\"new_servicioscontratados|NoRelationship|Form|Mscrm.Form.new_servicioscontratados.RefreshModernButton\" data-lp-id=\"Form:new_servicioscontratados-new_servicioscontratados|NoRelationship|Form|Mscrm.Form.new_servicioscontratados.RefreshModernButton\" type=\"button\" class=\"pa-bg pa-hb pa-di pa-hi pa-bf pa-hj pa-p pa-hk pa-hl pa-hh flexbox\">...</button> is not clickable at point (581, 68). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bd pa-dv pa-ho pa-dy pa-xx \">...</span>\n  (Session info: chrome=113.0.5672.129)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 249\r\n   at Lyntia.TestSet.Actions.OfertaActions.Enviar_A_Jira_cancelar() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1681\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1801"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0003 - Oferta/Servicio/CANCELACIÓN Ubired Pro\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"new_servicioscontratados|NoRelationship|Form|Mscrm.Modern.refreshCommand214-button\" aria-label=\"Actualizar\" role=\"menuitem\" title=\"Actualizar\" tabindex=\"-1\" data-id=\"new_servicioscontratados|NoRelationship|Form|Mscrm.Form.new_servicioscontratados.RefreshModernButton\" data-lp-id=\"Form:new_servicioscontratados-new_servicioscontratados|NoRelationship|Form|Mscrm.Form.new_servicioscontratados.RefreshModernButton\" type=\"button\" class=\"pa-bg pa-hb pa-di pa-hi pa-bf pa-hj pa-p pa-hk pa-hl pa-hh flexbox\">...</button> is not clickable at point (581, 68). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bd pa-dv pa-ho pa-dy pa-xx \">...</span>\n  (Session info: chrome=113.0.5672.129)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 249\r\n   at Lyntia.TestSet.Actions.OfertaActions.Enviar_A_Jira_cancelar() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1681\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1801"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2d444731398d41368fe6f5bd09e34d2b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685604987459,
+      "stop": 1685605504781
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685604987458,
+  "stop": 1685605504790
+}

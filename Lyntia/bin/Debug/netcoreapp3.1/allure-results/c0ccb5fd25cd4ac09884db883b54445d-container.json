@@ -1,0 +1,59 @@
+{
+  "uuid": "9504f284-0680-4d2f-8655-f66792a375dd-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro",
+  "children": [
+    "64db0b81-9ae0-4d3b-ba14-d9a852756492-tr-0-1038"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1679563055764,
+      "stop": 1679563055764
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1679563055765,
+      "stop": 1679563055765
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1679563055765,
+      "stop": 1679563055765
+    }
+  ],
+  "links": [],
+  "start": 1679562586609,
+  "stop": 1679563055774
+}

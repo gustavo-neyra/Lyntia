@@ -1,0 +1,81 @@
+{
+  "uuid": "56a96890-f44f-4281-a685-668e002d2058-tr-0-1015",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0004_Editar_campo_tipo_de_Oferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div[data-id ='cell-0-1']\"}\n  (Session info: chrome=111.0.5563.66)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.ReestablecerDatosCRM_EOF0004() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 912\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 804"
+  },
+  "stage": "finished",
+  "description": "CRM_EOF0004 Editar campo 'Tipo de oferta' de una Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div[data-id ='cell-0-1']\"}\n  (Session info: chrome=111.0.5563.66)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.ReestablecerDatosCRM_EOF0004() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 912\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 804"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta-ReestablecimientoEOF0004.png",
+          "source": "bf822f595aaf4098934b9704c54ed23e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "a5f8ee70aea34ac7a4ef313df3d58bc1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679657731186,
+      "stop": 1679657824308
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679657731186,
+  "stop": 1679657824312
+}

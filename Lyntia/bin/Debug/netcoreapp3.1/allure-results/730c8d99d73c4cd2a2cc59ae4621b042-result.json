@@ -1,0 +1,81 @@
+{
+  "uuid": "15743a8f-6803-465e-86bf-fced6b2dd375-tr-0-1040",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_BILLING001_Generar_Facturas"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "GENERAR FACTURAS"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_BILLING001_Generar_Facturas",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"ms-ContextualMenu-itemText label-152\">...</span> is not clickable at point (152, 88). Other element would receive the click: <div role=\"presentation\" class=\"pa-a pa-at pa-x flexbox\">...</div>\n  (Session info: chrome=105.0.5195.127)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1868"
+  },
+  "stage": "finished",
+  "description": "CRM-BILLING001 - Generar/Facturas\n",
+  "steps": [
+    {
+      "name": "CRM_BILLING001_Generar_Facturas",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"ms-ContextualMenu-itemText label-152\">...</span> is not clickable at point (152, 88). Other element would receive the click: <div role=\"presentation\" class=\"pa-a pa-at pa-x flexbox\">...</div>\n  (Session info: chrome=105.0.5195.127)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1868"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_BILLING001_Generar_Facturas-AccesoSeccionOfertas.png",
+          "source": "6ec5f829474241f8948d0466555e2065-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ef7df46b566f43549077998d30206d6d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1665655913181,
+      "stop": 1665655998262
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1665655913181,
+  "stop": 1665655998267
+}

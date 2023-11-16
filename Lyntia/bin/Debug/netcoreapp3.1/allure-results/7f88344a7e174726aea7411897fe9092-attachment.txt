@@ -1,0 +1,24 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se han introducido correctamente los campos de la Oferta: CRM_POAF0005, CLIENTE INTEGRACION, Nuevo servicio, .
+La Oferta se guarda correctamente.
+Producto guardado correctamente: Co-Location genérico, , , , 4, 
+No se añaden correctamente los datos del Producto: Co-Location genérico, , 
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <button id="quotedetail|NoRelationship|SubGridStandard|Mscrm.AddNewRecordFromSubGridStandardUCI0id-1842-button" aria-label="Agregar producto" aria-describedby="id-1928" role="menuitem" title="Agregar producto
+
+Agrega un producto relacionado a esta oferta" tabindex="0" data-id="quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard" data-lp-id="SubGridStandard:quotedetail-quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard" type="button" class="pa-as pa-jm pa-gs pa-cj pa-bk pa-qi pa-p pa-ah pa-ai flexbox" style="outline-color: rgb(102, 102, 102);">...</button> is not clickable at point (1625, 305). Other element would receive the click: <div id="progressIndicatorContainer" role="presentation" class="pa-abm pa-abn pa-p pa-aq pa-h pa-a flexbox">...</div>
+  (Session info: chrome=109.0.5414.75)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\ProductoActions.cs:line 37

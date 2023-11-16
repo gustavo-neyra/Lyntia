@@ -1,0 +1,76 @@
+{
+  "uuid": "bfd02a69-c712-495c-b6a8-96a20c4b000c-tr-0-1058",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=109.0.5414.121)",
+    "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 33"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-APR0017 Heredar producto UbiRed Pro en Oferta Cambio de Titular\n",
+  "steps": [
+    {
+      "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular skipped because of Instanciador failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=109.0.5414.121)",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 33"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "800a1de638104dda83962c935dcd8ddf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675929589660,
+      "stop": 1675929600566
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675929589660,
+  "stop": 1675929600567
+}

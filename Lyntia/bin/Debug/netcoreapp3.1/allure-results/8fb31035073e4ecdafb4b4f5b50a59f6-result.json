@@ -1,0 +1,81 @@
+{
+  "uuid": "3fdd9ec9-4165-434a-9324-8dacb84802d7-tr-0-1048",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0007_Producto_Añadir_Rack_Colocation"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-b1bbaba3-f806-49e9-9d25-70fd5c1e2e8f-2-name4273edbd-ac1d-40d3-9fb2-095c621b552d-name.fieldControl-text-box-text\" aria-label=\"Nombre oferta\" aria-required=\"true\" title=\"\" data-id=\"name.fieldControl-text-box-text\" placeholder=\"\" maxlength=\"300\" autocomplete=\"off\" type=\"text\" class=\"pa-z pa-dv pa-ig pa-bm pa-bd pa-fe pa-fd pa-l pa-se pa-sf pa-iw pa-ox pa-ar pa-as pa-hd pa-ik pa-no pa-sj pa-sk pa-sl pa-sm pa-sn pa-so pa-sp pa-kj pa-sq pa-sr pa-ss pa-st pa-su pa-sv pa-sw pa-sx pa-dz pa-sy pa-io \" value=\"---\"> is not clickable at point (596, 405). Other element would receive the click: <div id=\"modalDialogRoot_3_3\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.75)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 253"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0007 Añadir producto de Rack\n",
+  "steps": [
+    {
+      "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-b1bbaba3-f806-49e9-9d25-70fd5c1e2e8f-2-name4273edbd-ac1d-40d3-9fb2-095c621b552d-name.fieldControl-text-box-text\" aria-label=\"Nombre oferta\" aria-required=\"true\" title=\"\" data-id=\"name.fieldControl-text-box-text\" placeholder=\"\" maxlength=\"300\" autocomplete=\"off\" type=\"text\" class=\"pa-z pa-dv pa-ig pa-bm pa-bd pa-fe pa-fd pa-l pa-se pa-sf pa-iw pa-ox pa-ar pa-as pa-hd pa-ik pa-no pa-sj pa-sk pa-sl pa-sm pa-sn pa-so pa-sp pa-kj pa-sq pa-sr pa-ss pa-st pa-su pa-sv pa-sw pa-sx pa-dz pa-sy pa-io \" value=\"---\"> is not clickable at point (596, 405). Other element would receive the click: <div id=\"modalDialogRoot_3_3\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.75)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 253"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation-AddDatosOferta.png",
+          "source": "39db58549f6340339e18f041505cb549-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ea078fd20f2a4a508443c47144aa55d2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674631984392,
+      "stop": 1674632039513
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674631984392,
+  "stop": 1674632039514
+}

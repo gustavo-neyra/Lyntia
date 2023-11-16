@@ -1,0 +1,21 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se han introducido correctamente los campos de la Oferta: CRM-BILLING001_TestPrueba, CLIENTE INTEGRACION, Nuevo servicio, .
+La Oferta se guarda correctamente.
+No se añaden correctamente los datos del Producto: Fibra oscura, FTTT, 20
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 45 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Lyntia.TestSet.Actions.CommonActions.waitElement(By locator) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 264
+   at Lyntia.TestSet.Actions.CommonActions.getElement(By locator) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 238
+   at Lyntia.TestSet.Actions.CommonActions.clickarBotonBuscarDesplegable(String dicctionaryKey) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 224
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoConDesplegable(String elementoKey, String text) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 170
+   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\ProductoActions.cs:line 43

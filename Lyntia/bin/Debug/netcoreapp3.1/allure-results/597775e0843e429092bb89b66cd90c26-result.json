@@ -1,0 +1,81 @@
+{
+  "uuid": "9c5defb3-0b1e-4f05-b71e-e1a502e42529-tr-0-1012",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverArgumentException : invalid argument: uniqueContextId not found\n  (Session info: chrome=112.0.5615.138)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.CerrarOfertaActual(Dictionary`2 datosCierreOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 670\r\n   at Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 652"
+  },
+  "stage": "finished",
+  "description": "\nCierre TearDown method failed\nCRM-COF0009 Cerrar Oferta en borrador con producto añadido, Perdida\n",
+  "steps": [
+    {
+      "name": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverArgumentException : invalid argument: uniqueContextId not found\n  (Session info: chrome=112.0.5615.138)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.CerrarOfertaActual(Dictionary`2 datosCierreOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 670\r\n   at Lyntia.TestSet.Oferta.CRM_COF0009_cerrarOfertaProductoAnadidoPerdida() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 652"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0009_cerrarOfertaProductoAnadidoPerdida-CierreOferta.png",
+          "source": "e82eb28509e242779e8d5ccfb3fa4a20-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "33e0babd8bee4759ac32a33f20d41a2c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682416563218,
+      "stop": 1682416779657
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682416563218,
+  "stop": 1682416779660
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "ffc1a516-3a2a-4144-9d3e-e9823041036c-tr-0-1046",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0005_Producto_Añadir_UbiredPremium"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0005_Producto_Añadir_UbiredPremium",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 187"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0005 Añadir producto de UbiRed Pro\n",
+  "steps": [
+    {
+      "name": "CRM_APR0005_Producto_Añadir_UbiredPremium",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 187"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0005_Producto_Añadir_UbiredPremium-AddDatosOferta.png",
+          "source": "617baa8298a5442da4a09539f012953a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "a5568b5d68d24b66a40ff92851a8cdb0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1697709552952,
+      "stop": 1697709657917
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697709552952,
+  "stop": 1697709657917
+}

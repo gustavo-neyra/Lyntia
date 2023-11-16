@@ -1,0 +1,81 @@
+{
+  "uuid": "9b9554b8-3c2b-42b5-82f4-2123ab1ef4c9-tr-0-1049",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0008_Producto_Cambio_de_Capacidad_CC",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0008_Producto_Cambio_de_Capacidad_CC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0008_Producto_Cambio_de_Capacidad_CC"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0008_Producto_Cambio_de_Capacidad_CC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button title=\"Seleccionar todos\" class=\"cc-ds-headerbtn cc-ds-header-select-all-btn\" tabindex=\"-1\" style=\"font-size: 12px;\"></button> is not clickable at point (728, 347). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xg \">...</span>\n  (Session info: chrome=114.0.5735.134)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.Borrado_de_producto() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 366\r\n   at Lyntia.TestSet.Producto.CRM_APR0008_Producto_Cambio_de_Capacidad_CC() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 298"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0008 Añadir producto correctamente, Cambio de Capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_APR0008_Producto_Cambio_de_Capacidad_CC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button title=\"Seleccionar todos\" class=\"cc-ds-headerbtn cc-ds-header-select-all-btn\" tabindex=\"-1\" style=\"font-size: 12px;\"></button> is not clickable at point (728, 347). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xg \">...</span>\n  (Session info: chrome=114.0.5735.134)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.Borrado_de_producto() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 366\r\n   at Lyntia.TestSet.Producto.CRM_APR0008_Producto_Cambio_de_Capacidad_CC() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 298"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0008_Producto_Cambio_de_Capacidad_CC-ReestablecimientoPrueba.png",
+          "source": "51e86c4cebf246029252f2faeeebaf9c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d598987a1d3c4554ae857021a5a29329-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687258062185,
+      "stop": 1687258247347
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687258062185,
+  "stop": 1687258247348
+}

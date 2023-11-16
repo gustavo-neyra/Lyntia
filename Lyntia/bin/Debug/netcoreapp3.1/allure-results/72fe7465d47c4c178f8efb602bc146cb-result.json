@@ -1,0 +1,81 @@
+{
+  "uuid": "d5cc1816-5b07-4271-8fc1-67940962477c-tr-0-1047",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0006_Producto_Añadir_UbiredBusiness"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0006_Producto_Añadir_UbiredBusiness",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.105)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 44"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-APR0006 Añadir producto de UbiRed Business\n",
+  "steps": [
+    {
+      "name": "CRM_APR0006_Producto_Añadir_UbiredBusiness skipped because of Instanciador failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.105)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0006_Producto_Añadir_UbiredBusiness-Login.png",
+          "source": "6a66179ca0b64ba9a89ff6ca33ae4869-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "f4a2f07a61d0413e953f1f610fffb30c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677223790040,
+      "stop": 1677223796706
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677223790040,
+  "stop": 1677223796707
+}

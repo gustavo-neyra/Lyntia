@@ -1,0 +1,81 @@
+{
+  "uuid": "96f1d070-1a09-4f9f-bb27-5942fa9b7642-tr-0-1001",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0001_accesoOfertas",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0001_accesoOfertas",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0001_accesoOfertas"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0001_accesoOfertas",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : Frame element cannot be null (Parameter 'frameElement')",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0001_accesoOfertas() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 79"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0001 Acceso a Ofertas\n",
+  "steps": [
+    {
+      "name": "CRM_COF0001_accesoOfertas",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentNullException : Frame element cannot be null (Parameter 'frameElement')",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0001_accesoOfertas() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 79"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0001_accesoOfertas-AccesoGestionCliente.png",
+          "source": "6fcc0dfa31134ceba9b40d7885e3686b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "48f56c3fca8048bc8000b8fe5e6cad2b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683871533917,
+      "stop": 1683871593748
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683871533916,
+  "stop": 1683871593753
+}

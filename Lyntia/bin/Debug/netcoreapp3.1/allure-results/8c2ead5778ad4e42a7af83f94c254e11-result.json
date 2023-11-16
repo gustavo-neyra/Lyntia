@@ -1,0 +1,81 @@
+{
+  "uuid": "469cb070-b052-4e2c-beff-3925e62eb51d-tr-0-1043",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0002_añadir_producto_creacion_rapida"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0002_añadir_producto_creacion_rapida",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"quickCreateLauncher_buttoncrm_header_global\" role=\"presentation\" title=\"Crear\n\nCrear un registro nuevo\" data-expanded=\"false\" class=\"pa-ld pa-aw pa-av pa-le pa-lf pa-lg pa-lh pa-li pa-lj pa-lk pa-ll pa-lm \">...</li> is not clickable at point (1319, 24). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bd pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=113.0.5672.129)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.Añadirproducto_vistarapida() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 156\r\n   at Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 94"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0002 Añadir producto correctamente\n",
+  "steps": [
+    {
+      "name": "CRM_APR0002_añadir_producto_creacion_rapida",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"quickCreateLauncher_buttoncrm_header_global\" role=\"presentation\" title=\"Crear\n\nCrear un registro nuevo\" data-expanded=\"false\" class=\"pa-ld pa-aw pa-av pa-le pa-lf pa-lg pa-lh pa-li pa-lj pa-lk pa-ll pa-lm \">...</li> is not clickable at point (1319, 24). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bd pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=113.0.5672.129)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.Añadirproducto_vistarapida() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 156\r\n   at Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 94"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0002_añadir_producto_creacion_rapida-Añadir_producto_vista_rapida.png",
+          "source": "46a7086043d24f0ab248eefbacee5086-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "0d67256f52d54657ab53c138fb33bcd2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685948453690,
+      "stop": 1685948492718
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685948453690,
+  "stop": 1685948492719
+}

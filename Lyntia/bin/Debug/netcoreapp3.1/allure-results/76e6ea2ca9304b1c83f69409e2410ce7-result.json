@@ -1,0 +1,81 @@
+{
+  "uuid": "742daccb-8119-4574-8e83-dd90a016395d-tr-0-1056",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0015_Producto_heredar_FO_CambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchFrameException : No frame element found with name or id FullPageWebResource",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 246\r\n   at Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 521"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0015 Heredar producto Fibra Oscura en Oferta Cambio de Dirección\n",
+  "steps": [
+    {
+      "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchFrameException : No frame element found with name or id FullPageWebResource",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 246\r\n   at Lyntia.TestSet.Producto.CRM_APR0015_Producto_heredar_FO_CambioDireccion() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 521"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0015_Producto_heredar_FO_CambioDireccion-Producto heredado.png",
+          "source": "3b729a5a005f401aa2e8e678b80cb5da-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "07b411a887584210b46309f2e25210b1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677579153337,
+      "stop": 1677579373309
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677579153336,
+  "stop": 1677579373312
+}

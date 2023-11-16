@@ -1,0 +1,19 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se han introducido correctamente los campos de la Oferta: CRM_POAF0003, CLIENTE INTEGRACION, Nuevo servicio, .
+La Oferta se guarda correctamente.
+Producto guardado correctamente: UbiRed Pro, FTTT, 1 Gbps, , 4, 
+El producto no fue creado: UbiRed Pro, FTTE, 1 Gbps, , 7, 
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 45 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Lyntia.TestSet.Actions.CommonActions.esperarGuardado() in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 289
+   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\ProductoActions.cs:line 129

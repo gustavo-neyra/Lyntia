@@ -1,0 +1,81 @@
+{
+  "uuid": "a3d29289-f155-434b-adbc-b8a797aff4a2-tr-0-1046",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0005_Producto_Añadir_UbiredPremium"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0005_Producto_Añadir_UbiredPremium",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : Frame element cannot be null (Parameter 'frameElement')",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 177"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0005 Añadir producto de UbiRed Pro\n",
+  "steps": [
+    {
+      "name": "CRM_APR0005_Producto_Añadir_UbiredPremium",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentNullException : Frame element cannot be null (Parameter 'frameElement')",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 177"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0005_Producto_Añadir_UbiredPremium-AccesoGestionCliente.png",
+          "source": "f2ef0c39df6e43938eb9b1941ed8969d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d258300ba6fe49c5add1d9f77cbe9c22-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1668759367661,
+      "stop": 1668759471062
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1668759367660,
+  "stop": 1668759471072
+}

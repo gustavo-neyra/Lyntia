@@ -1,0 +1,81 @@
+{
+  "uuid": "8930ea4c-41ed-4a4b-b9ea-843d36579428-tr-0-1034",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@data-id,'transactioncurrencyid_selected_tag_text')]\"}\n  (Session info: chrome=113.0.5672.93)",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 49\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1578"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0004 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@data-id,'transactioncurrencyid_selected_tag_text')]\"}\n  (Session info: chrome=113.0.5672.93)",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 49\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1578"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness-CreaOferta.png",
+          "source": "172b5ee18db44edca65b8f2652aa1254-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "4d76adb994154cb9911f1e9f14ebc40e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684223742736,
+      "stop": 1684223827519
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684223742736,
+  "stop": 1684223827519
+}

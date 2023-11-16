@@ -1,0 +1,76 @@
+{
+  "uuid": "c124c470-af0b-4db7-9aec-49a3be0d81cd-tr-0-1040",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06582"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_BILLING001_Generar_Facturas"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "GENERAR FACTURAS"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_BILLING001_Generar_Facturas",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"tab2_11\" aria-label=\"Detalles de Líneas\" aria-selected=\"false\" role=\"tab\" title=\"Detalles de Líneas\" tabindex=\"-1\" data-lp-id=\"form-tab-tab2\" data-id=\"tablist-tab_lineas\" data-preview-click-through=\"true\" data-preview-dont-show-borders=\"true\" data-preview_orientation=\"column\" class=\"pa-av pa-os pa-pb pa-cw pa-bf pa-pd pa-pe pa-l pa-oz pa-hl pa-e pa-cy pa-gi pa-pf pa-pi \">...</li> is not clickable at point (527, 181). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bd pa-dv pa-hd pa-dy pa-yb \">...</span>\n  (Session info: chrome=113.0.5672.127)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 249\r\n   at Lyntia.TestSet.Actions.OfertaActions.validarConfiguracionFacturacion() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1828\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1910"
+  },
+  "stage": "finished",
+  "description": "CRM-BILLING001 - Generar/Facturas\n",
+  "steps": [
+    {
+      "name": "CRM_BILLING001_Generar_Facturas",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"tab2_11\" aria-label=\"Detalles de Líneas\" aria-selected=\"false\" role=\"tab\" title=\"Detalles de Líneas\" tabindex=\"-1\" data-lp-id=\"form-tab-tab2\" data-id=\"tablist-tab_lineas\" data-preview-click-through=\"true\" data-preview-dont-show-borders=\"true\" data-preview_orientation=\"column\" class=\"pa-av pa-os pa-pb pa-cw pa-bf pa-pd pa-pe pa-l pa-oz pa-hl pa-e pa-cy pa-gi pa-pf pa-pi \">...</li> is not clickable at point (527, 181). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bd pa-dv pa-hd pa-dy pa-yb \">...</span>\n  (Session info: chrome=113.0.5672.127)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 249\r\n   at Lyntia.TestSet.Actions.OfertaActions.validarConfiguracionFacturacion() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1828\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Users\\arnau.suiles\\Source\\Repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1910"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "80c5188485bf4de99e0fc2953b54c72a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684742191690,
+      "stop": 1684742796683
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684742191690,
+  "stop": 1684742796685
+}

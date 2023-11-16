@@ -1,0 +1,18 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+No se pudo crear una nueva Oferta.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <button id="quote|NoRelationship|HomePageGrid|Mscrm.NewRecordFromGrid11-button" aria-label="Nuevo" aria-describedby="id-691" role="menuitem" title="Nuevo
+
+Cree un nuevo registro de Oferta." tabindex="-1" data-id="quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord" data-lp-id="HomePageGrid:quote-quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.NewRecord" type="button" class="pa-ax pa-ka pa-gz pa-cp pa-bp pa-kh pa-p pa-ki pa-kj pa-kg flexbox">...</button> is not clickable at point (427, 69). Other element would receive the click: <div id="progressIndicatorContainer" role="presentation" class="pa-jv pa-jw pa-p pa-av pa-h pa-a flexbox">...</div>
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_NuevaOferta() in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 78

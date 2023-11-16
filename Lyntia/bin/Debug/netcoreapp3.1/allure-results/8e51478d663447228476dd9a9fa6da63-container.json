@@ -1,0 +1,46 @@
+{
+  "uuid": "2f4f215c-f1a0-4f55-a51b-63d7486f1b6c-tc-0-1041",
+  "name": "Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium",
+  "children": [
+    "275706ce-4722-4170-876f-a29654ee5651-tr-0-1046"
+  ],
+  "befores": [
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=110.0.5481.178)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678173376386,
+      "stop": 1678173376386
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1678173376386,
+      "stop": 1678173376386
+    }
+  ],
+  "links": [],
+  "start": 1678173363863,
+  "stop": 1678173376392
+}

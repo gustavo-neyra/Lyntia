@@ -1,0 +1,81 @@
+{
+  "uuid": "dcbf6564-1df4-4013-aba8-28f2a125ae47-tr-0-1036",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <iframe id=\"FullPageWebResource\" aria-label=\"DIALOG_Adjudicar.html\" data-id=\"MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource\" src=\"/%7b638289029130000194%7d/webresources/lyn_DIALOG_Adjudicar.html\" name=\"lyn_DIALOG_Adjudicar.html\" class=\"pa-bm pa-f pa-gl \" cd_frame_id_=\"9fa5843ee4c57d72407db2e1523d7662\"></iframe> is not clickable at point (860, 494). Other element would receive the click: <span id=\"confirmButtonText_7\" class=\"pa-ff pa-fa pa-bd pa-ao pa-e pa-dn \">...</span>\n  (Session info: chrome=116.0.5845.111)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 984\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1692"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0001 - Oferta/Servicio/CANCELACIÓN CC\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <iframe id=\"FullPageWebResource\" aria-label=\"DIALOG_Adjudicar.html\" data-id=\"MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource\" src=\"/%7b638289029130000194%7d/webresources/lyn_DIALOG_Adjudicar.html\" name=\"lyn_DIALOG_Adjudicar.html\" class=\"pa-bm pa-f pa-gl \" cd_frame_id_=\"9fa5843ee4c57d72407db2e1523d7662\"></iframe> is not clickable at point (860, 494). Other element would receive the click: <span id=\"confirmButtonText_7\" class=\"pa-ff pa-fa pa-bd pa-ao pa-e pa-dn \">...</span>\n  (Session info: chrome=116.0.5845.111)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 984\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1692"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC-VentanaCrearPedido.png",
+          "source": "1612578ee20046538faf2549cdb2c574-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "34afbe2ea31e449ebf92aa6e8af9cafa-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1693397820072,
+      "stop": 1693398028486
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1693397820071,
+  "stop": 1693398028488
+}

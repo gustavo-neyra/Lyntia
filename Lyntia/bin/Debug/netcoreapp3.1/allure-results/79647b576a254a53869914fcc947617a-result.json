@@ -1,0 +1,81 @@
+{
+  "uuid": "09159dfa-9f8f-437c-9ce5-fffd911b80f6-tr-0-1047",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0006_Producto_Añadir_UbiredBusiness"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0006_Producto_Añadir_UbiredBusiness",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label class=\"ms-Label root-177\">...</label> is not clickable at point (358, 228). Other element would receive the click: <div class=\"customControl MscrmControls Grid.ReadOnlyGrid MscrmControls.Grid.ReadOnlyGrid\" style=\"width: 100%;\"></div>\n  (Session info: chrome=106.0.5249.119)",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 210"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0006 Añadir producto de UbiRed Business\n",
+  "steps": [
+    {
+      "name": "CRM_APR0006_Producto_Añadir_UbiredBusiness",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <label class=\"ms-Label root-177\">...</label> is not clickable at point (358, 228). Other element would receive the click: <div class=\"customControl MscrmControls Grid.ReadOnlyGrid MscrmControls.Grid.ReadOnlyGrid\" style=\"width: 100%;\"></div>\n  (Session info: chrome=106.0.5249.119)",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 210"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0006_Producto_Añadir_UbiredBusiness-AccesoGestionCliente.png",
+          "source": "b16a32e2f0cb4fbc87e854a33eed6751-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "c3923245da934b48b8460b1ceb7f898d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666939291966,
+      "stop": 1666939363564
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666939291966,
+  "stop": 1666939363564
+}

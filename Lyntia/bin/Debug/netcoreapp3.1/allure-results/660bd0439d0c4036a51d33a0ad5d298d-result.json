@@ -1,0 +1,86 @@
+{
+  "uuid": "bd15f8e1-e9f2-4772-b538-2680b99dc171-tr-0-1014",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0003_Editar_campos_de_una_oferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0003_Editar_campos_de_una_oferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 14 but was 205. Strings differ at index 0.\r\n  Expected: \"En elaboración\"\r\n  But was:  \"\\r\\nOFE-171400-C0W5N3\\r\\nCRM_EOF00032403231124\\r\\nNuevo servicio\\r\\n...\"\r\n  -----------^\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaGuardadaCorrectamenteEnGrid() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 149\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 753\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM_EOF0003 Editar campos de una Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0003_Editar_campos_de_una_oferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 14 but was 205. Strings differ at index 0.\r\n  Expected: \"En elaboración\"\r\n  But was:  \"\\r\\nOFE-171400-C0W5N3\\r\\nCRM_EOF00032403231124\\r\\nNuevo servicio\\r\\n...\"\r\n  -----------^\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaGuardadaCorrectamenteEnGrid() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 149\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0003_Editar_campos_de_una_oferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 753\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_EOF0003_Editar_campos_de_una_oferta-AgregarFiltroAvanzado.png",
+          "source": "f37271bdc15747489038d2ee28c637a7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "CRM_EOF0003_Editar_campos_de_una_oferta-CondicionOfertaGuardada.png",
+          "source": "e839b9e737ec41fba36ffb830df18010-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d72d1a9c73574c06bfb1eb40bd83dfb4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679653434628,
+      "stop": 1679653589462
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679653434627,
+  "stop": 1679653589467
+}

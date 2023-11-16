@@ -1,0 +1,61 @@
+{
+  "uuid": "5062d129-a8e5-44db-8741-04713da9d4e9-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "children": [
+    "2ca08d2f-95c1-4396-86b4-bfb591d546fd-tr-0-1027"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683786964020,
+      "stop": 1683786964020
+    },
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : unknown error: cannot determine loading status\nfrom no such window\n  (Session info: chrome=112.0.5615.140)",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 41"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683786964020,
+      "stop": 1683786964020
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683786964020,
+      "stop": 1683786964020
+    }
+  ],
+  "links": [],
+  "start": 1683786952534,
+  "stop": 1683786964165
+}

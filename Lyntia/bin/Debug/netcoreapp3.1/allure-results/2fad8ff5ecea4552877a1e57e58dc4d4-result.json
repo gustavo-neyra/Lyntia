@@ -1,0 +1,86 @@
+{
+  "uuid": "49ecf4d1-3f08-4184-a1e1-7eb71249da11-tr-0-1015",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0004_Editar_campo_tipo_de_Oferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_1\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_1\" title=\"\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-ba pa-ax pa-bm pa-in pa-io pa-ip \" value=\"\"> is not clickable at point (2439, 118). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.111)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.Tipo_de_oferta_Cambiodecapacidad(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 404\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 788"
+  },
+  "stage": "finished",
+  "description": "CRM_EOF0004 Editar campo 'Tipo de oferta' de una Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_1\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_1\" title=\"\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-ba pa-ax pa-bm pa-in pa-io pa-ip \" value=\"\"> is not clickable at point (2439, 118). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.111)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.Tipo_de_oferta_Cambiodecapacidad(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 404\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 788"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta-BuscaOferta.png",
+          "source": "4ea07c632ec248c3992724dd3cb6f065-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta-TipoOfertaCambioCapacidadEOF0004.png",
+          "source": "8d0aa57f27eb4163bc41800d9d7fabac-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "66fa065d8d294464a0eca0c6688a2d9e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679644912769,
+      "stop": 1679644965835
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679644912769,
+  "stop": 1679644965835
+}

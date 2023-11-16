@@ -1,0 +1,81 @@
+{
+  "uuid": "50b43797-2a97-4999-8a0f-86d55947aac1-tr-0-1005",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0005_creacionOfertaNuevoServicio",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0005_creacionOfertaNuevoServicio",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0005_creacionOfertaNuevoServicio"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0005_creacionOfertaNuevoServicio",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Oferta.CRM_COF0005_creacionOfertaNuevoServicio() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 180"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0005 Creación de Oferta de tipo Nuevo servicio\n",
+  "steps": [
+    {
+      "name": "CRM_COF0005_creacionOfertaNuevoServicio",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 244\r\n   at Lyntia.TestSet.Oferta.CRM_COF0005_creacionOfertaNuevoServicio() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 180"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0005_creacionOfertaNuevoServicio-AddDatosOferta.png",
+          "source": "7ee9fd47fe6a4f37acdad2125ded5878-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e133dc3258de442b9a7650cf0517dd23-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675331539469,
+      "stop": 1675331679023
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675331539468,
+  "stop": 1675331679027
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "ba7a9a63-b143-43a5-a6c3-bb68fbd22cb8-tr-0-1016",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0011_eliminarOferta_Adjudicada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0011_eliminarOferta_Adjudicada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <iframe id=\"FullPageWebResource\" aria-label=\"DIALOG_Adjudicar.html\" data-id=\"MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource\" src=\"/%7b638121383280000194%7d/webresources/lyn_DIALOG_Adjudicar.html\" name=\"lyn_DIALOG_Adjudicar.html\" class=\"pa-bm pa-f pa-gn \" cd_frame_id_=\"13e5b02142e14f3a4bbdc7323a217fe2\"></iframe> is not clickable at point (1049, 597). Other element would receive the click: <span id=\"confirmButtonText_7\" class=\"pa-ff pa-fa pa-bd pa-ao pa-e pa-dn \">...</span>\n  (Session info: chrome=110.0.5481.104)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 973\r\n   at Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 841"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0011 Eliminar una Oferta Adjudicada\n",
+  "steps": [
+    {
+      "name": "CRM_COF0011_eliminarOferta_Adjudicada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <iframe id=\"FullPageWebResource\" aria-label=\"DIALOG_Adjudicar.html\" data-id=\"MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource\" src=\"/%7b638121383280000194%7d/webresources/lyn_DIALOG_Adjudicar.html\" name=\"lyn_DIALOG_Adjudicar.html\" class=\"pa-bm pa-f pa-gn \" cd_frame_id_=\"13e5b02142e14f3a4bbdc7323a217fe2\"></iframe> is not clickable at point (1049, 597). Other element would receive the click: <span id=\"confirmButtonText_7\" class=\"pa-ff pa-fa pa-bd pa-ao pa-e pa-dn \">...</span>\n  (Session info: chrome=110.0.5481.104)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 973\r\n   at Lyntia.TestSet.Oferta.CRM_COF0011_eliminarOferta_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 841"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0011_eliminarOferta_Adjudicada-VentanaCrearPedido.png",
+          "source": "953102420c0d4718aeceb7e6f1f3c881-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "eed27be201c340099d740369f650857f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1676619945825,
+      "stop": 1676620170086
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676619945825,
+  "stop": 1676620170095
+}

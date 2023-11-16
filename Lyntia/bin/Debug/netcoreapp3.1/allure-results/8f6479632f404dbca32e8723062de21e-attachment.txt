@@ -1,0 +1,16 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+No se pudo acceder a Gestión de Cliente
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <label title=".... Vista del sistema" class="ms-Label root-178">CLIENTES LYNTIA</label> is not clickable at point (358, 228). Other element would receive the click: <div wj-part="root" style="position:absolute;width:100%;height:100%;overflow:auto;max-width:inherit;max-height:inherit;-webkit-overflow-scrolling:touch;">...</div>
+  (Session info: chrome=106.0.5249.119)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 40

@@ -1,0 +1,81 @@
+{
+  "uuid": "aca2c485-80f4-478e-af49-f69712971669-tr-0-1006",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0006_creacionOfertaCambioCapacidad"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0006_creacionOfertaCambioCapacidad",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 21 but was 24. Strings differ at index 0.\r\n  Expected: \"CRM_COF00061402230829\"\r\n  But was:  \"---CRM_COF00061402230829\"\r\n  -----------^\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaGuardadaCorrectamente(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 135\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 236\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0006 Creación de Oferta de tipo Cambio de capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_COF0006_creacionOfertaCambioCapacidad",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 21 but was 24. Strings differ at index 0.\r\n  Expected: \"CRM_COF00061402230829\"\r\n  But was:  \"---CRM_COF00061402230829\"\r\n  -----------^\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaGuardadaCorrectamente(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 135\r\n   at Lyntia.TestSet.Oferta.CRM_COF0006_creacionOfertaCambioCapacidad() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 236\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0006_creacionOfertaCambioCapacidad-OfertaGuardacorrectamente.png",
+          "source": "702fb225b7654ff2893242b04d66213b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "37d8c0f781b9465c9ada77c87902cf0a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1676359792060,
+      "stop": 1676359921019
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676359792060,
+  "stop": 1676359921019
+}

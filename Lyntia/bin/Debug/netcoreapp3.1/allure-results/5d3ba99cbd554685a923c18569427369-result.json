@@ -1,0 +1,81 @@
+{
+  "uuid": "9926961d-250e-45d5-80dc-2cb00b33a4e9-tr-0-1057",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchFrameException : No frame element found with name or id FullPageWebResource",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 247\r\n   at Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 587"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0016 Heredar producto UbiRed Pro en Oferta Cambio de Precio\n",
+  "steps": [
+    {
+      "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchFrameException : No frame element found with name or id FullPageWebResource",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 247\r\n   at Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 587"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio-Producto heredado.png",
+          "source": "41296804022f4df2aff266a1214d36dc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "656f585eb8604bc09fb25bf930fbe536-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677656467859,
+      "stop": 1677656729718
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677656467859,
+  "stop": 1677656729718
+}

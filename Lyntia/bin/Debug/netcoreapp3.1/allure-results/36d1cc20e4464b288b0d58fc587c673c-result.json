@@ -1,0 +1,81 @@
+{
+  "uuid": "3040ff8f-f4c2-425d-862c-76f0dd66cda8-tr-0-1013",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-8-productid270bd3db-d9af-4782-9025-509e298dec0a-productid.fieldControl-LookupResultsDropdown_productid_10_textInputBox_with_filter_new\" aria-label=\"Producto existente, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"productid.fieldControl-LookupResultsDropdown_productid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cp pa-rd pa-rh pa-ri pa-qh pa-qi pa-gn pa-ff pa-fe pa-rj pa-rk pa-rl pa-ip \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (1751, 432). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-ay pa-ax pa-ff pa-dr pa-xc \">...</span>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 54\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 689"
+  },
+  "stage": "finished",
+  "description": "CRM-COF00010 Cerrar Oferta Presentada con producto añadido, Revisada\n",
+  "steps": [
+    {
+      "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-8-productid270bd3db-d9af-4782-9025-509e298dec0a-productid.fieldControl-LookupResultsDropdown_productid_10_textInputBox_with_filter_new\" aria-label=\"Producto existente, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"productid.fieldControl-LookupResultsDropdown_productid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cp pa-rd pa-rh pa-ri pa-qh pa-qi pa-gn pa-ff pa-fe pa-rj pa-rk pa-rl pa-ip \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (1751, 432). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-ay pa-ax pa-ff pa-dr pa-xc \">...</span>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 54\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 689"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada-AddProducto.png",
+          "source": "0a9074433d5b42a680bf0fdcbe003ddb-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "732f80077c0d46d4b4954fb04a8f8032-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675324648677,
+      "stop": 1675324840329
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675324648676,
+  "stop": 1675324840333
+}

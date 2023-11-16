@@ -1,0 +1,81 @@
+{
+  "uuid": "5ae5dcbb-97c9-42a9-ae72-e4e85a0572a7-tr-0-1052",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0011_Producto_heredar_CC_CambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_4\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_4\" title=\"\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-ed pa-aw pa-at pa-id pa-ie pa-if \" value=\"\"> is not clickable at point (1799, 118). Other element would receive the click: <div id=\"modalDialogRoot_5_5\" tabindex=\"-1\" class=\"pa-f pa-at pa-a pa-p pa-be flexbox\">...</div>\n  (Session info: chrome=107.0.5304.108)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 297\r\n   at Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 393"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0011 Heredar producto Circuito de Capacidad en Oferta Cambio de Dirección\n",
+  "steps": [
+    {
+      "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_4\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_4\" title=\"\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-ed pa-aw pa-at pa-id pa-ie pa-if \" value=\"\"> is not clickable at point (1799, 118). Other element would receive the click: <div id=\"modalDialogRoot_5_5\" tabindex=\"-1\" class=\"pa-f pa-at pa-a pa-p pa-be flexbox\">...</div>\n  (Session info: chrome=107.0.5304.108)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 297\r\n   at Lyntia.TestSet.Producto.CRM_APR0011_Producto_heredar_CC_CambioDireccion() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 393"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0011_Producto_heredar_CC_CambioDireccion-BuscaOferta.png",
+          "source": "488f5e67c2694dc2bdd0b66952bff943-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "c9cac0ee025e4df3832846b114ae958f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1669362298383,
+      "stop": 1669362516692
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1669362298383,
+  "stop": 1669362516693
+}

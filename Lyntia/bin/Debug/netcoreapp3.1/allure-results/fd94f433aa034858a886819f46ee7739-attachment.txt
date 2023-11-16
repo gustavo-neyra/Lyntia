@@ -1,0 +1,20 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+La Oferta se guarda correctamente.
+***Se cumplen las condiciones de una oferta no creada
+La Oferta se guarda y cierra correctamente.
+***Se cumplen las condiciones de una oferta no creada
+No se introducen los datos de la Oferta: , CLIENTE INTEGRACION, , .
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 45 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Lyntia.TestSet.Actions.CommonActions.seleccionarDesplegable(String textoBusqueda) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 195
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoConDesplegable(String elementoKey, String text) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 170
+   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 220

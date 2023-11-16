@@ -1,0 +1,59 @@
+{
+  "uuid": "f3fe35ef-5ab5-49c8-a6a1-299db9b5d87a-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_POAF0002_Ofeta_Adjudicar_FOC",
+  "children": [
+    "18c1a27d-8876-4367-b2c8-0a06657f80de-tr-0-1024"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684483329745,
+      "stop": 1684483329745
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684483329746,
+      "stop": 1684483329746
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684483329746,
+      "stop": 1684483329746
+    }
+  ],
+  "links": [],
+  "start": 1684483055567,
+  "stop": 1684483329764
+}

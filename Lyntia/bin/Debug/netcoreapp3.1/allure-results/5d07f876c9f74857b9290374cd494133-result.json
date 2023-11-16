@@ -1,0 +1,81 @@
+{
+  "uuid": "8a5b0bb2-add8-4d16-90bf-cad9e3417e40-tr-0-1040",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "17"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_BILLING001_Generar_Facturas"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "GENERAR FACTURAS"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_BILLING001_Generar_Facturas",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"sitemap-entity-oferta\" aria-label=\"Ofertas\" role=\"treeitem\" title=\"Ofertas\" tabindex=\"-1\" data-id=\"sitemap-entity-oferta\" data-lp-id=\"sitemap-entity-oferta\" data-text=\"Ofertas\" class=\"pa-bm pa-a pa-p pa-bp pa-dr pa-ax pa-b pa-ds pa-dt pa-du pa-dv \">...</li> is not clickable at point (90, 107). Other element would receive the click: <div id=\"modalDialogRoot_3_3\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=117.0.5938.89)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 69\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1873"
+  },
+  "stage": "finished",
+  "description": "CRM-BILLING001 - Generar/Facturas\n",
+  "steps": [
+    {
+      "name": "CRM_BILLING001_Generar_Facturas",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <li id=\"sitemap-entity-oferta\" aria-label=\"Ofertas\" role=\"treeitem\" title=\"Ofertas\" tabindex=\"-1\" data-id=\"sitemap-entity-oferta\" data-lp-id=\"sitemap-entity-oferta\" data-text=\"Ofertas\" class=\"pa-bm pa-a pa-p pa-bp pa-dr pa-ax pa-b pa-ds pa-dt pa-du pa-dv \">...</li> is not clickable at point (90, 107). Other element would receive the click: <div id=\"modalDialogRoot_3_3\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=117.0.5938.89)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 69\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1873"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_BILLING001_Generar_Facturas-AccesoSeccionOfertas.png",
+          "source": "e87a29f26e3f4b0bbb731f720583e2be-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "4fe06e17abe74653b4ae939d9793038f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695204068929,
+      "stop": 1695204250928
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695204068928,
+  "stop": 1695204250932
+}

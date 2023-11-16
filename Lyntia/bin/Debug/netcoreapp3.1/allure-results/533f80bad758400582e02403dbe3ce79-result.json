@@ -1,0 +1,81 @@
+{
+  "uuid": "6a7291d8-5f3c-4903-b0f2-5678218e5b04-tr-0-1007",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"0\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-2\" id=\"Grid40bca4a4-2c01-622d-9558-1bfd6dbd8f85-id-cell-0-2\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-2\" style=\"left: 45px; top: 0px; width: 24px; height: 40px; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\" aria-colindex=\"2\" title=\"---\">...</div> is not clickable at point (257, 207). Other element would receive the click: <div id=\"modalDialogRoot_6_6\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AbrirOfertaEnVista(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 321\r\n   at Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 307"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0007 Creacion Oferta Cambio Precio Renovacion\n",
+  "steps": [
+    {
+      "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"0\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-2\" id=\"Grid40bca4a4-2c01-622d-9558-1bfd6dbd8f85-id-cell-0-2\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-2\" style=\"left: 45px; top: 0px; width: 24px; height: 40px; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\" aria-colindex=\"2\" title=\"---\">...</div> is not clickable at point (257, 207). Other element would receive the click: <div id=\"modalDialogRoot_6_6\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AbrirOfertaEnVista(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 321\r\n   at Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 307"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion-AbrirOferta.png",
+          "source": "047ae7352caa434189d5383147924fc3-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "9f20c33fe31b476aa4563048310ea55f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679298934443,
+      "stop": 1679299161072
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679298934443,
+  "stop": 1679299161073
+}

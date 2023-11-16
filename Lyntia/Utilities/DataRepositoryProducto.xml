@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is a sample XML document -->
+<!DOCTYPE ProjectProperties>
+<TestsCase>
+	<!-- si fechaPresentacion está vacía se usará la fecha actual-->
+	<CRM_APR0001_añadir_producto>
+		<oferta>
+			<nombreOferta>CRM_APR0001</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>utprx20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<!-- Adaptado a nuevo nombre -->
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros></metros>
+			<modalidadContratacion></modalidadContratacion>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual/>
+			<infraestructura/>
+		</producto1>
+	</CRM_APR0001_añadir_producto>
+	<CRM_APR0002_añadir_producto_creacion_rapida>
+	</CRM_APR0002_añadir_producto_creacion_rapida>
+	<CRM_APR0003_Producto_Añadir_CC>
+		<oferta>
+			<nombreOferta>CRM_APR0003</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>10 Gbps</unidadVenta>
+			<nrc>2</nrc>
+		</producto1>
+	</CRM_APR0003_Producto_Añadir_CC>
+	<CRM_APR0004_Producto_Añadir_FibraOscura>
+		<oferta>
+			<nombreOferta>CRM_APR0004</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Fibra oscura</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>m. x1 fibra</unidadVenta>
+			<metros>2</metros>
+			<modalidadContratacion/>
+			<nrc>2</nrc>
+			<arc>1</arc>
+			<duracionContrato/>
+			<precioMensual/>
+			<precioAnual>2</precioAnual>
+			<infraestructura/>
+		</producto1>
+	</CRM_APR0004_Producto_Añadir_FibraOscura>
+	<CRM_APR0005_Producto_Añadir_UbiredPremium>
+		<oferta>
+			<nombreOferta>CRM_APR0005</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<!-- Adaptado a nuevo nombre -->
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros></metros>
+			<modalidadContratacion></modalidadContratacion>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual/>
+			<infraestructura/>
+		</producto1>
+	</CRM_APR0005_Producto_Añadir_UbiredPremium>
+	<CRM_APR0006_Producto_Añadir_UbiredBusiness>
+		<oferta>
+			<nombreOferta>CRM_APR0006</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<!-- Adaptado a nuevo nombre -->
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros></metros>
+			<modalidadContratacion></modalidadContratacion>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual/>
+			<infraestructura/>
+		</producto1>
+	</CRM_APR0006_Producto_Añadir_UbiredBusiness>
+	<CRM_APR0007_Producto_Añadir_Rack_Colocation>
+		<oferta>
+			<nombreOferta>CRM_APR0007</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Colocation</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>3Mbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato>24</duracionContrato>
+			<precioMensual>3</precioMensual>
+			<infraestructura>2U en Rack compartido</infraestructura>
+		</producto1>
+	</CRM_APR0007_Producto_Añadir_Rack_Colocation>
+	<CRM_APR0008_Producto_Cambio_de_Capacidad_CC>
+		<oferta>
+			<nombreOferta>CRM_APR0008</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<!-- Adaptado a nuevo nombre -->
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros></metros>
+			<modalidadContratacion></modalidadContratacion>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual/>
+			<infraestructura/>
+		</producto1>
+	</CRM_APR0008_Producto_Cambio_de_Capacidad_CC>
+	<CRM_APR0009_Producto_heredar_CC_CambioPrecio>
+		<oferta>
+			<nombreOferta>CRM_APR0009</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Cambio de precio/Renovación</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!-- Heredar producto-->
+		<heredarProducto>
+			<productoHeredado>CC_Automatizacion_CambioPrecio</productoHeredado>
+			<precioMensual>20</precioMensual>
+			<duracionContrato>2</duracionContrato>
+			<nrc>4</nrc>
+			<metros></metros>
+			<uso></uso>
+			<precioMetroAnual></precioMetroAnual>
+			<unidadVenta></unidadVenta>
+		</heredarProducto>
+	</CRM_APR0009_Producto_heredar_CC_CambioPrecio>
+	<CRM_APR0010_Producto_heredar_CC_CambioPrecio>
+		<oferta>
+			<nombreOferta>CRM_APR0010</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Cambio de configuración</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!-- Heredar producto-->
+		<heredarProducto>
+			<productoHeredado>CC_Automatizacion_CambioPrecio</productoHeredado>
+			<precioMensual>28</precioMensual>
+			<duracionContrato>2</duracionContrato>
+			<nrc>50</nrc>
+			<metros></metros>
+			<uso></uso>
+			<precioMetroAnual></precioMetroAnual>
+			<unidadVenta></unidadVenta>
+		</heredarProducto>
+	</CRM_APR0010_Producto_heredar_CC_CambioPrecio>
+	<CRM_APR0011_Producto_heredar_CC_CambioDireccion>
+		<oferta>
+			<nombreOferta>CRM_APR0011</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Cambio de dirección</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!-- Heredar producto-->
+		<heredarProducto>
+			<productoHeredado>CC_Automatizacion_CambioDireccion</productoHeredado>
+			<puntoAModificar>Origen</puntoAModificar>
+			<precioMensual>2000</precioMensual>
+			<duracionContrato>2</duracionContrato>
+			<nrc>1000</nrc>
+			<metros></metros>
+			<uso></uso>
+			<precioMetroAnual></precioMetroAnual>
+			<unidadVenta></unidadVenta>
+		</heredarProducto>
+	</CRM_APR0011_Producto_heredar_CC_CambioDireccion>
+	<CRM_APR0012_Producto_heredar_FO_CambioCapacidad>
+		<oferta>
+			<nombreOferta>CRM_APR0012</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Cambio Upgrade/Downgrade</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!-- Heredar producto-->
+		<heredarProducto>
+			<productoHeredado>FO_Automatizacion_CambioCapacidad</productoHeredado>
+			<precioMensual></precioMensual>
+			<duracionContrato>2</duracionContrato>
+			<nrc>2</nrc>
+			<metros>1000</metros>
+			<uso></uso>
+			<precioMetroAnual>2000</precioMetroAnual>
+			<unidadVenta>m. x2 fibras</unidadVenta>
+		</heredarProducto>
+	</CRM_APR0012_Producto_heredar_FO_CambioCapacidad>
+	<CRM_APR0013_Producto_heredar_FO_CambioPrecio>
+		<oferta>
+			<nombreOferta>CRM_APR0013</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Cambio de precio/Renovación</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!-- Heredar producto-->
+		<heredarProducto>
+			<productoHeredado>FO_Automatizacion_CambioPrecio</productoHeredado>
+			<precioMensual></precioMensual>
+			<duracionContrato>2</duracionContrato>
+			<nrc></nrc>
+			<metros>1000</metros>
+			<uso></uso>
+			<precioMetroAnual></precioMetroAnual>
+			<unidadVenta></unidadVenta>
+		</heredarProducto>
+	</CRM_APR0013_Producto_heredar_FO_CambioPrecio>
+	<CRM_APR0014_Producto_heredar_FO_CambioSolucion>
+		<oferta>
+			<nombreOferta>CRM_APR0014</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Cambio de configuración</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!-- Heredar producto-->
+		<heredarProducto>
+			<productoHeredado>FO_Automatizacion_CambioSolucion</productoHeredado>
+			<precioMensual></precioMensual>
+			<duracionContrato>2</duracionContrato>
+			<nrc>2</nrc>
+			<metros>1000</metros>
+			<uso></uso>
+			<precioMetroAnual>2000</precioMetroAnual>
+			<unidadVenta></unidadVenta>
+		</heredarProducto>
+	</CRM_APR0014_Producto_heredar_FO_CambioSolucion>
+	<CRM_APR0015_Producto_heredar_FO_CambioDireccion>
+		<oferta>
+			<nombreOferta>CRM_APR0015</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Cambio de dirección</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!-- Heredar producto-->
+		<heredarProducto>
+			<productoHeredado>FO_Automatizacion_CambioDireccion</productoHeredado>
+			<puntoAModificar>Origen</puntoAModificar>
+			<precioMensual></precioMensual>
+			<duracionContrato>2</duracionContrato>
+			<nrc>2</nrc>
+			<metros>1000</metros>
+			<uso></uso>
+			<precioMetroAnual>2000</precioMetroAnual>
+			<unidadVenta></unidadVenta>
+		</heredarProducto>
+	</CRM_APR0015_Producto_heredar_FO_CambioDireccion>
+	<CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio>
+		<oferta>
+			<nombreOferta>CRM_APR0017</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Cambio de precio/Renovación</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!-- Heredar producto-->
+		<heredarProducto>
+			<productoHeredado>UbiRedPro_Automatizacion_CambioPrecio</productoHeredado>
+			<precioMensual>4</precioMensual>
+			<duracionContrato>12</duracionContrato>
+			<nrc>200</nrc>
+			<metros></metros>
+			<precioMetroAnual></precioMetroAnual>
+			<uso>FTTT</uso>
+			<unidadVenta></unidadVenta>
+		</heredarProducto>
+	</CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio>
+	<CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular>
+		<oferta>
+			<nombreOferta>CRM_APR0019</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Cambio de titularidad servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!-- Heredar producto-->
+		<heredarProducto>
+			<productoHeredado>UBIRED BUSINESS C/SERRANO 67</productoHeredado>
+			<precioMensual>3</precioMensual>
+			<duracionContrato>12</duracionContrato>
+			<nrc>200</nrc>
+			<metros></metros>
+			<precioMetroAnual></precioMetroAnual>
+			<uso>FTTT</uso>
+			<unidadVenta></unidadVenta>
+		</heredarProducto>
+	</CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular>
+</TestsCase>

@@ -1,0 +1,81 @@
+{
+  "uuid": "35c69da8-9fd0-4f0c-8b99-2687d6de470b-tr-0-1019",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POF0002_PresentarOferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO PRESENTAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POF0002_PresentarOferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|Form|Mscrm.SavePrimary12-button\" aria-label=\"Guardar (CTRL+S)\" aria-describedby=\"id-3382\" role=\"menuitem\" title=\"Guardar (CTRL+S)\n\nGuarde Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" data-lp-id=\"Form:quote-quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" type=\"button\" class=\"pa-bg pa-gq pa-di pa-gx pa-bf pa-gy pa-p pa-gz pa-hn pa-gw flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (420, 68). Other element would receive the click: <div id=\"modalDialogRoot_4_4\" tabindex=\"-1\" class=\"pa-f pa-bd pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=113.0.5672.127)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 137\r\n   at Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 962"
+  },
+  "stage": "finished",
+  "description": "CRM-POF0002 Presentar Oferta Fibra Oscura\n",
+  "steps": [
+    {
+      "name": "CRM_POF0002_PresentarOferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|Form|Mscrm.SavePrimary12-button\" aria-label=\"Guardar (CTRL+S)\" aria-describedby=\"id-3382\" role=\"menuitem\" title=\"Guardar (CTRL+S)\n\nGuarde Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" data-lp-id=\"Form:quote-quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" type=\"button\" class=\"pa-bg pa-gq pa-di pa-gx pa-bf pa-gy pa-p pa-gz pa-hn pa-gw flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (420, 68). Other element would receive the click: <div id=\"modalDialogRoot_4_4\" tabindex=\"-1\" class=\"pa-f pa-bd pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=113.0.5672.127)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 137\r\n   at Lyntia.TestSet.Oferta.CRM_POF0002_PresentarOferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 962"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POF0002_PresentarOferta-GuardarProducto.png",
+          "source": "a1e5e08d26a44941a5fd55f44759a2cc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "517009b5aad74682a09e9d5632f90f87-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684914307289,
+      "stop": 1684914459839
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684914307289,
+  "stop": 1684914459839
+}

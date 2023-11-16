@@ -1,0 +1,81 @@
+{
+  "uuid": "60df7ca4-33ec-4edf-a5b0-bdda17f64033-tr-0-1017",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0012_Oferta_Cerrar_Adjudicada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ms-TooltipHost root-348\" role=\"none\">...</div> is not clickable at point (1123, 210). Other element would receive the click: <div class=\"ms-Callout-beakCurtain beakCurtain-164\"></div>\n  (Session info: chrome=111.0.5563.149)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.Seleccionofertarazonadjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 817\r\n   at Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 896"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0012 Cerrar Oferta Adjudicada\n",
+  "steps": [
+    {
+      "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ms-TooltipHost root-348\" role=\"none\">...</div> is not clickable at point (1123, 210). Other element would receive the click: <div class=\"ms-Callout-beakCurtain beakCurtain-164\"></div>\n  (Session info: chrome=111.0.5563.149)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.Seleccionofertarazonadjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 817\r\n   at Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 896"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada-EditarOfertaAdjudicada.png",
+          "source": "b0e7684db84f4a508cc43c74202c953f-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "6dbc0eea5f404a64bb849051841d3b2d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681452990263,
+      "stop": 1681453053453
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681452990263,
+  "stop": 1681453053454
+}

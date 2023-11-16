@@ -1,0 +1,24 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se han introducido correctamente los campos de la Oferta: CRM_COF0011, CLIENTE INTEGRACION, , .
+La Oferta se guarda correctamente.
+Producto guardado correctamente: Circuitos de capacidad, FTTT, 1 Gbps, , 10, 
+Se accede a la ventana de Adjudicar Oferta.
+***Se cumple la condicion de oferta adjudicada correctamente
+No se continua con el pedido correctamente.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <iframe id="FullPageWebResource" aria-label="DIALOG_Adjudicar.html" data-id="MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource" src="/%7b638121347130000194%7d/webresources/lyn_DIALOG_Adjudicar.html" name="lyn_DIALOG_Adjudicar.html" class="pa-bm pa-f pa-gn " cd_frame_id_="33bb7c0e4b130598214e6a948a12bf63"></iframe> is not clickable at point (1049, 597). Other element would receive the click: <span id="confirmButtonText_7" class="pa-em pa-eg pa-bd pa-ao pa-e pa-co ">...</span>
+  (Session info: chrome=110.0.5481.100)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Testing\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\Testing\Lyntia\Lyntia\TestSet\Actions\OfertaActions.cs:line 960

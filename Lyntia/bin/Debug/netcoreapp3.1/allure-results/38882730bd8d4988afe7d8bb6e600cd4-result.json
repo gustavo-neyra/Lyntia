@@ -1,0 +1,81 @@
+{
+  "uuid": "6bada4b0-da51-4749-8f64-90d79ab3435e-tr-0-1015",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0004_Editar_campo_tipo_de_Oferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span id=\"notification_icon_La oferta de tipo “Cambio de dirección” requiere el envío a construcción pero no cambia el código administrativo\" class=\"symbolFont InformationIcon-symbol pa-tt pa-bw pa-xj \"></span> is not clickable at point (220, 109). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xq \">...</span>\n  (Session info: chrome=117.0.5938.149)",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_AvisoCambiodedireccion() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 283\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 799"
+  },
+  "stage": "finished",
+  "description": "CRM_EOF0004 Editar campo 'Tipo de oferta' de una Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span id=\"notification_icon_La oferta de tipo “Cambio de dirección” requiere el envío a construcción pero no cambia el código administrativo\" class=\"symbolFont InformationIcon-symbol pa-tt pa-bw pa-xj \"></span> is not clickable at point (220, 109). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-ff pa-dr pa-xq \">...</span>\n  (Session info: chrome=117.0.5938.149)",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_AvisoCambiodedireccion() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 283\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0004_Editar_campo_tipo_de_Oferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 799"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_EOF0004_Editar_campo_tipo_de_Oferta-Aviso cambio de direccion.png",
+          "source": "6e18dc0bd75b4a9ba4dc68d393b76761-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "be24c676df5842f8927d83282c324678-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1696577060551,
+      "stop": 1696577148309
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1696577060551,
+  "stop": 1696577148309
+}

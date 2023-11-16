@@ -1,0 +1,81 @@
+{
+  "uuid": "41254b41-2e43-44f3-b192-027a3db06767-tr-0-1009",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0009_creacionOfertaCambioDireccion",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0009_creacionOfertaCambioDireccion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0009_creacionOfertaCambioDireccion"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0009_creacionOfertaCambioDireccion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 14 but was 2. Strings differ at index 0.\r\n  Expected: \"En elaboración\"\r\n  But was:  \"No\"\r\n  -----------^\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaGuardadaCorrectamenteEnGrid() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 149\r\n   at Lyntia.TestSet.Oferta.CRM_COF0009_creacionOfertaCambioDireccion() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 406\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0009 Creación de Oferta de tipo Cambio de dirección (Migración)\n",
+  "steps": [
+    {
+      "name": "CRM_COF0009_creacionOfertaCambioDireccion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 14 but was 2. Strings differ at index 0.\r\n  Expected: \"En elaboración\"\r\n  But was:  \"No\"\r\n  -----------^\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaGuardadaCorrectamenteEnGrid() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 149\r\n   at Lyntia.TestSet.Oferta.CRM_COF0009_creacionOfertaCambioDireccion() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 406\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0009_creacionOfertaCambioDireccion-CondicionOfertaGuardada.png",
+          "source": "a78326361b9140d691a5a8dfea473e11-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "acdabd7a2d2445fa887eff01381355d5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673860875931,
+      "stop": 1673861097447
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673860875931,
+  "stop": 1673861097447
+}

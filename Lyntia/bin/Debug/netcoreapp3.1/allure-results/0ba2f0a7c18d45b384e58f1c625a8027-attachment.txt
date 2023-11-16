@@ -1,0 +1,32 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_APR0003, CLIENTE INTEGRACION, Nuevo servicio, # BizQA.
+La Oferta se guarda correctamente.
+***Se cumple la condicion resultado seleccion oferta en borrador
+El producto existente tipo circuito de capacidad se ha añadido correctamente
+***Se verifica que quedan campos obligatorios por informar.
+***El producto se guarda de manera correcta.
+***Se verifica que la pestaña general es la pestaña por defecto.
+El reestablecimiento de la prueba no se ha realizado correctamente
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 45 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-label='Alternar la selección de todas las filas']"}
+  (Session info: chrome=111.0.5563.66)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass7_0.<ElementIsVisible>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Lyntia.TestSet.Actions.ProductoActions.Borrado_de_producto() in C:\Testing\Lyntia\Lyntia\TestSet\Actions\ProductoActions.cs:line 352

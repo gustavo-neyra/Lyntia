@@ -1,0 +1,23 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_POF0003, CLIENTE INTEGRACION, Nuevo servicio, # BizQA.
+La Oferta se guarda correctamente.
+No se añaden correctamente los datos del Producto: UbiRed Pro, FTTO, 1 Gbps
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <input id="id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-8-productid270bd3db-d9af-4782-9025-509e298dec0a-productid.fieldControl-LookupResultsDropdown_productid_11_textInputBox_with_filter_new" aria-label="Producto existente, Búsqueda" aria-expanded="true" role="combobox" data-id="productid.fieldControl-LookupResultsDropdown_productid_textInputBox_with_filter_new" title="" placeholder="Buscar Producto" autocomplete="off" aria-autocomplete="list" type="text" class="pa-ge pa-rk pa-ro pa-rp pa-qo pa-qp pa-gm pa-em pa-pt pa-rq pa-rr pa-rs pa-io " value="" aria-haspopup="tree" aria-required="true" aria-controls="id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-8-productid270bd3db-d9af-4782-9025-509e298dec0a-productid.fieldControl-LookupResultsDropdown_productid_11"> is not clickable at point (2386, 203). Other element would receive the click: <div id="modalDialogRoot_4_4" tabindex="-1" class="pa-f pa-bm pa-a pa-p pa-av flexbox">...</div>
+  (Session info: chrome=109.0.5414.119)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.CommonActions.limpiarCampo(String keyDiccionario) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 184
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoInput(String elementoKey, String text) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 159
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoConDesplegable(String elementoKey, String text) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 167
+   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\ProductoActions.cs:line 42

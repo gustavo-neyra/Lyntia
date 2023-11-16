@@ -1,0 +1,81 @@
+{
+  "uuid": "2c53cdcc-4e86-4799-8075-16b8260b1d0b-tr-0-1034",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|Form|Mscrm.SavePrimary12-button\" aria-label=\"Guardar (CTRL+S)\" aria-describedby=\"id-3236\" role=\"menuitem\" title=\"Guardar (CTRL+S)\n\nGuarde Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" data-lp-id=\"Form:quote-quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" type=\"button\" class=\"pa-bg pa-hb pa-di pa-hi pa-bf pa-hj pa-p pa-hk pa-hy pa-hh flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (420, 68). Other element would receive the click: <div id=\"modalDialogRoot_4_4\" tabindex=\"-1\" class=\"pa-f pa-bd pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=113.0.5672.127)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 137\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1585"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0004 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|Form|Mscrm.SavePrimary12-button\" aria-label=\"Guardar (CTRL+S)\" aria-describedby=\"id-3236\" role=\"menuitem\" title=\"Guardar (CTRL+S)\n\nGuarde Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" data-lp-id=\"Form:quote-quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" type=\"button\" class=\"pa-bg pa-hb pa-di pa-hi pa-bf pa-hj pa-p pa-hk pa-hy pa-hh flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (420, 68). Other element would receive the click: <div id=\"modalDialogRoot_4_4\" tabindex=\"-1\" class=\"pa-f pa-bd pa-a pa-p pa-bp flexbox\">...</div>\n  (Session info: chrome=113.0.5672.127)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 137\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1585"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness-GuardarProducto.png",
+          "source": "65983bb095b64a9d9595d53eb6e7fe69-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ee0846f93f974e7dae7ac22ec20f912c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684913654845,
+      "stop": 1684913784651
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684913654845,
+  "stop": 1684913784651
+}

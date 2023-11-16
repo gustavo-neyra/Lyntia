@@ -1,0 +1,22 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_APR0006, CLIENTE INTEGRACION, Nuevo servicio, # BizQA.
+La Oferta se guarda correctamente.
+El producto no fue creado: UbiRed Business, , , , , 
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <button id="quote|NoRelationship|Form|Mscrm.SavePrimary12-button" aria-label="Guardar (CTRL+S)" aria-describedby="id-1997" role="menuitem" title="Guardar (CTRL+S)
+
+Guarde Oferta." tabindex="-1" data-id="quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save" data-lp-id="Form:quote-quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save" type="button" class="pa-as pa-jm pa-gs pa-cj pa-bk pa-jt pa-p pa-ju pa-jv pa-js flexbox" style="outline-color: rgb(102, 102, 102);">...</button> is not clickable at point (420, 68). Other element would receive the click: <div id="modalDialogRoot_4_4" tabindex="-1" class="pa-f pa-bh pa-a pa-p pa-aq flexbox">...</div>
+  (Session info: chrome=108.0.5359.126)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\ProductoActions.cs:line 130

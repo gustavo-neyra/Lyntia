@@ -1,0 +1,81 @@
+{
+  "uuid": "f2d540ba-ad4b-45c9-b3ac-18bb7f122c19-tr-0-1048",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0007_Producto_Añadir_Rack_Colocation"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.DeleteMenu.Menu$button4\" aria-hidden=\"true\" role=\"presentation\" title=\"Eliminar\n\nElimine Ofertas. Esta acción no se puede deshacer.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.DeleteMenu\" data-lp-id=\"HomePageGrid:quote-quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.DeleteMenu\" type=\"button\" class=\"pa-as pa-jl pa-gs pa-cl pa-bk pa-jr pa-p pa-js pa-jt flexbox\">...</button> is not clickable at point (898, 69). Other element would receive the click: <div id=\"modalDialogRoot_5_5\" tabindex=\"-1\" class=\"pa-f pa-bh pa-a pa-p pa-aq flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.eliminarOfertaActual(String opcion) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 277\r\n   at Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 265"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0007 Añadir producto de Rack\n",
+  "steps": [
+    {
+      "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.DeleteMenu.Menu$button4\" aria-hidden=\"true\" role=\"presentation\" title=\"Eliminar\n\nElimine Ofertas. Esta acción no se puede deshacer.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.DeleteMenu\" data-lp-id=\"HomePageGrid:quote-quote|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.quote.DeleteMenu\" type=\"button\" class=\"pa-as pa-jl pa-gs pa-cl pa-bk pa-jr pa-p pa-js pa-jt flexbox\">...</button> is not clickable at point (898, 69). Other element would receive the click: <div id=\"modalDialogRoot_5_5\" tabindex=\"-1\" class=\"pa-f pa-bh pa-a pa-p pa-aq flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.eliminarOfertaActual(String opcion) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 277\r\n   at Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 265"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation-EliminarOferta.png",
+          "source": "fdcfa0def5b6439cac88a00c6766f795-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "05eb482abc054e528243ef9642472f90-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671175697182,
+      "stop": 1671175926616
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671175697182,
+  "stop": 1671175926616
+}

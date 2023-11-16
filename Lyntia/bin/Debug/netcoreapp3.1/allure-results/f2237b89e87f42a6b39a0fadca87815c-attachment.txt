@@ -1,0 +1,10 @@
+Instanciador iniciado correctamente
+-------------------- - 
+No se pudo realizar el login de forma correcta
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 45 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 80

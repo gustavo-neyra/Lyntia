@@ -1,0 +1,31 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_COF0008, CLIENTE INTEGRACION, Cambio de configuración, # BizQA.
+La Oferta se guarda correctamente.
+***Se cumplen las condiciones de guardado de oferta correctamente
+Se accede correctamente a la pestaña Fechas de la Oferta.
+***Las condiciones de fechas informadas correctamente han sido OK
+Se elimina la Oferta correctamente.
+Se pulsa correctamente Eliminar.
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_COF0008, CLIENTE INTEGRACION, Cambio de configuración, # BizQA.
+La Oferta se guarda y cierra correctamente.
+Se busca la Oferta por parámetro: CRM_COF00081601231014.
+***No se cumple la condición de Oferta guardada Correctamente.
+-------------------- - 
+-------------------- - 
+Excepción: NUnit.Framework.AssertionException:   Expected string length 14 but was 2. Strings differ at index 0.
+  Expected: "En elaboración"
+  But was:  "No"
+  -----------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaGuardadaCorrectamenteEnGrid() in C:\Desarrollo\Lyntia\Lyntia\TestSet\Conditions\OfertaConditions.cs:line 144

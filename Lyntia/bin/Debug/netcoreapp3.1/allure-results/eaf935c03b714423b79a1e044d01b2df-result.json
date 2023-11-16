@@ -1,0 +1,81 @@
+{
+  "uuid": "bb260333-e5b0-45b5-98a0-102f35abae47-tr-0-1040",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_BILLING001_Generar_Facturas"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "GENERAR FACTURAS"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_BILLING001_Generar_Facturas",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validarFacturaEnviada_A_Nav(String nombreGeneradorFacturacion) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 622\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1926\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-BILLING001 - Generar/Facturas\n",
+  "steps": [
+    {
+      "name": "CRM_BILLING001_Generar_Facturas",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validarFacturaEnviada_A_Nav(String nombreGeneradorFacturacion) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 622\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1926\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_BILLING001_Generar_Facturas-Factura_Enviada_A_NAV.png",
+          "source": "8f5bf531779442b09a17bfed2e389259-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2a6d23588557497e8f009b88cc1ff2ad-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677753287408,
+      "stop": 1677754045323
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677753287408,
+  "stop": 1677754045327
+}

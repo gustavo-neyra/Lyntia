@@ -1,0 +1,76 @@
+{
+  "uuid": "4ebf0327-34e9-4843-bad8-faf564d078bd-tr-0-1026",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0002_Edición_borrador_Con_datos_obligatorios",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0002_Edición_borrador_Con_datos_obligatorios",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0002_Edición_borrador_Con_datos_obligatorios"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0002_Edición_borrador_Con_datos_obligatorios",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=110.0.5481.178)",
+    "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 41"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-EOF0002 - Edición_borrador_Con_datos_obligatorio\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0002_Edición_borrador_Con_datos_obligatorios skipped because of BorradoScreenshots failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=110.0.5481.178)",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Oferta.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 41"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bc50f71ddd0041e299790d90a6c940c3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1677571763785,
+      "stop": 1677571768037
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1677571763785,
+  "stop": 1677571768038
+}

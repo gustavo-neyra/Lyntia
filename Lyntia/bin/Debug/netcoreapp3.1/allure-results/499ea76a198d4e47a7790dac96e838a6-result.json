@@ -1,0 +1,81 @@
+{
+  "uuid": "72c4b082-06d2-4666-a907-a146b4c9acca-tr-0-1044",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03051"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0003_Producto_Añadir_CC"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0003_Producto_Añadir_CC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Lyntia.TestSet.Conditions.ProductoConditions.Resultado_Agregar_Producto_tipo_circuito_de_capacidad() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\ProductoConditions.cs:line 75\r\n   at Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 127"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0003 Añadir producto Circuito de Capacidad correctamente\n",
+  "steps": [
+    {
+      "name": "CRM_APR0003_Producto_Añadir_CC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Lyntia.TestSet.Conditions.ProductoConditions.Resultado_Agregar_Producto_tipo_circuito_de_capacidad() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\ProductoConditions.cs:line 75\r\n   at Lyntia.TestSet.Producto.CRM_APR0003_Producto_Añadir_CC() in C:\\Users\\GUILLEM.MAGRIÑA.EXT\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 127"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0003_Producto_Añadir_CC-AssertAddProductoCC.png",
+          "source": "d6ccb1a0c5e748408f0507b0cafdc32a-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "e89028e1dcdc472999ef384feebdbcb1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1666679704221,
+      "stop": 1666679905570
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1666679704220,
+  "stop": 1666679905571
+}

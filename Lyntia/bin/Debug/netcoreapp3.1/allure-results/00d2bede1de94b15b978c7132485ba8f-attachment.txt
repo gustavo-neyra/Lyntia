@@ -1,0 +1,29 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+La Oferta se guarda correctamente.
+***Se cumplen las condiciones de una oferta no creada
+La Oferta se guarda y cierra correctamente.
+***Se cumplen las condiciones de una oferta no creada
+Se han introducido correctamente los campos de la Oferta: , CLIENTE INTEGRACION, , .
+La Oferta se guarda correctamente.
+***Se cumplen las condiciones de una oferta no creada
+La Oferta se guarda y cierra correctamente.
+***Se cumplen las condiciones de una oferta no creada
+No se introducen los datos de la Oferta: CRM_COF0004, , , .
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <input type="text" id="DatePicker1-label" role="combobox" aria-expanded="true" aria-haspopup="dialog" placeholder="---" aria-describedby="TextFieldDescription4" data-id="new_fechaenvoofertacliente.fieldControl-date-time-input" class="ms-TextField-field field-160" aria-label="Fecha de Fecha de presentación" aria-invalid="false" value="" data-pa-landmark-active-element="true" aria-controls="DatePicker-Callout2"> is not clickable at point (591, 813). Other element would receive the click: <button class="dayButton-323" aria-label="30, octubre, 2022" type="button" tabindex="-1" data-is-focusable="false">...</button>
+  (Session info: chrome=106.0.5249.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\GUILLEM.MAGRIÑA.EXT\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.CommonActions.limpiarCampo(String keyDiccionario) in C:\Users\GUILLEM.MAGRIÑA.EXT\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 184
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoInput(String elementoKey, String text) in C:\Users\GUILLEM.MAGRIÑA.EXT\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 159
+   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\Users\GUILLEM.MAGRIÑA.EXT\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 235

@@ -1,0 +1,81 @@
+{
+  "uuid": "36ec9cfa-c979-4859-8cc5-d8e856c742ba-tr-0-1058",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+  },
+  "stage": "finished",
+  "description": "\nInstanciador SetUp method failed\nCRM-APR0017 Heredar producto UbiRed Pro en Oferta Cambio de Titular\n",
+  "steps": [
+    {
+      "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular skipped because of Instanciador failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.Login() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 90\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 44"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0017_Producto_heredar_UbiRedPro_CambioTitular-Login.png",
+          "source": "733c5fec2f2c445291269f02c55d05fd-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "a59495f83378409c80e7d93728868e20-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1690190918248,
+      "stop": 1690190971923
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1690190918248,
+  "stop": 1690190971924
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "0feb4e49-29e5-4e8a-9836-5e9d0a96ec9f-tr-0-1023",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POF0004_PresentarOferta_UbiRed_Business",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POF0004_PresentarOferta_UbiRed_Business",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POF0004_PresentarOferta_UbiRed_Business"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO PRESENTAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POF0004_PresentarOferta_UbiRed_Business",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ui-radio ui-state-disabled mobile-checkboxradio-disabled crm-jqm-optionSet2ButtonWidth\" id=\"radio-choice-id-0-100000001-container\" role=\"option\" aria-label=\"Off Net\" title=\"Off Net\" aria-selected=\"true\" aria-describedby=\"controlgroup-id-0\" tabindex=\"0\">...</div> is not clickable at point (1011, 316). Other element would receive the click: <div class=\"ui-controlgroup-controls \">...</div>\n  (Session info: chrome=118.0.5993.89)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 251\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenar_Datos_Productos_Oferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1884\r\n   at Lyntia.TestSet.Oferta.CRM_POF0004_PresentarOferta_UbiRed_Business() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1035"
+  },
+  "stage": "finished",
+  "description": "CRM-POF0004 Presentar Oferta UbiRed Business\n",
+  "steps": [
+    {
+      "name": "CRM_POF0004_PresentarOferta_UbiRed_Business",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ui-radio ui-state-disabled mobile-checkboxradio-disabled crm-jqm-optionSet2ButtonWidth\" id=\"radio-choice-id-0-100000001-container\" role=\"option\" aria-label=\"Off Net\" title=\"Off Net\" aria-selected=\"true\" aria-describedby=\"controlgroup-id-0\" tabindex=\"0\">...</div> is not clickable at point (1011, 316). Other element would receive the click: <div class=\"ui-controlgroup-controls \">...</div>\n  (Session info: chrome=118.0.5993.89)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 251\r\n   at Lyntia.TestSet.Actions.OfertaActions.rellenar_Datos_Productos_Oferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 1884\r\n   at Lyntia.TestSet.Oferta.CRM_POF0004_PresentarOferta_UbiRed_Business() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1035"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a6e1bbaf9cc745b0ae79d0454311aab3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1698663605219,
+      "stop": 1698663741829
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1698663605219,
+  "stop": 1698663741829
+}

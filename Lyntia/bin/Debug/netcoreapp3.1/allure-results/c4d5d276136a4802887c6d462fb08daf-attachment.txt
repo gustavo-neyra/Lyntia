@@ -1,0 +1,24 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se han introducido correctamente los campos de la Oferta: CRM_SECAN0002, CLIENTE INTEGRACION, Nuevo servicio, .
+La Oferta se guarda correctamente.
+Producto guardado correctamente: Circuitos de capacidad, FTTE, 4, , 4, Lease
+Se accede a la ventana de Adjudicar Oferta.
+***Se cumple la condicion de oferta adjudicada correctamente
+No se continua con el pedido correctamente.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <iframe id="FullPageWebResource" aria-label="DIALOG_Adjudicar.html" data-id="MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource" src="/%7b638289029130000194%7d/webresources/lyn_DIALOG_Adjudicar.html" name="lyn_DIALOG_Adjudicar.html" class="pa-bm pa-f pa-gl " cd_frame_id_="8660adafeaf474a2b2ce055aa2f09dfe"></iframe> is not clickable at point (860, 494). Other element would receive the click: <span id="confirmButtonText_7" class="pa-ff pa-fa pa-bd pa-ao pa-e pa-dn ">...</span>
+  (Session info: chrome=116.0.5845.111)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 970

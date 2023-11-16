@@ -1,0 +1,20 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+No se introducen los datos de la Oferta: CRM_APR0011, CLIENTE INTEGRACION, Cambio de dirección, # BizQA.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <input id="id-b1bbaba3-f806-49e9-9d25-70fd5c1e2e8f-7-customerid270bd3db-d9af-4782-9025-509e298dec0a-customerid.fieldControl-LookupResultsDropdown_customerid_2_textInputBox_with_filter_new" aria-label="Cliente, Búsqueda" aria-required="true" aria-expanded="false" aria-haspopup="tree" role="combobox" data-id="customerid.fieldControl-LookupResultsDropdown_customerid_textInputBox_with_filter_new" title="" placeholder="" autocomplete="off" aria-autocomplete="list" type="text" class="pa-cr pa-rk pa-ro pa-rp pa-qo pa-qp pa-gm pa-fg pa-ff pa-rq pa-rr pa-rs pa-io " value="---"> is not clickable at point (595, 505). Other element would receive the click: <div id="modalDialogRoot_3_3" tabindex="-1" class="pa-f pa-bm pa-a pa-p pa-av flexbox">...</div>
+  (Session info: chrome=109.0.5414.75)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoInput(String elementoKey, String text) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 158
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoConDesplegable(String elementoKey, String text) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 167
+   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\OfertaActions.cs:line 218

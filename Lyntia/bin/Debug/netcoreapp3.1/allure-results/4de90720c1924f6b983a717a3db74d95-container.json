@@ -1,0 +1,46 @@
+{
+  "uuid": "29688c02-0fbc-4f88-88b7-4581f86ac5ea-tc-0-1041",
+  "name": "Lyntia.TestSet.Producto.CRM_APR0016_Producto_heredar_UbiRedPro_CambioPrecio",
+  "children": [
+    "4a0fd3e2-19cc-45de-8561-24991c503fa2-tr-0-1057"
+  ],
+  "befores": [
+    {
+      "name": "Instanciador",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : disconnected: received Inspector.detached event\n  (failed to check if window was closed: disconnected: unable to connect to renderer)\n  (Session info: chrome=109.0.5414.121)",
+        "trace": "   at Lyntia.Utilities.Utils.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 70\r\n   at Lyntia.TestSet.Producto.Instanciador() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 33"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676274362010,
+      "stop": 1676274362010
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1676274362010,
+      "stop": 1676274362010
+    }
+  ],
+  "links": [],
+  "start": 1676274342776,
+  "stop": 1676274362034
+}

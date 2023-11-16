@@ -1,0 +1,81 @@
+{
+  "uuid": "c849937b-0294-4c5d-8819-fbf57009e86d-tr-0-1030",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_1\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_1\" title=\"Seleccionar para especificar datos\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-ba pa-ax pa-bm pa-vi pa-vj pa-pu \" value=\"\"> is not clickable at point (1799, 118). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 297\r\n   at Lyntia.TestSet.Oferta.CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1372"
+  },
+  "stage": "finished",
+  "description": "CRM-COFNR0001 Cerrar Oferta En Elaboracion No Realizable\n",
+  "steps": [
+    {
+      "name": "CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_1\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_1\" title=\"Seleccionar para especificar datos\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-ba pa-ax pa-bm pa-vi pa-vj pa-pu \" value=\"\"> is not clickable at point (1799, 118). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 297\r\n   at Lyntia.TestSet.Oferta.CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1372"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable-BuscaOferta.png",
+          "source": "bd1409e3e4f54b8a94c69fa23562be19-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2764089b43b9415286fddd8de81aed39-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675411974884,
+      "stop": 1675412148597
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675411974884,
+  "stop": 1675412148602
+}

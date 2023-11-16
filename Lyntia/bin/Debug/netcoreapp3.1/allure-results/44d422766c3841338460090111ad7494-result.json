@@ -1,0 +1,81 @@
+{
+  "uuid": "d3cee084-ef8b-43d8-9c1e-8518c4529b61-tr-0-1032",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span id=\"quickFind_arrow_button_icon_10\" class=\"symbolFont Forward-symbol pa-sx pa-afi \"></span> is not clickable at point (1852, 118). Other element would receive the click: <div id=\"modalDialogRoot_11_11\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.BuscarOferta_desde_servicio_contratado(String nombreOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 444\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1509"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0002 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span id=\"quickFind_arrow_button_icon_10\" class=\"symbolFont Forward-symbol pa-sx pa-afi \"></span> is not clickable at point (1852, 118). Other element would receive the click: <div id=\"modalDialogRoot_11_11\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.BuscarOferta_desde_servicio_contratado(String nombreOferta) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 444\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1509"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura-BuscarOferta_desde_servicio_contratado.png",
+          "source": "3f88b0cc72b542ab90b1e09dbcf00f1b-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b6e12188d127412a9e3cea3d26f3f22d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675240541591,
+      "stop": 1675240906295
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675240541591,
+  "stop": 1675240906295
+}

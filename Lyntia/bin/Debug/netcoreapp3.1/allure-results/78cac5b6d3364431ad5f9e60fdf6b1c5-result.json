@@ -1,0 +1,81 @@
+{
+  "uuid": "e2dd0a0e-ed4e-4bba-b790-9beb32a6c79a-tr-0-1046",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0005_Producto_Añadir_UbiredPremium"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0005_Producto_Añadir_UbiredPremium",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-8-productid270bd3db-d9af-4782-9025-509e298dec0a-productid.fieldControl-LookupResultsDropdown_productid_8_textInputBox_with_filter_new\" aria-label=\"Producto existente, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"productid.fieldControl-LookupResultsDropdown_productid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cr pa-rd pa-rh pa-ri pa-qg pa-qh pa-gn pa-fh pa-fg pa-rj pa-rk pa-rl pa-ip \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (1751, 435). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-fh pa-dt pa-xc \">...</span>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 54\r\n   at Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 191"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0005 Añadir producto de UbiRed Pro\n",
+  "steps": [
+    {
+      "name": "CRM_APR0005_Producto_Añadir_UbiredPremium",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-8-productid270bd3db-d9af-4782-9025-509e298dec0a-productid.fieldControl-LookupResultsDropdown_productid_8_textInputBox_with_filter_new\" aria-label=\"Producto existente, Búsqueda\" aria-expanded=\"false\" role=\"combobox\" data-id=\"productid.fieldControl-LookupResultsDropdown_productid_textInputBox_with_filter_new\" title=\"\" placeholder=\"\" autocomplete=\"off\" aria-autocomplete=\"list\" type=\"text\" class=\"pa-cr pa-rd pa-rh pa-ri pa-qg pa-qh pa-gn pa-fh pa-fg pa-rj pa-rk pa-rl pa-ip \" value=\"---\" aria-haspopup=\"tree\"> is not clickable at point (1751, 435). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bm pa-bl pa-fh pa-dt pa-xc \">...</span>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 54\r\n   at Lyntia.TestSet.Producto.CRM_APR0005_Producto_Añadir_UbiredPremium() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 191"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0005_Producto_Añadir_UbiredPremium-AddProducto.png",
+          "source": "1c7f4bd0cfac4e17b9149347a1f978f4-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "00c34b12d2e9489688c307d9f3aff954-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675240357723,
+      "stop": 1675240461027
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675240357723,
+  "stop": 1675240461033
+}

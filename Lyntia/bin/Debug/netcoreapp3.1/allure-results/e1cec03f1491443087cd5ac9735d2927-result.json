@@ -1,0 +1,81 @@
+{
+  "uuid": "375817e8-8a51-4713-91b4-36862f072c53-tr-0-1013",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ms-Checkbox is-enabled checkbox-306\">...</div> is not clickable at point (228, 167). Other element would receive the click: <div class=\"ag-header-cell pcf-grid-header status-cell ag-focus-managed ag-header-active\" role=\"columnheader\" tabindex=\"-1\" aria-colindex=\"1\" col-id=\"__row_status\" style=\"left: 0px; width: 50px;\">...</div>\n  (Session info: chrome=114.0.5735.199)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarTodasOfertaGrid() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 751\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 732"
+  },
+  "stage": "finished",
+  "description": "CRM-COF00010 Cerrar Oferta Presentada con producto añadido, Revisada\n",
+  "steps": [
+    {
+      "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"ms-Checkbox is-enabled checkbox-306\">...</div> is not clickable at point (228, 167). Other element would receive the click: <div class=\"ag-header-cell pcf-grid-header status-cell ag-focus-managed ag-header-active\" role=\"columnheader\" tabindex=\"-1\" aria-colindex=\"1\" col-id=\"__row_status\" style=\"left: 0px; width: 50px;\">...</div>\n  (Session info: chrome=114.0.5735.199)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarTodasOfertaGrid() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 751\r\n   at Lyntia.TestSet.Oferta.CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 732"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada-SeleccionTodasOfertas.png",
+          "source": "faf6da1f0a1e4abfa11857b3a9af2de9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "4a1031964b894fb89ca4c8db0498c58a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688553050293,
+      "stop": 1688553299346
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688553050293,
+  "stop": 1688553299349
+}

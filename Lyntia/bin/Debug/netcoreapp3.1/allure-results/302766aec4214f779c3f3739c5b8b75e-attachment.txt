@@ -1,0 +1,22 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_APR0006, CLIENTE INTEGRACION, Nuevo servicio, # BizQA.
+La Oferta se guarda correctamente.
+Producto guardado correctamente: UbiRed Business, , , , , 
+Se accede correctamente a la sección Mis Ofertas lyntia
+Se busca la Oferta por parámetro: CRM_APR0006.
+Se selecciona la Oferta del grid.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <div tabindex="0" role="gridcell" aria-selected="false" aria-readonly="true" aria-required="false" class="wj-cell" data-id="cell-0-2" id="Gridb62d433a-ecdc-975c-90fd-1127f681d1b9-id-cell-0-2" data-lp-id="d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-2" aria-colindex="2" title="---" style="left: 45px; top: 0px; width: 24px; height: 40px; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);">...</div> is not clickable at point (257, 207). Other element would receive the click: <div id="modalDialogRoot_5_5" tabindex="-1" class="pa-f pa-at pa-a pa-p pa-be flexbox">...</div>
+  (Session info: chrome=107.0.5304.106)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\Users\GUILLEM.MAGRIÑA.EXT\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 329

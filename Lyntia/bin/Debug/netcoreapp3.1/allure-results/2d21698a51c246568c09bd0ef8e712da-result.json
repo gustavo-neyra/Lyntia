@@ -1,0 +1,81 @@
+{
+  "uuid": "2029789e-f685-4a54-8e27-6b8d63c3a3b7-tr-0-1043",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0002_añadir_producto_creacion_rapida"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0002_añadir_producto_creacion_rapida",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button type=\"button\" data-id=\"quickCreateSaveAndCloseBtn\" id=\"quickCreateSaveAndCloseBtn_2\" accesskey=\"S\" tabindex=\"0\" class=\"ms-Button ms-Button--primary root-298\" data-is-focusable=\"true\" style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 14px; font-style: normal; font-family: SegoeUI, &quot;Segoe UI&quot;; width: auto; border-color: transparent; height: 2.5rem; padding-left: 1rem; padding-right: 1rem;\" aria-label=\"Guardar y cerrar\">...</button> is not clickable at point (1738, 894). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bh pa-bg pa-ey pa-dk pa-ou \">...</span>\n  (Session info: chrome=108.0.5359.125)",
+    "trace": "   at Lyntia.TestSet.Conditions.ProductoConditions.Resultado2_Editar_añadir_producto() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\ProductoConditions.cs:line 28\r\n   at Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 95"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0002 Añadir producto correctamente\n",
+  "steps": [
+    {
+      "name": "CRM_APR0002_añadir_producto_creacion_rapida",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button type=\"button\" data-id=\"quickCreateSaveAndCloseBtn\" id=\"quickCreateSaveAndCloseBtn_2\" accesskey=\"S\" tabindex=\"0\" class=\"ms-Button ms-Button--primary root-298\" data-is-focusable=\"true\" style=\"margin-top: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 14px; font-style: normal; font-family: SegoeUI, &quot;Segoe UI&quot;; width: auto; border-color: transparent; height: 2.5rem; padding-left: 1rem; padding-right: 1rem;\" aria-label=\"Guardar y cerrar\">...</button> is not clickable at point (1738, 894). Other element would receive the click: <span aria-live=\"polite\" role=\"alert\" class=\"pa-bh pa-bg pa-ey pa-dk pa-ou \">...</span>\n  (Session info: chrome=108.0.5359.125)",
+        "trace": "   at Lyntia.TestSet.Conditions.ProductoConditions.Resultado2_Editar_añadir_producto() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\ProductoConditions.cs:line 28\r\n   at Lyntia.TestSet.Producto.CRM_APR0002_añadir_producto_creacion_rapida() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 95"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0002_añadir_producto_creacion_rapida-AssertResultadoAddProducto.png",
+          "source": "9da105dea7c7400ca7c26deb768cb7fc-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "7876725aee7f49eea04b14b34bc73d0d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673336361526,
+      "stop": 1673336468331
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673336361526,
+  "stop": 1673336468332
+}

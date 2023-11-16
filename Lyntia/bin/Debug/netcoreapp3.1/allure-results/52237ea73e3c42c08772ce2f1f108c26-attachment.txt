@@ -1,0 +1,17 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+No se introducen los datos de la Oferta: CRM_APR0010, CLIENTE INTEGRACION, Cambio de configuración, # BizQA.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <li id="tab0_2" aria-label="General" aria-selected="true" role="tab" title="General" tabindex="0" data-lp-id="form-tab-tab0" data-id="tablist-Summary_tab" data-preview-click-through="true" data-preview-dont-show-borders="true" data-preview_orientation="column" class="pa-ar pa-ni pa-ay pa-ns pa-nt pa-bp pa-l pa-nu pa-bd pa-e pa-ao pa-bc pa-nv pa-nw pa-nx ">...</li> is not clickable at point (248, 275). Other element would receive the click: <div id="modalDialogRoot_3_3" tabindex="-1" class="pa-f pa-bm pa-a pa-p pa-av flexbox">...</div>
+  (Session info: chrome=109.0.5414.75)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\OfertaActions.cs:line 237

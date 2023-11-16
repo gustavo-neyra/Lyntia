@@ -1,0 +1,81 @@
+{
+  "uuid": "0e931939-ce96-441f-859f-dba0bf4075de-tr-0-1005",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0005_creacionOfertaNuevoServicio",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0005_creacionOfertaNuevoServicio",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0005_creacionOfertaNuevoServicio"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0005_creacionOfertaNuevoServicio",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_5\" aria-label=\"Oferta Filter by keyword\" data-id=\"quickFind_text_5\" title=\"Seleccionar para especificar datos\" placeholder=\"Filter by keyword\" autocomplete=\"off\" type=\"text\" class=\"pa-av pa-as pa-bh pa-xs pa-xt pa-pi \" value=\"\"> is not clickable at point (2439, 118). Other element would receive the click: <div id=\"modalDialogRoot_6_6\" tabindex=\"-1\" class=\"pa-f pa-bh pa-a pa-p pa-aq flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 297\r\n   at Lyntia.TestSet.Oferta.CRM_COF0005_creacionOfertaNuevoServicio() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 201"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0005 Creación de Oferta de tipo Nuevo servicio\n",
+  "steps": [
+    {
+      "name": "CRM_COF0005_creacionOfertaNuevoServicio",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_5\" aria-label=\"Oferta Filter by keyword\" data-id=\"quickFind_text_5\" title=\"Seleccionar para especificar datos\" placeholder=\"Filter by keyword\" autocomplete=\"off\" type=\"text\" class=\"pa-av pa-as pa-bh pa-xs pa-xt pa-pi \" value=\"\"> is not clickable at point (2439, 118). Other element would receive the click: <div id=\"modalDialogRoot_6_6\" tabindex=\"-1\" class=\"pa-f pa-bh pa-a pa-p pa-aq flexbox\">...</div>\n  (Session info: chrome=108.0.5359.125)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 297\r\n   at Lyntia.TestSet.Oferta.CRM_COF0005_creacionOfertaNuevoServicio() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 201"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0005_creacionOfertaNuevoServicio-BuscaOferta.png",
+          "source": "4fb6606f2bb648b183ecd2259a9f3507-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ce1ebae22a9b43abb662ed4966bc488e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1672298539906,
+      "stop": 1672298734563
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1672298539906,
+  "stop": 1672298734563
+}

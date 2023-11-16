@@ -1,0 +1,81 @@
+{
+  "uuid": "22e04304-a908-472c-8bc8-0360921f6f29-tr-0-1047",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0006_Producto_Añadir_UbiredBusiness"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0006_Producto_Añadir_UbiredBusiness",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"0\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-2\" id=\"Grid9c1947fa-5bc0-ad0f-8c83-ecca07c1fef1-id-cell-0-2\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-2\" style=\"left: 45px; top: 0px; width: 24px; height: 40px; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\" aria-colindex=\"2\" title=\"---\">...</div> is not clickable at point (257, 207). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-lg pa-lh pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 338\r\n   at Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 230"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0006 Añadir producto de UbiRed Business\n",
+  "steps": [
+    {
+      "name": "CRM_APR0006_Producto_Añadir_UbiredBusiness",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"0\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-2\" id=\"Grid9c1947fa-5bc0-ad0f-8c83-ecca07c1fef1-id-cell-0-2\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-2\" style=\"left: 45px; top: 0px; width: 24px; height: 40px; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\" aria-colindex=\"2\" title=\"---\">...</div> is not clickable at point (257, 207). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-lg pa-lh pa-p pa-av pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 338\r\n   at Lyntia.TestSet.Producto.CRM_APR0006_Producto_Añadir_UbiredBusiness() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 230"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0006_Producto_Añadir_UbiredBusiness-SeleccionOferta.png",
+          "source": "b072788542794ba58b3e1cceec82b15c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "edc3ddfc16d646ba8717287d11bb7507-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1678432616217,
+      "stop": 1678432766971
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1678432616216,
+  "stop": 1678432766971
+}

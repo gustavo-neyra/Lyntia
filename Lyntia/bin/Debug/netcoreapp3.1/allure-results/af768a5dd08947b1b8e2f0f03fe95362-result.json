@@ -1,0 +1,81 @@
+{
+  "uuid": "a5c0b1cc-3fec-4859-986e-4664cf02d13a-tr-0-1040",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_BILLING001_Generar_Facturas"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "GENERAR FACTURAS"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_BILLING001_Generar_Facturas",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <iframe id=\"FullPageWebResource\" aria-label=\"DIALOG_Adjudicar.html\" data-id=\"MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource\" src=\"/%7b638121383280000194%7d/webresources/lyn_DIALOG_Adjudicar.html\" name=\"lyn_DIALOG_Adjudicar.html\" class=\"pa-bm pa-f pa-gn \" cd_frame_id_=\"d85692ee2c8ed25abc3b235676b3adaf\"></iframe> is not clickable at point (1049, 597). Other element would receive the click: <span id=\"confirmButtonText_7\" class=\"pa-ff pa-fa pa-bd pa-ao pa-e pa-dn \">...</span>\n  (Session info: chrome=110.0.5481.100)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 972\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1891"
+  },
+  "stage": "finished",
+  "description": "CRM-BILLING001 - Generar/Facturas\n",
+  "steps": [
+    {
+      "name": "CRM_BILLING001_Generar_Facturas",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <iframe id=\"FullPageWebResource\" aria-label=\"DIALOG_Adjudicar.html\" data-id=\"MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource\" src=\"/%7b638121383280000194%7d/webresources/lyn_DIALOG_Adjudicar.html\" name=\"lyn_DIALOG_Adjudicar.html\" class=\"pa-bm pa-f pa-gn \" cd_frame_id_=\"d85692ee2c8ed25abc3b235676b3adaf\"></iframe> is not clickable at point (1049, 597). Other element would receive the click: <span id=\"confirmButtonText_7\" class=\"pa-ff pa-fa pa-bd pa-ao pa-e pa-dn \">...</span>\n  (Session info: chrome=110.0.5481.100)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 972\r\n   at Lyntia.TestSet.Oferta.CRM_BILLING001_Generar_Facturas() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1891"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_BILLING001_Generar_Facturas-VentanaCrearPedido.png",
+          "source": "e9ffbaffd5d14151b0052cc0c8e00ae9-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "4368a7163e414504bd11cdf273a9915d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1676543753124,
+      "stop": 1676544019523
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1676543753124,
+  "stop": 1676544019530
+}

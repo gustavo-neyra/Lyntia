@@ -1,0 +1,81 @@
+{
+  "uuid": "29b55c44-c949-429e-9c67-cbf5b3613c16-tr-0-1048",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06513"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0007_Producto_Añadir_Rack_Colocation"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|Form|Mscrm.SavePrimary12-button\" aria-label=\"Guardar (CTRL+S)\" aria-describedby=\"id-1913\" role=\"menuitem\" title=\"Guardar (CTRL+S)\n\nGuarde Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" data-lp-id=\"Form:quote-quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" type=\"button\" class=\"pa-ax pa-jt pa-gz pa-gc pa-bp pa-ka pa-p pa-kb pa-kc pa-jz flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (420, 68). Other element would receive the click: <div id=\"modalDialogRoot_4_4\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 136\r\n   at Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 257"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0007 Añadir producto de Rack\n",
+  "steps": [
+    {
+      "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quote|NoRelationship|Form|Mscrm.SavePrimary12-button\" aria-label=\"Guardar (CTRL+S)\" aria-describedby=\"id-1913\" role=\"menuitem\" title=\"Guardar (CTRL+S)\n\nGuarde Oferta.\" tabindex=\"-1\" data-id=\"quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" data-lp-id=\"Form:quote-quote|NoRelationship|Form|lyn.Mscrm.Form.quote.Save\" type=\"button\" class=\"pa-ax pa-jt pa-gz pa-gc pa-bp pa-ka pa-p pa-kb pa-kc pa-jz flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (420, 68). Other element would receive the click: <div id=\"modalDialogRoot_4_4\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 136\r\n   at Lyntia.TestSet.Producto.CRM_APR0007_Producto_Añadir_Rack_Colocation() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Producto.cs:line 257"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0007_Producto_Añadir_Rack_Colocation-GuardarProducto.png",
+          "source": "a2bda8540a6449a2a7f96d2eec044cbe-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "498a70dde3334a0caca8e653c57f5dcb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1678432766976,
+      "stop": 1678432914494
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1678432766976,
+  "stop": 1678432914494
+}

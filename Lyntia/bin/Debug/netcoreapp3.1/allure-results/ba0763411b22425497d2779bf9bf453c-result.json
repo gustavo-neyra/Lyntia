@@ -1,0 +1,86 @@
+{
+  "uuid": "dabfcf99-8bb1-451e-aef7-077d19e898bd-tr-0-1017",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0012_Oferta_Cerrar_Adjudicada"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_1\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_1\" title=\"\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-ba pa-ax pa-bm pa-in pa-io pa-ip \" value=\"\"> is not clickable at point (1799, 118). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.Seleccionofertarazonadjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 817\r\n   at Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 896"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0012 Cerrar Oferta Adjudicada\n",
+  "steps": [
+    {
+      "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input id=\"quickFind_text_1\" aria-label=\"Oferta Filtrar por palabra clave\" data-id=\"quickFind_text_1\" title=\"\" placeholder=\"Filtrar por palabra clave\" autocomplete=\"off\" type=\"text\" class=\"pa-ba pa-ax pa-bm pa-in pa-io pa-ip \" value=\"\"> is not clickable at point (1799, 118). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=111.0.5563.65)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.Seleccionofertarazonadjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 817\r\n   at Lyntia.TestSet.Oferta.CRM_COF0012_Oferta_Cerrar_Adjudicada() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 896"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada-BuscaOferta.png",
+          "source": "f425f9fc61814dd8af664049228d9ead-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "CRM_COF0012_Oferta_Cerrar_Adjudicada-EditarOfertaAdjudicada.png",
+          "source": "8decd35a6f79440f9dd657c92f3005ee-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b0775e8b77414add9ce10188f65ae91c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1679300019985,
+      "stop": 1679300084302
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1679300019985,
+  "stop": 1679300084305
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "6e5a758f-b045-4e0d-a7e5-5814208a46e0-tr-0-1049",
+  "historyId": "Lyntia.TestSet.Producto.CRM_APR0008_Producto_Cambio_de_Capacidad_CC",
+  "fullName": "Lyntia.TestSet.Producto.CRM_APR0008_Producto_Cambio_de_Capacidad_CC",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_APR0008_Producto_Cambio_de_Capacidad_CC"
+    },
+    {
+      "name": "testClass",
+      "value": "Producto"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO AÑADIR PRODUCTO"
+    },
+    {
+      "name": "suite",
+      "value": "PRODUCTO"
+    }
+  ],
+  "links": [],
+  "name": "CRM_APR0008_Producto_Cambio_de_Capacidad_CC",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Producto.CRM_APR0008_Producto_Cambio_de_Capacidad_CC() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 284"
+  },
+  "stage": "finished",
+  "description": "CRM-APR0008 Añadir producto correctamente, Cambio de Capacidad\n",
+  "steps": [
+    {
+      "name": "CRM_APR0008_Producto_Cambio_de_Capacidad_CC",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 45 seconds",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 249\r\n   at Lyntia.TestSet.Producto.CRM_APR0008_Producto_Cambio_de_Capacidad_CC() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Producto.cs:line 284"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_APR0008_Producto_Cambio_de_Capacidad_CC-AddDatosOferta.png",
+          "source": "a4ded4cd05894c1f8abf7af0792fd118-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "2c0ab17e58b4491380f65358eb4f2eb2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1697617131873,
+      "stop": 1697617238097
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1697617131873,
+  "stop": 1697617238097
+}

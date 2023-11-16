@@ -1,0 +1,81 @@
+{
+  "uuid": "41ca7a79-fa49-4efb-9a46-78822a5fbb41-tr-0-1007",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"ms-Button-label label-110\" id=\"id__23\">...</span> is not clickable at point (297, 117). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 276"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0007 Creacion Oferta Cambio Precio Renovacion\n",
+  "steps": [
+    {
+      "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"ms-Button-label label-110\" id=\"id__23\">...</span> is not clickable at point (297, 117). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 66\r\n   at Lyntia.TestSet.Oferta.CRM_COF0007_creacionOfertaCambioPrecioRenovacion() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 276"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0007_creacionOfertaCambioPrecioRenovacion-AccesoSeccionOfertas.png",
+          "source": "06dae874126446b696e221737fb2b96e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "7403a3737ccd4ab48578d74ee392ddf6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675411430245,
+      "stop": 1675411505142
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675411430245,
+  "stop": 1675411505142
+}

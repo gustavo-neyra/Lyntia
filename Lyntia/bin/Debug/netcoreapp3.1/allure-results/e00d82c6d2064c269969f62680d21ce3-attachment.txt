@@ -1,0 +1,12 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+El producto en vista rapida no se ha añadido correctamente
+-------------------- - 
+-------------------- - 
+Excepción: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at System.Collections.ObjectModel.ReadOnlyCollection`1.get_Item(Int32 index)
+   at Lyntia.TestSet.Actions.ProductoActions.Añadirproducto_vistarapida() in C:\Users\GUILLEM.MAGRIÑA.EXT\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\ProductoActions.cs:line 147

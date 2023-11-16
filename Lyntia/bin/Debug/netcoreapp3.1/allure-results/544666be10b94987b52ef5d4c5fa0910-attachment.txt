@@ -1,0 +1,15 @@
+No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+Error al iniciar el instaciador : OpenQA.Selenium.WebDriverException: Cannot start the driver service on http://localhost:56749/
+   at OpenQA.Selenium.DriverService.Start()
+   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)
+   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)
+   at Lyntia.Utilities.Utils.Instanciador() in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\Utilities\Utils.cs:line 44

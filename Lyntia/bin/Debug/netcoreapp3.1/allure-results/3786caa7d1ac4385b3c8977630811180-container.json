@@ -1,0 +1,59 @@
+{
+  "uuid": "f375f3f5-c265-495e-9d0e-0b08fe66cff2-tc-0-1000",
+  "name": "Lyntia.TestSet.Oferta.CRM_POF0004_PresentarOferta_UbiRed_Business",
+  "children": [
+    "6690adf0-91dc-4c6a-940a-703143fc88d8-tr-0-1021"
+  ],
+  "befores": [
+    {
+      "name": "BorradoScreenshots",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675418852749,
+      "stop": 1675418852749
+    },
+    {
+      "name": "Instanciador",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675418852749,
+      "stop": 1675418852749
+    }
+  ],
+  "afters": [
+    {
+      "name": "Cierre",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1675418852750,
+      "stop": 1675418852750
+    }
+  ],
+  "links": [],
+  "start": 1675418677140,
+  "stop": 1675418852788
+}

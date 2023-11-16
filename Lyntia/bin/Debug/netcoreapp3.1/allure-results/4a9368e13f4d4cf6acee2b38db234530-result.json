@@ -1,0 +1,81 @@
+{
+  "uuid": "022e79ac-aa9f-43a8-aa9f-ca68a9602de1-tr-0-1027",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 25 but was 21. Strings differ at index 12.\r\n  Expected: \"Nuevo Oferta: Sin guardar\"\r\n  But was:  \"Nuevo Oferta- Unsaved\"\r\n  -----------------------^\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta()\r\n   at Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto()\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0001 - Oferta_Eliminar_En_borrador_Sin_Producto\n",
+  "steps": [
+    {
+      "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 25 but was 21. Strings differ at index 12.\r\n  Expected: \"Nuevo Oferta: Sin guardar\"\r\n  But was:  \"Nuevo Oferta- Unsaved\"\r\n  -----------------------^\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta()\r\n   at Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto()\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto-CreaOferta.png",
+          "source": "0883b97e6d2546fe882de47666017606-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5bead360674d436786be1a38b742300d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671444514912,
+      "stop": 1671444743406
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671444514900,
+  "stop": 1671444743413
+}

@@ -1,0 +1,19 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+No se pudo interactuar con el elemento Modulo.frameModulos de tipo ID
+Excepción : OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#AppLandingPage"}
+  (Session info: chrome=113.0.5672.93)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at Lyntia.Utilities.Utils.SearchWebElement(String identificador) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\Utilities\Utils.cs:line 194
+No se pudo acceder a Gestión de Cliente
+-------------------- - 
+-------------------- - 
+Excepción: System.ArgumentNullException: Frame element cannot be null (Parameter 'frameElement')
+   at OpenQA.Selenium.TargetLocator.Frame(IWebElement frameElement)
+   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 33

@@ -1,0 +1,23 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM-COF0010, CLIENTE INTEGRACION, Nuevo servicio, # BizQA.
+La Oferta se guarda correctamente.
+Producto guardado correctamente: Circuitos de capacidad, FTTT, 1 Gbps, , 4, 
+Se accede correctamente a la sección Mis Ofertas lyntia
+Se busca la Oferta por parámetro: CRM-COF00101205231002.
+***Se cumple la condición de Oferta guardada Correctamente.
+Se selecciona la Oferta del grid.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <div class="ag-cell ag-cell-not-inline-editing ag-cell-normal-height ag-cell-value non-editable-cell" aria-colindex="2" aria-readonly="true" tabindex="-1" role="gridcell" col-id="lyn_semaforo" style="left: 50px; width: 25px; display: flex; align-items: center;">...</div> is not clickable at point (262, 210). Other element would receive the click: <div id="progressIndicatorContainer" role="presentation" class="pa-lg pa-lh pa-p pa-bp pa-h pa-a flexbox">...</div>
+  (Session info: chrome=113.0.5672.93)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.OfertaActions.SeleccionarOfertaGrid() in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 335

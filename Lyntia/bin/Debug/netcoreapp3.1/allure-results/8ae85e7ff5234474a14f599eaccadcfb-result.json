@@ -1,0 +1,81 @@
+{
+  "uuid": "627b4153-b307-4180-8c42-8a7f9493536b-tr-0-1027",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@data-id,'transactioncurrencyid_selected_tag_text')]\"}\n  (Session info: chrome=113.0.5672.93)",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 49\r\n   at Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1245"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0001 - Oferta_Eliminar_En_borrador_Sin_Producto\n",
+  "steps": [
+    {
+      "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@data-id,'transactioncurrencyid_selected_tag_text')]\"}\n  (Session info: chrome=113.0.5672.93)",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 49\r\n   at Lyntia.TestSet.Oferta.CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1245"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto-CreaOferta.png",
+          "source": "7ac7dc05947c4405a09bfc20ef9718f7-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "66b5854e459a466e905b74718c21a1e6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684219029221,
+      "stop": 1684219125222
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684219029221,
+  "stop": 1684219125222
+}

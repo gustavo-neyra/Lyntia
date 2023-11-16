@@ -1,0 +1,81 @@
+{
+  "uuid": "9a754f3d-53ba-424f-aea7-88186b82376d-tr-0-1039",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <iframe id=\"FullPageWebResource\" aria-label=\"DIALOG_Adjudicar.html\" data-id=\"MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource\" src=\"/%7b638289029130000194%7d/webresources/lyn_DIALOG_Adjudicar.html\" name=\"lyn_DIALOG_Adjudicar.html\" class=\"pa-ay pa-f pa-gl \" cd_frame_id_=\"7c5268a09b806b44765c40815f253269\"></iframe> is not clickable at point (860, 494). Other element would receive the click: <span id=\"confirmButtonText_7\" class=\"pa-ff pa-fa pa-bb pa-ao pa-e pa-dn \">...</span>\n  (Session info: chrome=116.0.5845.112)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 984\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1836"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0004 - Oferta/Servicio/CANCELACIÓN RACK\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <iframe id=\"FullPageWebResource\" aria-label=\"DIALOG_Adjudicar.html\" data-id=\"MscrmControls.WebResource.WebResourceHtmlControl-FullPageWebResource\" src=\"/%7b638289029130000194%7d/webresources/lyn_DIALOG_Adjudicar.html\" name=\"lyn_DIALOG_Adjudicar.html\" class=\"pa-ay pa-f pa-gl \" cd_frame_id_=\"7c5268a09b806b44765c40815f253269\"></iframe> is not clickable at point (860, 494). Other element would receive the click: <span id=\"confirmButtonText_7\" class=\"pa-ff pa-fa pa-bb pa-ao pa-e pa-dn \">...</span>\n  (Session info: chrome=116.0.5845.112)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 984\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1836"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK-VentanaCrearPedido.png",
+          "source": "e273b697dcf04c0281872d9f83606284-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "c49a8c990b4b42a9860ef35021229f97-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1693556880085,
+      "stop": 1693557130915
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1693556880085,
+  "stop": 1693557130915
+}

@@ -1,0 +1,24 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se han introducido correctamente los campos de la Oferta: CRM_COF0011, CLIENTE PRUEBAS AUTOMATICAS, , .
+La Oferta se guarda correctamente.
+Producto guardado correctamente: Circuitos de capacidad, FTTT, 1 Gbps, , 10, 
+Se accede a la ventana de Adjudicar Oferta.
+***Se cumple la condicion de oferta adjudicada correctamente
+se continua con el pedido correctamente.
+No se pudo acceder a la sección  Mis Ofertas lyntia.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <li id="sitemap-entity-oferta" aria-label="Ofertas" role="treeitem" title="Ofertas" tabindex="0" data-id="sitemap-entity-oferta" data-lp-id="sitemap-entity-oferta" data-text="Ofertas" class="pa-bm pa-a pa-p pa-bp pa-dr pa-ax pa-b pa-ds pa-dt pa-du pa-dv " data-pa-landmark-active-element="true">...</li> is not clickable at point (90, 522). Other element would receive the click: <div id="modalDialogRoot_8_8" tabindex="-1" class="pa-f pa-bm pa-a pa-p pa-av flexbox">...</div>
+  (Session info: chrome=116.0.5845.112)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 46

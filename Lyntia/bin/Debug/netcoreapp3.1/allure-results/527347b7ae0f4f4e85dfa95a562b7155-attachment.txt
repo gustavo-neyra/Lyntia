@@ -1,0 +1,20 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+No se introducen los datos de la Oferta: CRM_SECAN0004, CLIENTE INTEGRACION, Nuevo servicio, .
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <input id="id-b1bbaba3-f806-49e9-9d25-70fd5c1e2e8f-2-name4273edbd-ac1d-40d3-9fb2-095c621b552d-name.fieldControl-text-box-text" aria-label="Nombre oferta" aria-required="true" title="" data-id="name.fieldControl-text-box-text" placeholder="" maxlength="300" autocomplete="off" type="text" class="pa-z pa-da pa-ih pa-bm pa-bd pa-em pa-el pa-l pa-sr pa-ss pa-ix pa-po pa-ar pa-as pa-he pa-il pa-oj pa-sw pa-sx pa-sy pa-sz pa-ta pa-tb pa-tc pa-kv pa-td pa-te pa-tf pa-tg pa-th pa-ti pa-tj pa-tk pa-de pa-tl pa-ip " value="---"> is not clickable at point (529, 279). Other element would receive the click: <span id="warningIcon_3" data-id="warningIcon" class="symbolFont Warning-symbol pa-ns pa-ic pa-nt pa-bl "></span>
+  (Session info: chrome=112.0.5615.87)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\joel.amores\Source\Repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoInput(String elementoKey, String text) in C:\Users\joel.amores\Source\Repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 158
+   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\Users\joel.amores\Source\Repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 216

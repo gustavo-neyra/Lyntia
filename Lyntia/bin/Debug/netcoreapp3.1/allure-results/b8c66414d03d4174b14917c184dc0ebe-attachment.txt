@@ -1,0 +1,22 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_APR0012, CLIENTE INTEGRACION, Cambio Upgrade/Downgrade, # BizQA.
+La Oferta se guarda correctamente.
+***productoHeredado, precioMensual, duracionContrato, nrc, metros, precioMetroAnual no se guarda correctamente
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <input id="id-4fcfa8a9-9189-42c9-9189-e5a38acb6e72-3-new_servicioorigenafectadoid270bd3db-d9af-4782-9025-509e298dec0a-new_servicioorigenafectadoid.fieldControl-LookupResultsDropdown_new_servicioorigenafectadoid_7_textInputBox_with_filter_new" aria-label="Servicio heredado, Búsqueda" aria-expanded="false" role="combobox" data-id="new_servicioorigenafectadoid.fieldControl-LookupResultsDropdown_new_servicioorigenafectadoid_textInputBox_with_filter_new" title="" placeholder="" autocomplete="off" aria-autocomplete="list" type="text" class="pa-gc pa-rf pa-rj pa-rk pa-qj pa-qk pa-gn pa-em pa-el pa-rl pa-rm pa-rn pa-ip " value="---" aria-haspopup="tree"> is not clickable at point (1197, 203). Other element would receive the click: <span aria-live="polite" role="alert" class="pa-bm pa-bl pa-em pa-cv pa-xz ">...</span>
+  (Session info: chrome=112.0.5615.121)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\arnau.suiles.ext\Source\Repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoInput(String elementoKey, String text) in C:\Users\arnau.suiles.ext\Source\Repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 158
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoConDesplegable(String elementoKey, String text) in C:\Users\arnau.suiles.ext\Source\Repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 167
+   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\Users\arnau.suiles.ext\Source\Repos\Lyntia-automation\Lyntia\TestSet\Actions\ProductoActions.cs:line 190

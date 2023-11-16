@@ -1,0 +1,20 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM-COF0005, CLIENTE INTEGRACION, Nuevo servicio, # BizQA.
+La Oferta se guarda correctamente.
+Producto guardado correctamente: Circuitos de capacidad, FTTT, 1 Gbps, , 10, 
+No se pudo acceder a la sección  Mis Ofertas lyntia.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <label class="ms-Label root-185">...</label> is not clickable at point (134, 100). Other element would receive the click: <div role="presentation" class="pa-bk pa-e pa-p pa-co flexbox">...</div>
+  (Session info: chrome=107.0.5304.107)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.OfertaActions.acceder_A_OfertasLyntia() in C:\Users\GUILLEM.MAGRIÑA.EXT\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 55

@@ -1,0 +1,1058 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is a sample XML document -->
+<!DOCTYPE ProjectProperties>
+<TestsCase>
+	<!-- si fechaPresentacion está vacía se usará la fecha actual-->
+	<CRM_COF0001_accesoOfertas/>
+	<CRM_COF0002_consultaOferta/>
+	<CRM_COF0003_creacionOferta>
+		<oferta>
+			<nombreOferta>CRM-COF0003_</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+		</oferta>
+	</CRM_COF0003_creacionOferta>
+	<CRM_COF0004_creacionOfertaSinCamposObligatorios>
+		<oferta1>
+			<nombreOferta></nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta/>
+			<kam/>
+			<utprx></utprx>
+			<codigoTarea></codigoTarea>
+			<fechaPresentacion/>
+		</oferta1>
+		<oferta2>
+			<nombreOferta>CRM_COF0004</nombreOferta>
+			<cliente></cliente>
+			<tipoOferta/>
+			<kam/>
+			<utprx></utprx>
+			<codigoTarea></codigoTarea>
+			<fechaPresentacion/>
+		</oferta2>
+	</CRM_COF0004_creacionOfertaSinCamposObligatorios>
+	<CRM_COF0005_creacionOfertaNuevoServicio>
+		<oferta>
+			<nombreOferta>CRM-COF0005</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+	</CRM_COF0005_creacionOfertaNuevoServicio>
+	<CRM_COF0006_creacionOfertaCambioCapacidad>
+		<oferta>
+			<nombreOferta>CRM_COF0006</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Cambio Upgrade/Downgrade</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+	</CRM_COF0006_creacionOfertaCambioCapacidad>
+	<CRM_COF0007_creacionOfertaCambioPrecioRenovacion>
+		<oferta>
+			<nombreOferta>CRM-COF0005</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Cambio de precio/Renovación</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+	</CRM_COF0007_creacionOfertaCambioPrecioRenovacion>
+	<CRM_COF0008_creacionOfertaCambioSolucionTecnica>
+		<oferta>
+			<nombreOferta>CRM_COF0008</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Cambio de configuración</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+	</CRM_COF0008_creacionOfertaCambioSolucionTecnica>
+	<CRM_COF0009_creacionOfertaCambioDireccion>
+		<oferta>
+			<nombreOferta>CRM_COF0009</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Cambio de dirección</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+	</CRM_COF0009_creacionOfertaCambioDireccion>
+	<CRM_COF0005_eliminarOfertaProductoAnadido>
+		<oferta>
+			<nombreOferta>CRM-COF0005</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<operador>ORANGE</operador>
+			<nrc>2</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+	</CRM_COF0005_eliminarOfertaProductoAnadido>
+	<CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid>
+		<oferta>
+			<nombreOferta>CRM_COF0006</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<operador>ORANGE</operador>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+	</CRM_COF0006_eliminarOfertaProductoAnadidoDesdeGrid>
+	<CRM_OFCAN0002_Oferta_Cancelar_En_Elaboracion_Con_Producto>
+		<oferta>
+			<nombreOferta>CRM-COF0007</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+		<cierreOferta1>
+			<opcion>Cancelar</opcion>
+			<motivo>Sin información/otro motivo</motivo>
+			<razon>Perdida</razon>
+			<consecuencia>Sin información/Otro motivo</consecuencia>
+			<cierreOportunidad>Sí</cierreOportunidad>
+			<fechaCierre>01/02/2021</fechaCierre>
+		</cierreOferta1>
+		<cierreOferta2>
+			<opcion>Aceptar</opcion>
+			<motivo></motivo>
+			<razon></razon>
+			<consecuencia></consecuencia>
+			<cierreOportunidad></cierreOportunidad>
+			<fechaCierre/>
+		</cierreOferta2>
+		<cierreOferta3>
+			<opcion>Aceptar</opcion>
+			<motivo>Sin información/otro motivo</motivo>
+			<razon>Cancelada</razon>
+			<consecuencia>Sin información/Otro motivo</consecuencia>
+			<cierreOportunidad>Sí</cierreOportunidad>
+			<fechaCierre>01/02/2021</fechaCierre>
+		</cierreOferta3>
+	</CRM_OFCAN0002_Oferta_Cancelar_En_Elaboracion_Con_Producto>
+	<CRM_COF0008_cerrarOfertaProductoAnadidoNoViable_casoMOD>
+		<oferta>
+			<nombreOferta>CRM-COF0008</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>10</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+	</CRM_COF0008_cerrarOfertaProductoAnadidoNoViable_casoMOD>
+	<CRM_COF0009_cerrarOfertaProductoAnadidoPerdida>
+		<oferta>
+			<nombreOferta>CRM-COF0009</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+		<cierreOferta1>
+			<opcion>Aceptar</opcion>
+			<motivo>Sin información/otro motivo</motivo>
+			<razon>Perdida</razon>
+			<consecuencia>Sin información/Otro motivo</consecuencia>
+			<cierreOportunidad>Sí</cierreOportunidad>
+			<fechaCierre>01/02/2021</fechaCierre>
+		</cierreOferta1>
+	</CRM_COF0009_cerrarOfertaProductoAnadidoPerdida>
+	<CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada>
+		<oferta>
+			<nombreOferta>CRM-COF0010</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+		<cierreOferta1>
+			<opcion>Aceptar</opcion>			
+			<motivo>Sin información/otro motivo</motivo>
+			<razon>Perdida</razon>
+			<consecuencia>Sin información/Otro motivo</consecuencia>
+			<cierreOportunidad>Sí</cierreOportunidad>
+			<fechaCierre/>
+		</cierreOferta1>
+	</CRM_COF00010_cerrarOfertaPresentadaProductoAnadidoRevisada>
+	<CRM_EOF0003_Editar_campos_de_una_oferta>
+		<oferta>
+			<nombreOferta>CRM_EOF0003</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta></tipoOferta>
+			<kam></kam>
+			<utprx></utprx>
+			<codigoTarea></codigoTarea>
+			<tipoOferta></tipoOferta>
+			<fechaPresentacion/>
+		</oferta>		
+		<edicionOferta>
+			<nombreOferta>CRM_EOF0003_Modificada</nombreOferta>			
+			<referenciaOferta>1234</referenciaOferta>
+			<GVAL>prue123456</GVAL>	
+			<descripcion>Prueba campo descripcion</descripcion>
+		</edicionOferta>
+	</CRM_EOF0003_Editar_campos_de_una_oferta>
+	<CRM_EOF0004_Editar_campo_tipo_de_Oferta>
+		<oferta>
+			<nombreOferta>CRM_EOF0004_Editar_campo_tipo_de_Oferta</nombreOferta>
+			<cliente></cliente>
+			<tipoOferta></tipoOferta>
+			<kam></kam>
+			<utprx></utprx>
+			<codigoTarea></codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+	</CRM_EOF0004_Editar_campo_tipo_de_Oferta>
+	<CRM_COF0011_eliminarOferta_Adjudicada>
+		<oferta>
+			<nombreOferta>CRM_COF0011</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta></tipoOferta>
+			<kam></kam>
+			<utprx>45</utprx>
+			<codigoTarea>19</codigoTarea>
+			<tipoOferta></tipoOferta>
+			<fechaPresentacion/>
+		</oferta>
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>10</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+	</CRM_COF0011_eliminarOferta_Adjudicada>
+	<CRM_COF0012_Oferta_Cerrar_Adjudicada>
+		<oferta>
+			<nombreOferta>Oferta_Adjudicada_Automaticion</nombreOferta>
+			<cliente></cliente>
+			<tipoOferta></tipoOferta>
+			<kam></kam>
+			<utprx></utprx>
+			<codigoTarea></codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+	</CRM_COF0012_Oferta_Cerrar_Adjudicada>
+	<CRM_POF0001_PresentarOferta>
+		<oferta>
+			<nombreOferta>CRM-COF0005</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>10</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+	</CRM_POF0001_PresentarOferta>
+	<CRM_POF0002_PresentarOferta>
+		<oferta>
+			<nombreOferta>CRM_POF0002</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Fibra oscura</productoExistente>
+			<uso>Backbone y OTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros>4</metros>
+			<modalidadContratacion>IRU</modalidadContratacion>
+			<nrc>3</nrc>
+			<duracionContrato/>
+			<precioAnual>2</precioAnual>
+			<infraestructura/>
+			<arc>2</arc>
+		</producto1>
+	</CRM_POF0002_PresentarOferta>
+	<CRM_POF0003_PresentarOferta_UbiRed_Pro>
+		<oferta>
+			<nombreOferta>CRM_POF0003</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTO</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros></metros>
+			<modalidadContratacion></modalidadContratacion>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual/>
+			<infraestructura/>
+		</producto1>
+	</CRM_POF0003_PresentarOferta_UbiRed_Pro>
+	<CRM_POF0004_PresentarOferta_UbiRed_Business>
+		<oferta>
+			<nombreOferta>CRM_POF0004</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam># BizQA</kam>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros></metros>
+			<modalidadContratacion></modalidadContratacion>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual/>
+			<infraestructura/>
+		</producto1>
+	</CRM_POF0004_PresentarOferta_UbiRed_Business>
+	<CRM_POF0005_PresentarOferta_Rack_Colocation>
+		<oferta>
+			<nombreOferta>CRM_POF0005</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Colocation</productoExistente>
+			<uso/>
+			<unidadVenta/>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato>12</duracionContrato>
+			<precioMensual/>
+			<infraestructura>2U en Rack compartido</infraestructura>
+		</producto1>
+	</CRM_POF0005_PresentarOferta_Rack_Colocation>
+	<CRM_POAF0001_Oferta_Adjudicar_CC>
+		<oferta>
+			<nombreOferta>CRM_POAF0001</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTE</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+	</CRM_POAF0001_Oferta_Adjudicar_CC>
+	<CRM_POAF0002_Ofeta_Adjudicar_FOC>
+		<oferta>
+			<nombreOferta>CRM_POAF0002</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Fibra oscura</productoExistente>
+			<uso>FTTE</uso>
+			<unidadVenta/>
+			<metros>2</metros>
+			<modalidadContratacion>Lease</modalidadContratacion>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioAnual>2</precioAnual>
+			<arc>2</arc>
+			<infraestructura/>
+		</producto1>
+	</CRM_POAF0002_Ofeta_Adjudicar_FOC>
+	<CRM_EOF0001_Edición_borrador_Sin_datos_obligatorios>
+		<oferta>
+			<nombreOferta>CRM_EOF0001</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+	</CRM_EOF0001_Edición_borrador_Sin_datos_obligatorios>
+	<CRM_EOF0002_Edición_borrador_Con_datos_obligatorios>
+		<oferta>
+			<nombreOferta>CRM_EOF0002</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<edicionOferta>
+			<nombreOferta>CRM_EOF0002_Modificada</nombreOferta>
+			<cliente>2k</cliente>
+			<tipoOferta>Cambio de dirección(Migración)</tipoOferta>
+			<divisa>Euro</divisa>
+		</edicionOferta>
+	</CRM_EOF0002_Edición_borrador_Con_datos_obligatorios>
+	<CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto>
+		<oferta>
+			<nombreOferta>CRM_COF0001</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+	</CRM_COF0001_Oferta_Eliminar_En_borrador_Sin_Producto>
+	<CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto>
+		<oferta>
+			<nombreOferta>CRM_COF0002</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+	</CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto>
+	<CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto>
+		<oferta>
+			<nombreOferta>CRM_COF0003</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<cierreOferta1>
+			<opcion>Cancelar</opcion>
+			<motivo>Sin información/otro motivo</motivo>
+			<razon>Cancelada</razon>
+			<consecuencia>Sin información/Otro motivo</consecuencia>
+			<cierreOportunidad>Sí</cierreOportunidad>
+			<fechaCierre/>
+		</cierreOferta1>
+		<cierreOferta2>
+			<opcion>Aceptar</opcion>
+			<motivo></motivo>
+			<razon></razon>
+			<consecuencia></consecuencia>
+			<cierreOportunidad></cierreOportunidad>
+			<fechaCierre/>
+		</cierreOferta2>
+		<cierreOferta3>
+			<opcion>Aceptar</opcion>
+			<motivo>Sin información/otro motivo</motivo>
+			<razon>Cancelada</razon>
+			<consecuencia>Sin información/Otro motivo</consecuencia>
+			<cierreOportunidad>Sí</cierreOportunidad>
+			<fechaCierre>01/02/2021</fechaCierre>
+		</cierreOferta3>
+	</CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto>
+	<CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable>
+		<oferta>
+			<nombreOferta>CRM_COFNR0001</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+	</CRM_COFNR0001_cerrarOfertaEnElaboracion_NoRealizable>
+	<CRM_COF0004_Oferta_Cerrar_En_borrador_Sin_Producto_No_viable_caso_MOD>
+		<oferta>
+			<nombreOferta>CRM_COF0004</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<cierreOferta1>
+			<opcion>Cancelar</opcion>
+			<motivo>Sin información/otro motivo</motivo>
+			<razon>Perdida</razon>
+			<consecuencia>Sin información/Otro motivo</consecuencia>
+			<cierreOportunidad>Sí</cierreOportunidad>
+			<fechaCierre/>
+		</cierreOferta1>
+		<cierreOferta2>
+			<opcion>Aceptar</opcion>
+			<motivo></motivo>
+			<razon>Perdida</razon>
+			<consecuencia></consecuencia>
+			<cierreOportunidad></cierreOportunidad>
+			<fechaCierre/>
+		</cierreOferta2>
+	</CRM_COF0004_Oferta_Cerrar_En_borrador_Sin_Producto_No_viable_caso_MOD>
+	<CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad>
+		<oferta>
+			<nombreOferta>CRM_POAF0001</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTE</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+		<producto2>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto2>
+	</CRM_POAF0001_Oferta_Adjudicar_varios_CC_circuito_de_capacidad>
+	<CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura>
+		<oferta>
+			<nombreOferta>CRM_POAF0002</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Fibra oscura</productoExistente>
+			<uso>FTTE</uso>
+			<unidadVenta>IRU</unidadVenta>
+			<metros>20</metros>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioAnual>2</precioAnual>
+			<infraestructura/>
+			<arc>2</arc>
+		</producto1>
+		<producto2>
+			<productoExistente>Fibra oscura</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>20</unidadVenta>
+			<metros>2</metros>
+			<modalidadContratacion>Lease</modalidadContratacion>
+			<nrc>2</nrc>
+			<duracionContrato/>
+			<precioAnual>2</precioAnual>
+			<infraestructura/>
+			<arc>2</arc>
+		</producto2>
+	</CRM_POAF0002_Oferta_Adjudicar_varios_CC_Fibra_oscura>
+	<CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO>
+		<oferta>
+			<nombreOferta>CRM_POAF0003</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual/>
+			<infraestructura/>
+		</producto1>
+		<producto2>
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTE</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<nrc>7</nrc>
+			<duracionContrato/>
+			<precioMensual/>
+			<infraestructura/>
+		</producto2>
+	</CRM_POAF0003_Oferta_Adjudicar_varios_CC_UbiredPRO>
+	<CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness>
+		<oferta>
+			<nombreOferta>CRM_POAF0004</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros></metros>
+			<modalidadContratacion></modalidadContratacion>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual/>
+			<infraestructura/>
+		</producto1>
+		<producto2>
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros></metros>
+			<modalidadContratacion></modalidadContratacion>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual/>
+			<infraestructura/>
+		</producto2>
+	</CRM_POAF0004_Oferta_Adjudicar_varios_CC_UbiRedBusiness>
+	<CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack>
+		<oferta>
+			<nombreOferta>CRM_POAF0005</nombreOferta>
+			<cliente>CLIENTE PRUEBAS AUTOMATICAS</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Colocation</productoExistente>
+			<uso/>
+			<unidadVenta/>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato>3</duracionContrato>
+			<precioMensual>4</precioMensual>
+			<infraestructura>2U en Rack compartido</infraestructura>
+		</producto1>
+		<producto2>
+			<productoExistente>Colocation</productoExistente>
+			<uso/>
+			<unidadVenta/>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>6</nrc>
+			<duracionContrato>2</duracionContrato>
+			<precioMensual>4</precioMensual>
+			<infraestructura>1/2 Rack 24U</infraestructura>
+		</producto2>
+	</CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack>
+	<CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC>
+		<oferta>
+			<nombreOferta>CRM_SECAN0001</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>utprx20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<servicioContratado>
+			<!-- Pestaña General-->
+			<nombreAnexo>prueba anexo tipo fibra</nombreAnexo>
+			<opcionModalidad>IRU</opcionModalidad>
+			<fechaInicioFacturacion></fechaInicioFacturacion>
+			<!-- Pestaña Caracteristicas-->
+			<ambito>Urbano</ambito>
+			<operador>BRODYNT</operador>
+			<numUnidades></numUnidades>
+			<!-- Pestaña Direcciones-->
+			<sitioOrigen>Madrid</sitioOrigen>
+			<sitioDestino>Madrid</sitioDestino>
+			<direccionOrigen>Galicia</direccionOrigen>
+			<direccionDestino>Galicia</direccionDestino>
+			<!-- Pestaña Jira-->
+			<capexFibra>456</capexFibra>
+			<capexEquipos>458</capexEquipos>
+			<contactoLocal>prueba</contactoLocal>
+			<contacto>Jose Antonio Garcia Mendez</contacto>
+			<detallesServicio>Pruebas</detallesServicio>
+			<fechaCompromiso>28/02/2050</fechaCompromiso>
+			<!-- Pestaña ContratosYBilling-->
+			<contratoMarco>borrar</contratoMarco>
+			<utprx>utprx45</utprx>
+			<codigoTarea>2</codigoTarea>
+			<modalidadFacturacion>Vencido</modalidadFacturacion>
+		</servicioContratado>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTE</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>3</precioMensual>
+			<infraestructura/>
+		</producto1>
+	</CRM_SECAN0001_Oferta_Servicio_CANCELACIÓN_CC>
+	<CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO>
+		<oferta>
+			<nombreOferta>CRM_SECAN0002</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>utprx20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<servicioContratado>
+			<!-- Pestaña General-->
+			<nombreAnexo>prueba anexo tipo fibra</nombreAnexo>
+			<opcionModalidad>IRU</opcionModalidad>
+			<fechaInicioFacturacion></fechaInicioFacturacion>
+			<!-- Pestaña Caracteristicas-->
+			<ambito>Urbano</ambito>
+			<operador>BRODYNT</operador>
+			<numUnidades></numUnidades>
+			<!-- Pestaña Direcciones-->
+			<sitioOrigen>Madrid</sitioOrigen>
+			<sitioDestino>Madrid</sitioDestino>
+			<direccionOrigen>Galicia</direccionOrigen>
+			<direccionDestino>Galicia</direccionDestino>
+			<!-- Pestaña Jira-->
+			<capexFibra>456</capexFibra>
+			<capexEquipos>456</capexEquipos>
+			<contactoLocal>prueba</contactoLocal>
+			<contacto>Jose Antonio Garcia Mendez</contacto>
+			<detallesServicio>Pruebas</detallesServicio>
+			<fechaCompromiso>28/02/2050</fechaCompromiso>
+			<!-- Pestaña ContratosYBilling-->
+			<contratoMarco>borrar</contratoMarco>
+			<utprx>utprx45</utprx>
+			<codigoTarea>2</codigoTarea>
+			<modalidadFacturacion>Vencido</modalidadFacturacion>
+		</servicioContratado>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Circuitos de capacidad</productoExistente>
+			<uso>FTTE</uso>
+			<unidadVenta>4</unidadVenta>
+			<metros></metros>
+			<modalidadContratacion>Lease</modalidadContratacion>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>2</precioMensual>
+			<infraestructura/>
+		</producto1>
+	</CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO>
+	<CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro>
+		<oferta>
+			<nombreOferta>CRM_SECAN0003</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>utprx20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Acceso FTTH</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<operador>ORANGE COMUNICACIONES</operador>
+			<arc></arc>
+			<nrc>4</nrc>
+			<duracionContrato/>
+			<precioMensual>10</precioMensual>
+			<infraestructura/>
+		</producto1>
+		<!-- crear servicio-->
+		<servicioContratado>						
+			<!-- Pestaña General-->				
+				<nombreAnexo>prueba anexo UBI PRO</nombreAnexo>
+				<opcionModalidad></opcionModalidad>
+				<fechaInicioFacturacion></fechaInicioFacturacion>
+			<!-- Pestaña Caracteristicas-->
+				<ambito>Urbano</ambito>
+				<operador></operador>
+				<numUnidades></numUnidades>
+			<!-- Pestaña Direcciones-->
+				<sitioOrigen>Madrid</sitioOrigen>
+				<sitioDestino></sitioDestino>		
+				<direccionOrigen>Galicia</direccionOrigen>
+				<direccionDestino></direccionDestino>
+			<!-- Pestaña Jira-->
+				<capexFibra>456</capexFibra>
+				<capexEquipos>456</capexEquipos>
+				<contacto>Jose Antonio Garcia Mendez</contacto>
+				<contactoLocal>prueba</contactoLocal>
+				<detallesServicio>Pruebas</detallesServicio>
+				<fechaCompromiso>28/02/2050</fechaCompromiso>
+			<!-- Pestaña ContratosYBilling-->
+				<contratoMarco>borrar</contratoMarco>				
+				<utprx>utprx45</utprx>
+				<codigoTarea>2</codigoTarea>
+				<modalidadFacturacion>Vencido</modalidadFacturacion>				
+		</servicioContratado>
+	</CRM_SECAN0003_Oferta_Servicio_CANCELACIÓN_Ubired_Pro>
+	<CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK>
+		<oferta>
+			<nombreOferta>CRM_SECAN0004</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>utprx20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<!--Creacion Producto:-->
+		<producto1>
+			<productoExistente>Colocation</productoExistente>
+			<uso>FTTE</uso>
+			<unidadVenta>1 Gbps</unidadVenta>
+			<metros/>
+			<modalidadContratacion/>
+			<nrc>4</nrc>
+			<duracionContrato>3</duracionContrato>
+			<precioMensual>4</precioMensual>
+			<infraestructura>2U en Rack compartido</infraestructura> <!-- obsoleto -->
+		</producto1>
+		<servicioContratado>
+			<!-- Pestaña General-->
+			<nombreAnexo>prueba anexo co-location</nombreAnexo>
+			<opcionModalidad></opcionModalidad>
+			<fechaInicioFacturacion></fechaInicioFacturacion>
+			<!-- Pestaña Direcciones-->
+			<sitioOrigen>Galicia</sitioOrigen>
+			<sitioDestino></sitioDestino>
+			<direccionOrigen>Madrid</direccionOrigen>
+			<direccionDestino></direccionDestino>
+			<!-- Pestaña Jira-->
+			<capexFibra>456</capexFibra>
+			<capexEquipos>458</capexEquipos>
+			<contacto></contacto>
+			<contactoLocal>prueba</contactoLocal>
+			<detallesServicio>Pruebas</detallesServicio>
+			<fechaCompromiso>28/02/2050</fechaCompromiso>
+			<!-- Pestaña ContratosYBilling-->
+			<contratoMarco>borrar</contratoMarco>
+			<utprx>utprx45</utprx>
+			<codigoTarea>19</codigoTarea>
+			<modalidadFacturacion>Vencido</modalidadFacturacion>
+		</servicioContratado>
+	</CRM_SECAN0004_Oferta_Servicio_CANCELACIÓN_RACK>
+	<CRM_BILLING001_Generar_Facturas>
+		<oferta>
+			<nombreOferta>CRM-BILLING001_TestPrueba</nombreOferta>
+			<cliente>CLIENTE INTEGRACION</cliente>
+			<tipoOferta>Nuevo servicio</tipoOferta>
+			<kam/>
+			<utprx>utprx20</utprx>
+			<codigoTarea>19</codigoTarea>
+			<fechaPresentacion/>
+		</oferta>
+		<producto1>
+			<productoExistente>Fibra oscura</productoExistente>
+			<uso>FTTT</uso>
+			<unidadVenta>20</unidadVenta>
+			<metros>2</metros>
+			<modalidadContratacion>Lease</modalidadContratacion>
+			<nrc>2</nrc>
+			<arc>2</arc>
+			<duracionContrato/>
+			<precioAnual>2</precioAnual>			
+			<infraestructura/>
+		</producto1>
+		<servicioContratado>
+			<opcionModalidad></opcionModalidad>
+			<fechaInicioFacturacion></fechaInicioFacturacion>
+			<!-- Pestaña General-->
+				<iru>Normal</iru>
+				<nombreAnexo>prueba</nombreAnexo>
+			<!-- Pestaña Caracteristicas-->
+				<ambito>Urbano</ambito>
+				<operador></operador>
+				<numUnidades>2</numUnidades>
+			<!-- Pestaña Direcciones-->
+				<sitioOrigen>Madrid</sitioOrigen>
+				<sitioDestino>Madrid</sitioDestino>
+				<direccionOrigen>Galicia</direccionOrigen>
+				<direccionDestino>Galicia</direccionDestino>
+			<!-- Pestaña Jira-->
+				<capexFibra>456</capexFibra>
+				<capexEquipos></capexEquipos>
+				<contacto>Jose Antonio Garcia Mendez</contacto>
+				<contactoLocal>prueba</contactoLocal>
+				<detallesServicio>Pruebas</detallesServicio>
+				<fechaCompromiso>28/02/2050</fechaCompromiso>
+			<!-- Pestaña ContratosYBilling-->
+				<contratoMarco>borrar</contratoMarco>
+				<utprx>UTPR45</utprx>
+				<codigoTarea>3</codigoTarea>
+				<modalidadFacturacion>Anticipado</modalidadFacturacion>
+		</servicioContratado>
+	</CRM_BILLING001_Generar_Facturas>		
+
+</TestsCase>

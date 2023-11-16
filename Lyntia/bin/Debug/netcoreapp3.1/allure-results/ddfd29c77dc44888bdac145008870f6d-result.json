@@ -1,0 +1,81 @@
+{
+  "uuid": "c3c03c3d-a0b0-43eb-a4e7-33bfb84c1835-tr-0-1002",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0002_consultaOferta",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0002_consultaOferta",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0002_consultaOferta"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO CREAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0002_consultaOferta",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"-1\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-4\" id=\"Gridf54e3094-2cdd-3d45-b3d5-3742e67a5a3f-id-cell-0-4\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-4\" aria-colindex=\"4\" title=\"1\" style=\"left: 268px; top: 0px; width: 74px; height: 40px; text-align: right; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\">...</div> is not clickable at point (505, 207). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+    "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AbrirOferta() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 106\r\n   at Lyntia.TestSet.Oferta.CRM_COF0002_consultaOferta() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 99"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0002 Consultar Oferta\n",
+  "steps": [
+    {
+      "name": "CRM_COF0002_consultaOferta",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div tabindex=\"-1\" role=\"gridcell\" aria-selected=\"false\" aria-readonly=\"true\" aria-required=\"false\" class=\"wj-cell\" data-id=\"cell-0-4\" id=\"Gridf54e3094-2cdd-3d45-b3d5-3742e67a5a3f-id-cell-0-4\" data-lp-id=\"d0cc5f83-29a2-46a9-896a-9feac1ebda21|entity_control|quote|cc-grid|cc-grid-cell|cell-0-4\" aria-colindex=\"4\" title=\"1\" style=\"left: 268px; top: 0px; width: 74px; height: 40px; text-align: right; padding-left: 7px !important; padding-right: 10px; padding-bottom: 2px; padding-top: 2px; line-height: 35px; background: rgb(255, 255, 255);\">...</div> is not clickable at point (505, 207). Other element would receive the click: <div id=\"modalDialogRoot_2_2\" tabindex=\"-1\" class=\"pa-f pa-bm pa-a pa-p pa-av flexbox\">...</div>\n  (Session info: chrome=109.0.5414.120)",
+        "trace": "   at Lyntia.TestSet.Actions.OfertaActions.AbrirOferta() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Actions\\OfertaActions.cs:line 106\r\n   at Lyntia.TestSet.Oferta.CRM_COF0002_consultaOferta() in C:\\Testing\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 99"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0002_consultaOferta-PrimeraOfertaGrid.png",
+          "source": "2176597db2c64d96bfc8f1752237b1a2-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "30e3a4e9d306422d86cb9c6964d36111-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1675927856414,
+      "stop": 1675927927834
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1675927856414,
+  "stop": 1675927927836
+}

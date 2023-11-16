@@ -1,0 +1,14 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_APR0014, CLIENTE INTEGRACION, Cambio de configuración, # BizQA.
+La Oferta se guarda correctamente.
+***productoHeredado, precioMensual, duracionContrato, nrc, metros, precioMetroAnual no se guarda correctamente
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.NoSuchFrameException: No frame element found with name or id FullPageWebResource
+   at OpenQA.Selenium.TargetLocator.Frame(String frameName)
+   at Lyntia.TestSet.Actions.ProductoActions.HeredarProducto(Dictionary`2 datosTestCase) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\ProductoActions.cs:line 238

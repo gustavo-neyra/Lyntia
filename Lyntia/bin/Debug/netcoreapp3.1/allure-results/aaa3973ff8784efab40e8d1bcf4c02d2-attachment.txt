@@ -1,0 +1,18 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se han introducido correctamente los campos de la Oferta: CRM_SECAN0004, CLIENTE INTEGRACION, Nuevo servicio, .
+La Oferta se guarda correctamente.
+Producto guardado correctamente: Colocation, FTTE, 1 Gbps, , 4, 
+Se accede a la ventana de Adjudicar Oferta.
+***Se cumple la condicion de oferta adjudicada correctamente
+No se continua con el pedido correctamente.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.NoSuchFrameException: No frame element found with name or id FullPageWebResource
+   at OpenQA.Selenium.TargetLocator.Frame(String frameName)
+   at Lyntia.TestSet.Actions.OfertaActions.VentanaCrearPedidofechaposterior(String fecha) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 966

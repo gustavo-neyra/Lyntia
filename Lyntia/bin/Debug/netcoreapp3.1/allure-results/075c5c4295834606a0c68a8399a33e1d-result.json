@@ -1,0 +1,81 @@
+{
+  "uuid": "0357efae-23e3-472e-a35c-66604392e2b5-tr-0-1026",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_EOF0002_Edición_borrador_Con_datos_obligatorios",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_EOF0002_Edición_borrador_Con_datos_obligatorios",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC03100"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_EOF0002_Edición_borrador_Con_datos_obligatorios"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO EDI OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_EOF0002_Edición_borrador_Con_datos_obligatorios",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 25 but was 21. Strings differ at index 12.\r\n  Expected: \"Nuevo Oferta: Sin guardar\"\r\n  But was:  \"Nuevo Oferta- Unsaved\"\r\n  -----------------------^\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 47\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0002_Edición_borrador_Con_datos_obligatorios() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1204\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-EOF0002 - Edición_borrador_Con_datos_obligatorio\n",
+  "steps": [
+    {
+      "name": "CRM_EOF0002_Edición_borrador_Con_datos_obligatorios",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 25 but was 21. Strings differ at index 12.\r\n  Expected: \"Nuevo Oferta: Sin guardar\"\r\n  But was:  \"Nuevo Oferta- Unsaved\"\r\n  -----------------------^\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_CondicionesCreacionOferta() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 47\r\n   at Lyntia.TestSet.Oferta.CRM_EOF0002_Edición_borrador_Con_datos_obligatorios() in C:\\Users\\arnau.suiles.ext\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1204\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_EOF0002_Edición_borrador_Con_datos_obligatorios-CreaOferta.png",
+          "source": "c95f5d0446264beba458b9bf5b4b0aae-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "4985ef372cf24161837383e089635134-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671440748739,
+      "stop": 1671440813432
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671440748739,
+  "stop": 1671440813433
+}

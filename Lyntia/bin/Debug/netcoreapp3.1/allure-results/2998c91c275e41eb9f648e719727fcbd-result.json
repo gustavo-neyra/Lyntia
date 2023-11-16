@@ -1,0 +1,81 @@
+{
+  "uuid": "15bccca4-07bc-4949-9f89-504123ff41cd-tr-0-1028",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : Frame element cannot be null (Parameter 'frameElement')",
+    "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1273"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0002 - Vista Ofertas_En_borrador_Enelaboración_Sin_Producto\n",
+  "steps": [
+    {
+      "name": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentNullException : Frame element cannot be null (Parameter 'frameElement')",
+        "trace": "   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Actions\\CommonActions.cs:line 46\r\n   at Lyntia.TestSet.Oferta.CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 1273"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0002_Vista_Ofertas_En_borrador_En_elaboración_Sin_Producto-AccesoGestionCliente.png",
+          "source": "f97cd37e1cec4eb58c554926cf1dab40-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "5cd43e9301b14cd489782b7b610115c9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683871788714,
+      "stop": 1683871851605
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683871788714,
+  "stop": 1683871851605
+}

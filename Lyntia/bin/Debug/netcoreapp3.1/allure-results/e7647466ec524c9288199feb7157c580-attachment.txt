@@ -1,0 +1,16 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+No se pudo acceder a Gestión de Cliente
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <span class="ms-ContextualMenu-itemText label-160">...</span> is not clickable at point (376, 216). Other element would receive the click: <a title="..." href="https://ufinetprep2.crm4.dynamics.com/main.aspx?appid=a925122d-c2fb-461a-92fa-ae2080db4340&amp;pagetype=entityrecord&amp;etn=account&amp;id=3bdefad3-3bcf-e511-8100-1458d043a570" tabindex="-1" style="font-size: 1rem; font-family: &quot;Segoe UI Regular&quot;, SegoeUI, &quot;Segoe UI&quot;; color: rgb(4, 89, 153); display: inline-block;">CLIENTE INTEGRACION</a>
+  (Session info: chrome=106.0.5249.119)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.CommonActions.acceder_A_GestionCliente() in C:\Users\arnau.suiles.ext\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 40

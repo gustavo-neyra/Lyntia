@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is a sample XML document -->
+<!DOCTYPE ProjectProperties>
+<Properties>	
+	<headless>false</headless> <!--true o false-->
+	<windowsSize>window-size=1920x1080</windowsSize>	
+	<tiempoEsperaMaximo>45</tiempoEsperaMaximo>
+	<entorno>PRE</entorno> <!--Seleccionar un entorno PRE o Test-->
+	
+	<datosEntornos>
+		<PRE>
+			<usuario>ucrm@lyntia.com</usuario>
+			<password>R$yHD33Gwwe</password>
+			<url>https://ufinetprep2.crm4.dynamics.com/</url>	
+		</PRE>
+		<TEST>
+			<usuario>cgarcia@lyntia.com</usuario>
+			<password>Diciembre.2022!</password>
+			<url>https://testlyntia.crm4.dynamics.com/</url>	
+		</TEST>
+	</datosEntornos>
+	
+</Properties>

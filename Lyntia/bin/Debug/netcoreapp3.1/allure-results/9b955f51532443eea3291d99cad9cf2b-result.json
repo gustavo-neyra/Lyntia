@@ -1,0 +1,81 @@
+{
+  "uuid": "6f039fa3-d030-44aa-b0db-826f7ece4ac6-tr-0-1010",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0005_eliminarOfertaProductoAnadido",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0005_eliminarOfertaProductoAnadido",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0005_eliminarOfertaProductoAnadido"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0005_eliminarOfertaProductoAnadido",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 14 but was 2. Strings differ at index 0.\r\n  Expected: \"En elaboración\"\r\n  But was:  \"No\"\r\n  -----------^\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaGuardadaCorrectamenteEnGrid() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 149\r\n   at Lyntia.TestSet.Oferta.CRM_COF0005_eliminarOfertaProductoAnadido() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 448\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0005 Eliminar Oferta en borrador con producto añadido\n",
+  "steps": [
+    {
+      "name": "CRM_COF0005_eliminarOfertaProductoAnadido",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 14 but was 2. Strings differ at index 0.\r\n  Expected: \"En elaboración\"\r\n  But was:  \"No\"\r\n  -----------^\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaGuardadaCorrectamenteEnGrid() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 149\r\n   at Lyntia.TestSet.Oferta.CRM_COF0005_eliminarOfertaProductoAnadido() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 448\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_COF0005_eliminarOfertaProductoAnadido-CondicionOfertaGuardada.png",
+          "source": "3ed743ba086340eab4be560de5183426-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "1fcea9c0f70e4c1e8be16f584cbd33d9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673863980581,
+      "stop": 1673864201041
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673863980580,
+  "stop": 1673864201048
+}

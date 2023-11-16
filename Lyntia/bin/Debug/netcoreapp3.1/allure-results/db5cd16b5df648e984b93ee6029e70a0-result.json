@@ -1,0 +1,76 @@
+{
+  "uuid": "1e2f5d23-8c8a-45e8-baa1-b96a44f2ef29-tr-0-1012",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_COF0007_cerrarOfertaProductoAnadido",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_COF0007_cerrarOfertaProductoAnadido",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_COF0007_cerrarOfertaProductoAnadido"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_COF0007_cerrarOfertaProductoAnadido",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Lyntia.Utilities.TestDataUtils.getDatosRepositorio(String nodoRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\TestDataUtils.cs:line 62\r\n   at Lyntia.Utilities.Utils.getDatosTestCase(String nodoRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 355\r\n   at Lyntia.TestSet.Oferta.CRM_COF0007_cerrarOfertaProductoAnadido() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 519"
+  },
+  "stage": "finished",
+  "description": "CRM-COF0007 Cerrar Oferta en borrador con producto añadido\n",
+  "steps": [
+    {
+      "name": "CRM_COF0007_cerrarOfertaProductoAnadido",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Lyntia.Utilities.TestDataUtils.getDatosRepositorio(String nodoRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\TestDataUtils.cs:line 62\r\n   at Lyntia.Utilities.Utils.getDatosTestCase(String nodoRepositorio) in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\Utilities\\Utils.cs:line 355\r\n   at Lyntia.TestSet.Oferta.CRM_COF0007_cerrarOfertaProductoAnadido() in C:\\Users\\joel.amores\\source\\repos\\Lyntia-automation\\Lyntia\\TestSet\\Oferta.cs:line 519"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "db58b4d6143e45e690f0422aeae62899-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1698665673937,
+      "stop": 1698665710190
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1698665673937,
+  "stop": 1698665710192
+}

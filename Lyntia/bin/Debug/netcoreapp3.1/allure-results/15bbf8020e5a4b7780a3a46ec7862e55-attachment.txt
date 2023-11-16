@@ -1,0 +1,23 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_APR0015, CLIENTE INTEGRACION, Cambio de dirección, # BizQA.
+La Oferta se guarda correctamente.
+El tipo de producto heredado con sus parametros se guarda correctamente
+Se accede correctamente a la sección Mis Ofertas lyntia
+El proceso de búsqueda de Oferta por parámetro CRM_APR0015 ha fallado.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <input id="quickFind_text_4" aria-label="Oferta Filtrar por palabra clave" data-id="quickFind_text_4" title="" placeholder="Filtrar por palabra clave" autocomplete="off" type="text" class="pa-av pa-as pa-bh pa-if pa-ig pa-ih " value=""> is not clickable at point (1799, 118). Other element would receive the click: <div id="modalDialogRoot_5_5" tabindex="-1" class="pa-f pa-bh pa-a pa-p pa-aq flexbox">...</div>
+  (Session info: chrome=108.0.5359.71)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoInput(String elementoKey, String text) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 158
+   at Lyntia.TestSet.Actions.OfertaActions.BuscarOfertaEnVista(String parametroBusqueda) in C:\Desarrollo\Lyntia\Lyntia\TestSet\Actions\OfertaActions.cs:line 290

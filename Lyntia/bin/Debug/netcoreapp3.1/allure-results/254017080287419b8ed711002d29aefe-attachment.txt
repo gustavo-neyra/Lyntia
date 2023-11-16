@@ -1,0 +1,41 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+Se accede correctamente a la pestaña Fechas de la Oferta.
+***Se cumplen las condiciones con fechas sin informar
+La Oferta se guarda y cierra correctamente.
+Se busca la Oferta por parámetro: CRM_EOF00032906231228.
+No se pudo agregar un filtro avanzado
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.WebDriverTimeoutException: Timed out after 45 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[value='']:not([value*='igual'])+button"}
+  (Session info: chrome=114.0.5735.135)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass19_0.<ElementToBeClickable>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(By byElement) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 255
+   at Lyntia.TestSet.Actions.CommonActions.agregarFiltroAvanzado(String nombreFiltro, String valorFiltro) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 297
+***Se cumple la condición de Oferta guardada Correctamente.
+Se abre la Oferta CRM_EOF00032906231228 se abre correctamente.
+***Se cumple la condicion
+Se modifican los datos de la prueba CRM-EOF0003.
+Se accede correctamente a la sección Mis Ofertas lyntia
+Se busca la Oferta por parámetro: CRM_EOF0003_Modificada2906231228.
+CRM_EOF0003_Modificada2906231228
+***La condicion se cumple
+Se abre la Oferta CRM_EOF00032906231228 se abre correctamente.
+LA PRUEBA CRM-EOF0003 SE EJECUTÓ CORRECTAMENTE

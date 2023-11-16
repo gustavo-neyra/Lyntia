@@ -1,0 +1,81 @@
+{
+  "uuid": "2ceac627-11a4-4440-af31-2808f6081b49-tr-0-1035",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ADJUDICAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.AddNewRecordFromSubGridStandardUCI0id-1842-button\" aria-label=\"Agregar producto\" aria-describedby=\"id-1928\" role=\"menuitem\" title=\"Agregar producto\n\nAgrega un producto relacionado a esta oferta\" tabindex=\"0\" data-id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" data-lp-id=\"SubGridStandard:quotedetail-quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" type=\"button\" class=\"pa-as pa-jm pa-gs pa-cj pa-bk pa-qi pa-p pa-ah pa-ai flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (1625, 305). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-abm pa-abn pa-p pa-aq pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=109.0.5414.75)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 54\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1633"
+  },
+  "stage": "finished",
+  "description": "CRM-POAF0005 - Oferta/Adjudicar/varios CC\n",
+  "steps": [
+    {
+      "name": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.AddNewRecordFromSubGridStandardUCI0id-1842-button\" aria-label=\"Agregar producto\" aria-describedby=\"id-1928\" role=\"menuitem\" title=\"Agregar producto\n\nAgrega un producto relacionado a esta oferta\" tabindex=\"0\" data-id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" data-lp-id=\"SubGridStandard:quotedetail-quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" type=\"button\" class=\"pa-as pa-jm pa-gs pa-cj pa-bk pa-qi pa-p pa-ah pa-ai flexbox\" style=\"outline-color: rgb(102, 102, 102);\">...</button> is not clickable at point (1625, 305). Other element would receive the click: <div id=\"progressIndicatorContainer\" role=\"presentation\" class=\"pa-abm pa-abn pa-p pa-aq pa-h pa-a flexbox\">...</div>\n  (Session info: chrome=109.0.5414.75)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Actions\\ProductoActions.cs:line 54\r\n   at Lyntia.TestSet.Oferta.CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1633"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_POAF0005_Oferta_Adjudicar_varios_CC_Rack-AddProducto.png",
+          "source": "e0a70c9480884ff29fde394d56d1560d-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "7f88344a7e174726aea7411897fe9092-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1674030915891,
+      "stop": 1674031126573
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674030915891,
+  "stop": 1674031126573
+}

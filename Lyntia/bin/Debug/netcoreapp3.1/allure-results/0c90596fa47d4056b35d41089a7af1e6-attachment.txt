@@ -1,0 +1,8 @@
+Error al iniciar el instaciador : System.IO.IOException: The process cannot access the file 'C:\Testing\Lyntia\Lyntia\bin\Debug\netcoreapp3.1\ObjectRepository.csv' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at Lyntia.Utilities.ObjectRepositoryUtils.TestDataReader(String csvFile) in C:\Testing\Lyntia\Lyntia\Utilities\ObjectRepositoryUtils.cs:line 33
+   at Lyntia.Utilities.Utils.Instanciador() in C:\Testing\Lyntia\Lyntia\Utilities\Utils.cs:line 46

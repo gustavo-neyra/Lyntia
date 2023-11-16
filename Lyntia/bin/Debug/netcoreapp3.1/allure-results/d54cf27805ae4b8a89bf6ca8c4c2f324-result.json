@@ -1,0 +1,81 @@
+{
+  "uuid": "1a34b723-a7b6-4138-af6e-fc65c361f219-tr-0-1029",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC01201"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "PRO ELIMINAR-CERRAR OFERTA"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 9 but was 2. Strings differ at index 0.\r\n  Expected: \"Cancelada\"\r\n  But was:  \"No\"\r\n  -----------^\r\n",
+    "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaCerradaCorrectamenteEnGrid(String razonEstado) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 409\r\n   at Lyntia.TestSet.Oferta.CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1339\r\n"
+  },
+  "stage": "finished",
+  "description": "CRM_OFCAN0001 - Oferta_Cancelar_En_borrador_Sin_Producto\n",
+  "steps": [
+    {
+      "name": "CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 9 but was 2. Strings differ at index 0.\r\n  Expected: \"Cancelada\"\r\n  But was:  \"No\"\r\n  -----------^\r\n",
+        "trace": "   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaCerradaCorrectamenteEnGrid(String razonEstado) in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Conditions\\OfertaConditions.cs:line 409\r\n   at Lyntia.TestSet.Oferta.CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto() in C:\\Desarrollo\\Lyntia\\Lyntia\\TestSet\\Oferta.cs:line 1339\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_OFCAN0001_Oferta_Cancelar_En_borrador_Sin_Producto-Oferta cerrada correctamente en grid.png",
+          "source": "05475409167f42139bbf3d5f9b0e023e-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ffc3cd5237d64904b01af360c3d5037b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1673861351905,
+      "stop": 1673861618413
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673861351905,
+  "stop": 1673861618413
+}

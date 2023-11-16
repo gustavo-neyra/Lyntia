@@ -1,0 +1,24 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_POF0003, CLIENTE INTEGRACION, Nuevo servicio, # BizQA.
+La Oferta se guarda correctamente.
+Producto guardado correctamente: UbiRed Pro, FTTO, 1 Gbps, , 4, 
+Se accede correctamente a la sección Mis Ofertas lyntia
+Se busca la Oferta por parámetro: CRM_POF00031601231101.
+***No se cumple la condicion de oferta presentada correctamente
+-------------------- - 
+-------------------- - 
+Excepción: NUnit.Framework.AssertionException:   Expected string length 10 but was 2. Strings differ at index 0.
+  Expected: "Presentada"
+  But was:  "No"
+  -----------^
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at Lyntia.TestSet.Conditions.OfertaConditions.validar_OfertaPresentadaCorrectamente() in C:\Desarrollo\Lyntia\Lyntia\TestSet\Conditions\OfertaConditions.cs:line 489

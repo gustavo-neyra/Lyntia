@@ -1,0 +1,19 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+El producto en vista rapida no se ha añadido correctamente
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <li id="quickCreateLauncher_buttoncrm_header_global" role="presentation" title="Crear
+
+Crear un registro nuevo" data-expanded="false" class="pa-ld pa-aw pa-av pa-le pa-lf pa-lg pa-lh pa-li pa-lj pa-lk pa-ll pa-lm ">...</li> is not clickable at point (1319, 24). Other element would receive the click: <div id="modalDialogRoot_2_2" tabindex="-1" class="pa-f pa-bd pa-a pa-p pa-bp flexbox">...</div>
+  (Session info: chrome=113.0.5672.129)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.ProductoActions.Añadirproducto_vistarapida() in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\ProductoActions.cs:line 146

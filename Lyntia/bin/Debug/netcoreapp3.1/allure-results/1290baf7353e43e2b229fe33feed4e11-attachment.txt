@@ -1,0 +1,21 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+***Se cumplen las condiciones de crear oferta
+No se introducen los datos de la Oferta: CRM_SECAN0003, CLIENTE INTEGRACION, Nuevo servicio, .
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=111.0.5563.66)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at Lyntia.TestSet.Actions.CommonActions.clickarBotonBuscarDesplegable(String dicctionaryKey) in C:\Testing\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 221
+   at Lyntia.TestSet.Actions.CommonActions.rellenarCampoConDesplegable(String elementoKey, String text) in C:\Testing\Lyntia\Lyntia\TestSet\Actions\CommonActions.cs:line 168
+   at Lyntia.TestSet.Actions.OfertaActions.rellenarCamposOferta(Dictionary`2 datosOferta) in C:\Testing\Lyntia\Lyntia\TestSet\Actions\OfertaActions.cs:line 220

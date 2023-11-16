@@ -1,0 +1,81 @@
+{
+  "uuid": "35e04303-9f1f-424a-b13a-d60117f287a8-tr-0-1037",
+  "historyId": "Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "fullName": "Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "IBLAESTARC06554"
+    },
+    {
+      "name": "package",
+      "value": "Lyntia.TestSet"
+    },
+    {
+      "name": "testMethod",
+      "value": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO"
+    },
+    {
+      "name": "testClass",
+      "value": "Oferta"
+    },
+    {
+      "name": "subSuite",
+      "value": "SERVICIO CANCELAR"
+    },
+    {
+      "name": "suite",
+      "value": "OFERTA"
+    }
+  ],
+  "links": [],
+  "name": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.AddNewRecordFromSubGridStandardUCI0id-2266-button\" aria-label=\"Agregar producto\" aria-describedby=\"id-2359\" role=\"menuitem\" title=\"Agregar producto\n\nAgrega un producto relacionado a esta oferta\" tabindex=\"0\" data-id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" data-lp-id=\"SubGridStandard:quotedetail-quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" type=\"button\" class=\"pa-ax pa-jx pa-gz pa-cp pa-bp pa-qv pa-p pa-am pa-an flexbox\">...</button> is not clickable at point (1358, 309). Other element would receive the click: <div id=\"appProgressIndicatorContent\" aria-hidden=\"true\" data-id=\"appProgressIndicatorContent\" class=\"pa-lj pa-li pa-gu pa-av pa-dn pa-b flexbox\">...</div>\n  (Session info: chrome=118.0.5993.89)",
+    "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio)\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO()"
+  },
+  "stage": "finished",
+  "description": "CRM-SECAN0002 - Oferta/Servicio/CANCELACIÓN FO\n",
+  "steps": [
+    {
+      "name": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.AddNewRecordFromSubGridStandardUCI0id-2266-button\" aria-label=\"Agregar producto\" aria-describedby=\"id-2359\" role=\"menuitem\" title=\"Agregar producto\n\nAgrega un producto relacionado a esta oferta\" tabindex=\"0\" data-id=\"quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" data-lp-id=\"SubGridStandard:quotedetail-quotedetail|NoRelationship|SubGridStandard|Mscrm.SubGrid.quotedetail.AddNewStandard\" type=\"button\" class=\"pa-ax pa-jx pa-gz pa-cp pa-bp pa-qv pa-p pa-am pa-an flexbox\">...</button> is not clickable at point (1358, 309). Other element would receive the click: <div id=\"appProgressIndicatorContent\" aria-hidden=\"true\" data-id=\"appProgressIndicatorContent\" class=\"pa-lj pa-li pa-gu pa-av pa-dn pa-b flexbox\">...</div>\n  (Session info: chrome=118.0.5993.89)",
+        "trace": "   at Lyntia.TestSet.Actions.ProductoActions.CreacionProducto(Dictionary`2 datosRepositorio)\r\n   at Lyntia.TestSet.Oferta.CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO()"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CRM_SECAN0002_Oferta_Servicio_CANCELACIÓN_FO-AddProducto.png",
+          "source": "ee8a08472d784a73b58843799f5af702-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b3e250bd1fa04e648082435d34818161-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1698389503866,
+      "stop": 1698389604520
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1698389503859,
+  "stop": 1698389604524
+}

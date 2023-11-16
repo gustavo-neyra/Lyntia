@@ -1,0 +1,31 @@
+Instanciador iniciado correctamente
+-------------------- - 
+Se realiza login de manera correcta
+Se accede correctamente a Gestión de Cliente
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_COF0006, CLIENTE INTEGRACION, Cambio Upgrade/Downgrade, # BizQA.
+La Oferta se guarda correctamente.
+***Se cumplen las condiciones de guardado de oferta correctamente
+Se accede correctamente a la pestaña Fechas de la Oferta.
+***Las condiciones de fechas informadas correctamente han sido OK
+Se elimina la Oferta correctamente.
+Se pulsa correctamente Eliminar.
+Se accede correctamente a la sección Mis Ofertas lyntia
+Nueva Oferta creada correctamente
+Se han introducido correctamente los campos de la Oferta: CRM_COF0006, CLIENTE INTEGRACION, Cambio Upgrade/Downgrade, # BizQA.
+La Oferta se guarda y cierra correctamente.
+Se busca la Oferta por parámetro: CRM_COF00062508230830.
+***Se cumple la condición de Oferta guardada Correctamente.
+No se abre la Oferta CRM_COF00062508230830.
+-------------------- - 
+-------------------- - 
+Excepción: OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element <div class="ag-cell ag-cell-not-inline-editing ag-cell-normal-height ag-cell-value non-editable-cell" aria-colindex="2" aria-readonly="true" tabindex="-1" role="gridcell" col-id="lyn_semaforo" style="left: 50px; width: 25px; display: flex; align-items: center;">...</div> is not clickable at point (262, 210). Other element would receive the click: <div id="progressIndicatorContainer" role="presentation" class="pa-yv pa-yw pa-p pa-bp pa-h pa-a flexbox">...</div>
+  (Session info: chrome=116.0.5845.111)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at Lyntia.TestSet.Actions.CommonActions.waitAndClick(String elementKey) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\CommonActions.cs:line 249
+   at Lyntia.TestSet.Actions.OfertaActions.AbrirOfertaEnVista(Dictionary`2 datosRepositorio) in C:\Users\joel.amores\source\repos\Lyntia-automation\Lyntia\TestSet\Actions\OfertaActions.cs:line 315
